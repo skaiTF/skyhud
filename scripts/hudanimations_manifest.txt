@@ -1,0 +1,10 @@
+hudanimations_manifest
+{
+	"file"      "scripts/sh_animations/sh_health_animations.txt"
+	"file"      "scripts/sh_animations/sh_ammo_animations.txt"
+	"file"		"scripts/hudanimations_tf.txt"
+	"file"		"scripts/hudanimations.txt"
+	"file"      "resource/Crosshairs/crosshair_animation.txt"
+	"file"		"scripts/sh_animations/sh_mediccharge.txt"
+    "file"      "scripts/sh_animations/sh_spy_disguise_animation.txt"
+}
