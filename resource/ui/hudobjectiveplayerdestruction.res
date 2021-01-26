@@ -60,7 +60,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"sh_18"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"sh_white"
 		
 		"if_hybrid"
 		{
@@ -274,8 +274,8 @@
 				"wide"					"f0"
 				"tall"					"f0"
 				"scaleimage"			"1"
-				"visible"				"1"
-				"enabled"				"1"
+				"visible"				"0"
+				"enabled"				"0"
 				"Image"					"../hud/objectives_corepanel_bg"
 				"proportionalToParent"	"1"
 			}
@@ -284,8 +284,8 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"FlagImageBlue"
-				"xpos"			"15"
-				"ypos"			"8"
+				"xpos"			"25"
+				"ypos"			"43"
 				"zpos"			"4"
 				"wide"			"14"
 				"tall"			"14"
@@ -300,8 +300,8 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"EscrowBlue"
-				"xpos"			"40"
-				"ypos"			"7"
+				"xpos"			"35"
+				"ypos"			"42"
 				"zpos"			"4"
 				"wide"			"25"
 				"tall"			"16"
@@ -309,8 +309,8 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%blue_escrow%"
-				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"TanLight"		
+				"font"			"sh_24"
+				"fgcolor"		"sh_white"		
 				"proportionalToParent"	"1"
 			}
 			
@@ -318,8 +318,8 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"EscrowBlueShadow"
-				"xpos"			"41"
-				"ypos"			"8"
+				"xpos"			"36"
+				"ypos"			"43"
 				"zpos"			"4"
 				"wide"			"25"
 				"tall"			"16"
@@ -327,8 +327,8 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%blue_escrow%"
-				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"Black"		
+				"font"			"sh_24"
+				"fgcolor"		"sh_black"		
 				"proportionalToParent"	"1"
 			}
 
@@ -336,8 +336,8 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"FlagImageRed"
-				"xpos"			"271"
-				"ypos"			"8"
+				"xpos"			"263"
+				"ypos"			"43"
 				"zpos"			"4"
 				"wide"			"14"
 				"tall"			"14"
@@ -352,8 +352,8 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"EscrowRed"
-				"xpos"			"235"
-				"ypos"			"7"
+				"xpos"			"240"
+				"ypos"			"42"
 				"zpos"			"4"
 				"wide"			"25"
 				"tall"			"16"
@@ -361,8 +361,8 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%red_escrow%"
-				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"TanLight"		
+				"font"			"sh_24"
+				"fgcolor"		"sh_white"		
 				"proportionalToParent"	"1"
 			}
 			
@@ -370,8 +370,8 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"EscrowRedShadow"
-				"xpos"			"236"
-				"ypos"			"8"
+				"xpos"			"241"
+				"ypos"			"43"
 				"zpos"			"4"
 				"wide"			"25"
 				"tall"			"16"
@@ -379,8 +379,8 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%red_escrow%"
-				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"Black"		
+				"font"			"sh_24"
+				"fgcolor"		"sh_black"		
 				"proportionalToParent"	"1"
 			}
 
@@ -410,8 +410,8 @@
 					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"#TF_RD_BlueFinale"
-					"font"			"HudFontSmallBold"
-					"fgcolor"		"TanLight"		
+					"font"			"sh_18"
+					"fgcolor"		"sh_white"		
 					"proportionalToParent"	"1"
 				}
 
@@ -428,8 +428,8 @@
 					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"#TF_RD_BlueFinale"
-					"font"			"HudFontSmallBold"
-					"fgcolor"		"Black"		
+					"font"			"sh_18"
+					"fgcolor"		"sh_black"		
 					"proportionalToParent"	"1"
 				}
 
@@ -446,8 +446,8 @@
 					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"%victorytime%"
-					"font"			"HudFontSmallBold"
-					"fgcolor"		"TanLight"		
+					"font"			"sh_18"
+					"fgcolor"		"sh_white"		
 					"proportionalToParent"	"1"
 
 					"pin_to_sibling"               "VictoryLabel"
@@ -468,8 +468,8 @@
 					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"%victorytime%"
-					"font"			"HudFontSmallBold"
-					"fgcolor"		"Black"		
+					"font"			"sh_18"
+					"fgcolor"		"sh_black"		
 					"proportionalToParent"	"1"
 
 					"pin_to_sibling"               "VictoryLabel"
@@ -482,50 +482,18 @@
 			{
 				"fieldName"				"BlueProgressBarFill"
 				"ControlName"			"ImagePanel"
-				"xpos"					"0"
-				"ypos"					"0"
-				"zpos"					"2"
-				"wide"					"150"
-				"tall"					"f0"
-				"scaleimage"			"0"
-				"visible"				"1"
-				"proportionalToParent"	"1"
-				"positionImage"			"0"
-				"drawcolor"				"84 111 127 255"
-				"Image"					"../hud/objectives_corepanel_meter_solid"
-
-				"left_offset"			"10"
-				"right_offset"			"0"
-				"standard_color"		"84  111 127 255"
-				"bright_color"			"110 159 189 255"
-				"left_to_right"			"0"
-				"blink_threshold"		"1.0"
-				"blink_rate"			"10"
+				"wide"					"0"
+				"tall"					"0"
+				"visible"				"0"
 			}
 
 			"BlueProgressBarEscrow"
 			{
 				"fieldName"				"BlueProgressBarEscrow"
 				"ControlName"			"ImagePanel"
-				"xpos"					"0"
-				"ypos"					"0"
-				"zpos"					"1"
-				"wide"					"150"
-				"tall"					"f0"
-				"scaleimage"			"0"
-				"visible"				"1"
-				"proportionalToParent"	"1"
-				"positionImage"			"0"
-				"drawcolor"				"141 160 171 255"
-				"Image"					"../hud/objectives_corepanel_meter"
-
-				"left_offset"			"10"
-				"right_offset"			"0"
-				"standard_color"		"127 143 152 255"
-				"bright_color"			"177 193 202 255"
-				"left_to_right"			"0"
-				"blink_threshold"		"1"
-				"blink_rate"			"20"
+				"wide"					"0"
+				"tall"					"0"
+				"visible"				"0"
 			}
 
 			"RedVictoryContainer"
@@ -554,8 +522,8 @@
 					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"#TF_RD_RedFinale"
-					"font"			"HudFontSmallBold"
-					"fgcolor"		"TanLight"		
+					"font"			"sh_18"
+					"fgcolor"		"sh_white"		
 					"proportionalToParent"	"1"
 				}
 
@@ -572,8 +540,8 @@
 					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"#TF_RD_RedFinale"
-					"font"			"HudFontSmallBold"
-					"fgcolor"		"Black"		
+					"font"			"sh_18"
+					"fgcolor"		"sh_black"		
 					"proportionalToParent"	"1"
 				}
 
@@ -590,8 +558,8 @@
 					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"%victorytime%"
-					"font"			"HudFontSmallBold"
-					"fgcolor"		"TanLight"		
+					"font"			"sh_18"
+					"fgcolor"		"sh_white"		
 					"proportionalToParent"	"1"
 
 					"pin_to_sibling"               "VictoryLabel"
@@ -612,8 +580,8 @@
 					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"%victorytime%"
-					"font"			"HudFontSmallBold"
-					"fgcolor"		"Black"		
+					"font"			"sh_18"
+					"fgcolor"		"sh_black"		
 					"proportionalToParent"	"1"
 
 					"pin_to_sibling"               "VictoryLabel"
@@ -626,50 +594,18 @@
 			{
 				"fieldName"				"RedProgressBarFill"
 				"ControlName"			"ImagePanel"
-				"xpos"					"150"
-				"ypos"					"0"
-				"zpos"					"2"
-				"wide"					"150"
-				"tall"					"f0"
-				"scaleimage"			"0"
-				"positionImage"			"0"
-				"visible"				"1"
-				"proportionalToParent"	"1"
-				"drawcolor"				"171 59 59 255"
-				"Image"					"../hud/objectives_corepanel_meter_solid_right"
-
-				"left_offset"			"0"
-				"right_offset"			"9"
-				"standard_color"		"171 59 59 255"
-				"bright_color"			"222 65 65 255"
-				"left_to_right"			"1"
-				"blink_threshold"		"1.0"
-				"blink_rate"			"10"
+				"wide"					"0"
+				"tall"					"0"
+				"visible"				"0"
 			}
 
 			"RedProgressBarEscrow"
 			{
 				"fieldName"				"RedProgressBarEscrow"
 				"ControlName"			"ImagePanel"
-				"xpos"					"150"
-				"ypos"					"0"
-				"zpos"					"1"
-				"wide"					"150"
-				"tall"					"f0"
-				"scaleimage"			"0"
-				"positionImage"			"0"
-				"visible"				"1"
-				"proportionalToParent"	"1"
-				"drawcolor"				"212 151 151 255"
-				"Image"					"../hud/objectives_corepanel_meter_right"
-
-				"left_offset"			"0"
-				"right_offset"			"9"
-				"standard_color"		"212 151 151 255"
-				"bright_color"			"250 201 201 255"
-				"left_to_right"			"1"
-				"blink_threshold"		"1"
-				"blink_rate"			"20"
+				"wide"					"0"
+				"tall"					"0"
+				"visible"				"0"
 			}
 		}
 
@@ -677,8 +613,8 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"BlueScoreValueContainer"
-			"xpos"				"80"
-			"ypos"				"r48"
+			"xpos"				"120"
+			"ypos"				"r38"
 			"zpos"				"10"
 			"wide"				"60"
 			"tall"				"60"
@@ -700,10 +636,8 @@
 				"enabled"		"1"
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
-				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
-				"fgcolor"		"TanLight"		
+				"font"			"sh_30"
+				"fgcolor"		"sh_team_blu"		
 				"proportionalToParent"	"1"
 			}	
 		
@@ -720,10 +654,8 @@
 				"enabled"		"1"
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
-				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
-				"fgcolor"		"Black"		
+				"font"			"sh_30"
+				"fgcolor"		"sh_black"		
 				"proportionalToParent"	"1"
 			}
 		}
@@ -732,8 +664,8 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"RedScoreValueContainer"
-			"xpos"				"r140"
-			"ypos"				"r48"
+			"xpos"				"r180"
+			"ypos"				"r38"
 			"zpos"				"10"
 			"wide"				"60"
 			"tall"				"60"
@@ -755,10 +687,8 @@
 				"enabled"		"1"
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
-				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
-				"fgcolor"		"TanLight"	
+				"font"			"sh_30"
+				"fgcolor"		"sh_team_red"	
 				"proportionalToParent"	"1"	
 			}	
 		
@@ -775,10 +705,8 @@
 				"enabled"		"1"
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
-				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
-				"fgcolor"		"Black"		
+				"font"			"sh_30"
+				"fgcolor"		"sh_black"		
 				"proportionalToParent"	"1"
 			}
 		}
@@ -1005,8 +933,8 @@
 			"zpos"			"1"
 			"wide"			"90"
 			"tall"			"45"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/ammo_blue_bg"
 			"scaleImage"	"1"	
 			"teambg_2"		"../hud/ammo_red_bg"
@@ -1018,24 +946,16 @@
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"CountdownImage"
-			"xpos"			"115"
-			"ypos"			"15"
-			"zpos"			"2"
-			"wide"			"35"
-			"tall"			"35"
-			"visible"		"0"
-			"enabled"		"1"
-			"image"			"../hud/arrow_big_down"
-			"scaleImage"		"1"	
-			"proportionalToParent"	"1"
+			"wide"			"0"
+			"tall"			"0"
 		}
 		
 		"CountdownLabelTime"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CountdownLabelTime"
-			"xpos"			"150"
-			"ypos"			"17"
+			"xpos"			"135"
+			"ypos"			"50"
 			"zpos"			"8"
 			"wide"			"35"
 			"tall"			"35"
@@ -1043,8 +963,8 @@
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%countdowntime%"
-			"font"			"HudFontMediumBold"
-			"fgcolor"		"TanLight"		
+			"font"			"sh_26"
+			"fgcolor"		"sh_white"		
 			"proportionalToParent"	"1"
 		}
 
@@ -1052,8 +972,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CountdownLabelTimeTimeShadow"
-			"xpos"			"151"
-			"ypos"			"18"
+			"xpos"			"136"
+			"ypos"			"51"
 			"zpos"			"7"
 			"wide"			"35"
 			"tall"			"35"
@@ -1061,8 +981,8 @@
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%countdowntime%"
-			"font"			"HudFontMediumBold"
-			"fgcolor"		"Black"		
+			"font"			"sh_26"
+			"fgcolor"		"sh_black"		
 			"proportionalToParent"	"1"
 		}
 	}

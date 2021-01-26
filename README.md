@@ -8,7 +8,7 @@ If you detect any bugs, issues or if you have any suggestions, please feel free 
 Screenshots album: https://imgur.com/a/wa5xaxD 
 
 Customization: This HUD has some customization possibility, all customizations are in the "customization" folder and are fully documented. 
-If you intend to use the customizations please read All "README.TXT" files! 
+If you intend to use the customizations, please read All "README.TXT" files! 
 
 Credits:
 -TF2 HUD Icons: Hypnotize

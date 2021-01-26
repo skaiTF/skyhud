@@ -9,9 +9,9 @@
 	}
 
     "Version"
-	{
-		"label" 									"skyhud v1.0" 
+	{ 
 		"command" 									"engine showconsole; echo skyhud by Fundevilam"
+		"label" 									"skyhud v1.0"
 	}	
 	
 	"Items"
