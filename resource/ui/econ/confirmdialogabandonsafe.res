@@ -16,7 +16,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"Econ.Dialog.BgColor"
+		"bgcolor_override"	"sh_black_transparent"
 	}
 	
 	"TitleLabel"
@@ -55,7 +55,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "sh_white"
 	}
 		
 	"CancelButton"
