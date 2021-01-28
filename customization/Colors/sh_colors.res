@@ -65,8 +65,7 @@ Scheme
 		"sh_panel_color"				"005 005 005 255"
 		"sh_orange"						"237 149 055 255"
 		"sh_scoreboard_BG"				"000 000 000 219"
-		"Blue"							"000 170 255 255"
-		"Red"							"255 042 050 255"
+		"sh_dark_grey"					"030 030 030 255
 	}
 	
 }	

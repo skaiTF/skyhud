@@ -1,25 +1,9 @@
-#base "heavy_red.res"
+#base "engineer_blue.res"
 
 "Resource/UI/disguise_menu/engineer_red.res"
 {
 	"ItemNameLabel"
-	{
-		"labelText"		"#TF_Class_Name_Engineer"
-	}
-
-	"NumberBg"
-	{
-		"wide"			"0"
-		"tall"			"0"
-	}
-
-	"NewNumberLabel"
-	{
-		"labelText"		"3"
-	}
-
-	"NumberLabel"
-	{
-		"labelText"		"6"
+	{	
+		"fgcolor_override"							"sh_team_red"
 	}
 }

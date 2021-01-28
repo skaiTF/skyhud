@@ -1,14 +1,9 @@
-#base "heavy_red.res"
+#base "soldier_blue.res"
 
 "Resource/UI/disguise_menu/soldier_red.res"
 {
 	"ItemNameLabel"
-	{
-		"labelText"		"#TF_Class_Name_Soldier"
-	}
-
-	"NumberLabel"
-	{
-		"labelText"		"2"
+	{	
+		"fgcolor_override"							"sh_team_red"
 	}
 }

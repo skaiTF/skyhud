@@ -1,22 +1,20 @@
-#base "heavy_red.res"
+#base "scout_blue.res"
 
 "Resource/UI/disguise_menu/demoman_blue.res"
 {
 	"ItemNameLabel"
-	{
-		"labelText"		"#TF_Class_Name_Demoman"
-		"fgcolor"		"153 194 216 255"
+	{	
+		"labelText"									"4"
+		"fgcolor_override"							"sh_team_blu"
 	}
-
-	"NewNumberLabel"
-	{
-		"fgcolor"		"153 194 216 255"
-		"labelText"		"1"
-	}
-
+	
 	"NumberLabel"
-	{
-		"fgcolor"		"153 194 216 255"
-		"labelText"		"4"
+	{	
+		"labelText"									"4"
+	}
+	
+	"NewNumberLabel"
+	{	
+		"labelText"									"1"
 	}
 }

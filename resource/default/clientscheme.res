@@ -2263,7 +2263,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Nunito SemiBold"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2274,7 +2274,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Nunito SemiBold"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2285,7 +2285,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Nunito SemiBold"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2296,7 +2296,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Nunito SemiBold"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2307,7 +2307,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Nunito SemiBold"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2318,7 +2318,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -2328,7 +2328,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Nunito SemiBold"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2339,7 +2339,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Nunito SemiBold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2350,7 +2350,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Nunito SemiBold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -4128,8 +4128,8 @@ Scheme
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"	
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
 		}
 		Econ.Button.Border.Default
 		{
@@ -5633,8 +5633,8 @@ Scheme
 			"image"					"callout_bubble"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		TrainingResultsBG

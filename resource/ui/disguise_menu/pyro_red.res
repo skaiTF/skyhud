@@ -1,19 +1,9 @@
-#base "heavy_red.res"
+#base "pyro_blue.res"
 
 "Resource/UI/disguise_menu/pyro_red.res"
 {
 	"ItemNameLabel"
-	{
-		"labelText"		"#TF_Class_Name_Pyro"
-	}
-
-	"NewNumberLabel"
-	{
-		"labelText"		"3"
-	}
-
-	"NumberLabel"
-	{
-		"labelText"		"3"
+	{	
+		"fgcolor_override"							"sh_team_red"
 	}
 }

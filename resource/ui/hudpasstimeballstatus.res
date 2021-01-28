@@ -32,9 +32,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventTitleLabel"
 		"dropshadow"	"1"
-		"font"			"HudFontBiggerBold"
-		"xpos"			0
-		"ypos"			c100
+		"font"			"sh_12"
+		"xpos"			"0"
+		"ypos"			"c-160"
 		"zpos"			"3"
 		"wide"			"f"
 		"tall"			"25"
@@ -42,17 +42,17 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"A TEAM STOLE THE BALL"
-		fgcolor_override	"224 217 197 255"
+		fgcolor_override	"sh_white"
 	}
 
 	"EventBonusLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventBonusLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"sh_16"
 		"dropshadow"	"1"
-		"xpos"			0
-		"ypos"			0
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"f"
 		"tall"			"20"
@@ -70,10 +70,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventDetailLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"sh_12"
 		"dropshadow"	"1"
-		"xpos"			0
-		"ypos"			0
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"f"
 		"tall"			"24"
@@ -81,22 +81,22 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"A TEAM STOLE THE BALL"
-		fgcolor_override	"224 217 197 255"
-		pin_to_sibling			EventTitleLabel
-		pin_corner_to_sibling	4
-		pin_to_sibling_corner	6
+		fgcolor_override	"sh_white"
+		pin_to_sibling			"EventTitleLabel"
+		pin_corner_to_sibling	"4"
+		pin_to_sibling_corner	"6"
 	}
 
 	"ProgressLevelBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ProgressLevelBar"	
-		"xpos"			"c-190"
-		"ypos"			"r88"
+		"xpos"			"c-95"
+		"ypos"			"r52"
 		"zpos"			"0"
-		"wide"			"380"
-		"tall"			"48"
-		"visible"		"1"
+		"wide"			"190"
+		"tall"			"38"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_ballcontrol_bar"
@@ -109,8 +109,8 @@
 		// might be padded for npot reasons.
 		"ControlName" 	"Panel"
 		"fieldName"		"BlueProgressEnd"
-		"xpos"			"c-152"
-		"ypos"			"r64"
+		"xpos"			"c-75"
+		"ypos"			"r33"
 		"visible"		"0"
 	}
 
@@ -120,8 +120,8 @@
 		// might be padded for npot reasons.
 		"ControlName"	"Panel"
 		"fieldName"		"RedProgressEnd"
-		"xpos"			"c152"
-		"ypos"			"r64"
+		"xpos"			"c75"
+		"ypos"			"r33"
 		"visible"		"0"
 	}	
 
@@ -132,8 +132,8 @@
 		"xpos"			"c-162"
 		"ypos"			"r72"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"12"
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -151,8 +151,8 @@
 		"xpos"			"c-132"
 		"ypos"			"r72"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"12"
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -170,8 +170,8 @@
 		"xpos"			"c-102"
 		"ypos"			"r72"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"12"
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -190,8 +190,8 @@
 		"xpos"			"c146"
 		"ypos"			"r72"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"12"
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -209,8 +209,8 @@
 		"xpos"			"c116"
 		"ypos"			"r72"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"12"
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -229,8 +229,8 @@
 		"xpos"			"c86"
 		"ypos"			"r72"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"12"
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -248,8 +248,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10"
-		"wide"			"42"
-		"tall"			"42"
+		"wide"			"24"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -267,8 +267,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-100"
-		"wide"			"42"
-		"tall"			"42"
+		"wide"			"24"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -280,23 +280,22 @@
 
 	"ProgressBallCarrierName"
 	{
-		"ControlName"			"Label"
-		"fieldName"				"ProgressBallCarrierName"
-		//font					TargetID
-		"visible"				"1"
-		"enabled"				"1"
-		"zpos"					"-400"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"150"
-		"tall"					"16"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"1"
-		"labelText"				"NameOfCarrier"
-		pin_to_sibling			ProgressLevelBar
-		pin_corner_to_sibling	4
-		pin_to_sibling_corner	6
+		"ControlName"								"Label"
+		"fieldName"									"ProgressBallCarrierName"
+		"visible"									"1"
+		"enabled"									"1"
+		"zpos"										"-400"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"0"
+		"tall"										"16"
+		"textAlignment"								"center"
+		"dulltext"									"0"
+		"brighttext"								"1"
+		"labelText"									"NameOfCarrier"
+		"pin_to_sibling"							"ProgressLevelBar"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"6"
 	}
 
 
@@ -306,9 +305,9 @@
 		"ControlName" "EditablePanel"
 		"fieldName" "BallPowerCluster"
 		"xpos" "0"
-		"ypos" "32"
+		"ypos" "0"
 		"zpos" "5"
-		"wide" "f0"
+		"wide" "0"  //f0
 		"tall" "f0"
 		"autoResize"	"0"
 		"visible"		"1"

@@ -1,19 +1,20 @@
-#base "heavy_red.res"
+#base "scout_blue.res"
 
-"Resource/UI/disguise_menu/heavy_blue.res"
+"Resource/UI/disguise_menu/heavy_red.res"
 {
 	"ItemNameLabel"
-	{
-		"fgcolor"		"153 194 216 255"
+	{	
+		"labelText"									"5"
+		"fgcolor_override"							"sh_team_blu"
 	}
-
-	"NewNumberLabel"
-	{
-		"fgcolor"		"153 194 216 255"
-	}
-
+	
 	"NumberLabel"
-	{
-		"fgcolor"		"153 194 216 255"
+	{	
+		"labelText"									"5"
+	}
+	
+	"NewNumberLabel"
+	{	
+		"labelText"									"2"
 	}
 }
