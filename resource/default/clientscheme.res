@@ -834,7 +834,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Nunito SemiBold"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -847,7 +847,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Nunito SemiBold"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -860,7 +860,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -872,7 +872,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -883,7 +883,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Nunito SemiBold"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -894,7 +894,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -906,7 +906,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Nunito SemiBold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -917,7 +917,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Nunito SemiBold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -928,7 +928,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Nunito SemiBold"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -939,7 +939,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -952,7 +952,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Nunito SemiBold"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -965,7 +965,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Nunito SemiBold"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -977,7 +977,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Nunito SemiBold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -988,7 +988,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Nunito SemiBold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -999,7 +999,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Nunito SemiBold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1011,7 +1011,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Nunito SemiBold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1022,7 +1022,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Nunito SemiBold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1034,7 +1034,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Nunito SemiBold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1045,7 +1045,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Nunito SemiBold"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1056,7 +1056,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Nunito SemiBold"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1067,7 +1067,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Nunito SemiBold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1078,7 +1078,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Nunito SemiBold"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1089,7 +1089,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Nunito SemiBold"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1100,7 +1100,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Nunito SemiBold"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1111,7 +1111,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Nunito SemiBold"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1124,7 +1124,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Nunito SemiBold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
