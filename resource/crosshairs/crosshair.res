@@ -23,7 +23,7 @@
 		// 		the different options and their attached letter			//
 		//////////////////////////////////////////////////////////////////
 		
-		"labelText"	"?"
+		"labelText"	"<"
 		
 		//////////////////////////////////////////////////////////////////
 		//				 	CROSSHAIR SIZE & PROPERTIES					//
@@ -33,7 +33,7 @@
 		//  	  The Outline can be toggled between ON and OFF			//
 		//////////////////////////////////////////////////////////////////
 		
-		"font"		"Size:10 | Outline:OFF"
+		"font"		"Size:30 | Outline:OFF"
 		
 		//////////////////////////////////////////////////////////////////
 		//					   CROSSHAIR POSITION						//
@@ -43,7 +43,7 @@
 		// Adjust the values in order to perfectly center the crosshair //
 		//////////////////////////////////////////////////////////////////
 		
-		"xpos"		"cs-0.4999"
+		"xpos"		"cs-0.501"
 		"ypos"		"cs-0.4990"
 		"wide"		"f0"
 		"tall"		"f0"
@@ -59,7 +59,7 @@
 		// 				 crosshair_animation.txt to match	     		//
 		//////////////////////////////////////////////////////////////////
 		
-		"fgcolor"	"255 255 255 255"
+		"fgcolor"	"030 030 030 180"
 	}
 	
 	

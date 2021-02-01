@@ -10,8 +10,8 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"0"
-		"enabled"		"0"		
+		"visible"		"1"
+		"enabled"		"1"		
 	}
 	"PlayerStatusClassImage"
 	{
@@ -22,8 +22,8 @@
 		"zpos"			"2"
 		"wide"			"50"
 		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"	
 	}
@@ -42,8 +42,8 @@
 		"wide_minmode"	"27"
 		"tall"			"55"
 		"tall_minmode"	"27"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/class_spyred"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/class_spyred"
@@ -116,15 +116,15 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"9999"	[$WIN32]
-		"ypos"			"9999"	[$WIN32]
+		"xpos"			"30"	[$WIN32]
+		"ypos"			"r190"	[$WIN32]
 		"zpos"			"2"		
 		"wide"			"240"
 		"tall"			"200"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		
 		"render_texture"	"0"
 		"fov"			"52"

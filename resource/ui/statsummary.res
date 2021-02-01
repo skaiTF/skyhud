@@ -1,136 +1,161 @@
-"Resource/UI/winpanel.res"
+"Resource/UI/statsummary.res"
 {
 	"TFStatsSummary"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"	"TFStatsSummary"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"f0"
-		"tall"		"480"
-		"visible"	"1"
-		"enabled"	"1"
-	}	
-
-	"Sky"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"Sky"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"1"
-		"wide"				"f0"
-		"tall"				"f0"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"replay/thumbnails/menu/Sky_Blur"
-		"scaleimage"		"1"
-	}
-	
-	"MapType"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"MapType"
-		"font"				"sh_30"
-		"labelText"			"%maptype%"
-		"textAlignment"		"center"
-		"xpos"				"c-240"
-		"ypos"				"35"
-		"zpos"				"91"
-		"wide"				"480"
-		"tall"				"30"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"AllCaps"			"1"
-		"fgcolor_override"	"255 255 255 255"
-		"alpha"				"150"
-	}
-	
-	"MapLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		    "MapLabel"
-		"font"			    "sh_48"
-		"labelText"		    "%maplabel%"
-		"textAlignment"		"center"
-		"xpos"			    "c-240"
-		"ypos"			    "55"
-		"zpos"			    "50"
-		"wide"			    "480"
-		"tall"			    "100"
-		"autoResize"	    "0"
-		"pinCorner"		    "0"
-		"visible"		    "1"
-		"enabled"		    "1"
-		"fgcolor_override"	"255 255 255 255"
-	}					
-	
-	"CloseButton" [$WIN32]
-	{
-		"ControlName"		"Button"
-		"fieldName"		"CloseButton"
-		"xpos"			"r190"
-		"ypos"			"r50"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Close"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"vguicancel"
-	}
-	"Footer" [$X360]
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"bgcolor"			"TanDarker"
-		"paintbackground"	"1"
-		"tall"				"100"
-		"tall_lodef"				"60"
-		"center"			"1"
-		"buttonoffsety"		"20"
-		"buttonoffsety_lodef"		"5"
-		"button_separator"	"10"
-		"button_separator_lodef"	"2"
-		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"buttongap"			"50"
-		"textadjust"		"3"
-		"textadjust_lodef"		"0"
-		"zpos"				"6"
-		"fgcolor"			"HudOffWhite" 	
-		
-		"button"
-		{
-			"name"		"back"
-			"text"		"#GameUI_Back"
-			"icon"		"#GameUI_Icons_B_BUTTON"	
-		}
-		
-		"button"
-		{
-			"name"		"nexttip"
-			"text"		"#TF_NextTip_360"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
-		}
-	}		
-	"TitleBanner" [$X360]
-	{
-		"ControlName"	"ImagePanel"
+		"fieldName"		"TFStatsSummary"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
-		"tall"			"128"
-		"image"			"menu_header"
-		"visible_lodef"	"0"
-		"enabled_lodef"	"0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"sh_dark_grey"
+	}
+
+	"MainBackground"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainBackground"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../console/background_upward"
+		"scaleImage"	"1"
+	}
+
+	"Background"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Background"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../console/background_upward"
+		"scaleImage"	"1"
+	}
+
+	"MapInfo"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MapInfo"
+		"xpos"			"9999"
+	}
+
+	"OnYourWayLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"OnYourWayLabel"
+		"font"			"sh_14"
+		"labelText"		"#LoadingMap"
+		"textAlignment"	"center"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fgcolor_override" "173 168 148 255"
+	}
+	"LoadingLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"LoadingLabel"
+		"font"			"sh_22"
+		"labelText"		"#LoadingMap"
+		"textAlignment"	"west"
+		"xpos"			"10"
+		"ypos"			"455"
+		"zpos"			"0"
+		"wide"			"350"
+		"tall"			"35"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	"MapLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapLabel"
+		"font"			"sh_38"
+		"labelText"		"%maplabel%"
+		"textAlignment"	"west"
+		"xpos"			"10"
+		"ypos"			"25"
+		"zpos"			"50"
+		"wide"			"f0"
+		"tall"			"35"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override" "sh_white"
+	}
+	"MapType"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapType"
+		"font"			"sh_14"
+		"labelText"		"%maptype%"
+		"textAlignment"	"west"
+		"xpos"			"10"
+		"ypos"			"48"
+		"zpos"			"50"
+		"wide"			"350"
+		"tall"			"35"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override" "sh_white"
+	}
+
+	"StatData"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"StatData"
+		"xpos"			"9999"
+	}
+
+	"TipImage"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TipImage"
+		"xpos"			"9999"
+	}
+	"TipText"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"TipText"
+		"xpos"			"9999"
+	}
+	"NextTipButton"
+	{
+		"ControlName"	"Button"
+		"fieldName"		"NextTipButton"
+		"xpos"			"9999"
+	}
+	"ResetStatsButton"
+	{
+		"ControlName"	"Button"
+		"fieldName"		"ResetStatsButton"
+		"xpos"			"9999"
+	}
+	"CloseButton"
+	{
+		"ControlName"	"Button"
+		"fieldName"		"CloseButton"
+		"xpos"			"9999"
 	}
 }
