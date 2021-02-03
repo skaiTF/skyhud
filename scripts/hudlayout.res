@@ -203,8 +203,8 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"105"
-		"ypos"		"r65"
+		"xpos"		"370"
+		"ypos"		"r125"
 		"wide"		"170"
 		"tall"		"100"
 	}
@@ -215,12 +215,10 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"275"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"ypos"		"245"
+		"wide"	 	"200"
+		"tall"	 	"50"
 		"priority"	"40"
-		"priority_lodef"	"5"
 
 		if_vr
 		{
@@ -235,15 +233,10 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"ypos"		"330"
+		"wide"	 	"200"
+		"tall"	 	"50"
 		"priority"	"40"
-		"priority_lodef" "35"
-		
-		"x_offset" "20"
-		"y_offset" "20"
 	}
 	
 	CSecondaryTargetID
@@ -252,10 +245,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"300"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"ypos"		"275"
+		"wide"	 	"200"
+		"tall"	 	"50"
 		"priority"	"35"
 
 		if_vr
@@ -968,11 +960,12 @@
 	
 	HudDemomanPipes
 	{
-		"fieldName"		"HudDemomanPipes"
-		"xpos"			"0"	
-		"ypos"			"0"	
-		"wide"			"f0"
-		"tall"			"480"
+		"xpos"										"0"
+		"xpos_minmode"								"0"
+		"ypos"										"0"
+		"ypos_minmode"								"0"
+		"wide"										"f0"
+		"tall"										"480"
 	}	
 
 	HudTeamSwitch

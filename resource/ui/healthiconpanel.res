@@ -8,12 +8,12 @@
 		"xpos_minmode"	"0"
 		"ypos"			"0"
 		"ypos_minmode"	"0"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"40"
+		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"	
 		"TFFont"		"HudFontSmall"
-		"TextColor"		"HudOffWhite"
+		"TextColor"		"sh_white"
 		"autoResize"	"1"
 	}
 	"SpectatorGUIHealth"
@@ -29,7 +29,7 @@
 		"visible"		"1"
 		"enabled"		"1"	
 		"TFFont"		"HudFontSmall"
-		"TextColor"		"HudOffWhite"
+		"TextColor"		"sh_white"
 		"autoResize"	"1"
 	}	
 }

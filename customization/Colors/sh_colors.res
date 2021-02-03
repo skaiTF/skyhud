@@ -38,13 +38,14 @@ Scheme
 		"HealthBuffPulse"				"004 209 148 255"
 		
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	//Heal, Damage and Metal Account Variantion Colors
+	//Heal, Damage and Metal Account Variation Colors
 	//==================================================================================================
 	//Controls the positive and negative colors for when you get healed, damage others, and spend/receive metal
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 		"CHudAccountPositive"			"006 156 111 255"
 		"CHudAccountNegative"			"156 073 006 255"
+		"sh_uber_drop"					"210 052 235 255"
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	//HUD Colors
@@ -55,7 +56,7 @@ Scheme
 	    "sh_blank"						"000 000 000 000"
 		"sh_black"						"005 005 005 255"
 		"sh_black_transparent"			"005 005 005 180"
-		"sh_white"						"235 235 235 255"
+		"sh_white"						"255 255 255 255"
 		"sh_white_transparent"			"235 235 235 180"
 		"sh_team_blu"					"056 099 130 255"
 		"sh_team_red"					"130 056 056 255"
