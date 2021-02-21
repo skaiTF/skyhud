@@ -5,7 +5,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
 		"font"			"HudFontSmallBold"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"sh_white"
 		"xpos"			"11"
 		"ypos"			"57"
 		"zpos"			"3"
@@ -22,7 +22,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyShadow"
 		"font"			"HudFontSmallBold"
-		"fgcolor"		"Black"
+		"fgcolor"		"sh_black"
 		"xpos"			"12"
 		"ypos"			"58"
 		"zpos"			"3"
@@ -46,7 +46,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"TanLight"
+		"bgcolor_override"	"sh_white"
 	}	
 	
 	"GreenBG"

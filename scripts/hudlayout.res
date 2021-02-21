@@ -1415,6 +1415,6 @@
 		"wide"										"0"
 	}
 }
-#base	"../resource/Crosshairs/crosshair.res"
+#base "../customization/crosshairs/crosshair.res"
 
 

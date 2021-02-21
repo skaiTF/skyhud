@@ -10,8 +10,8 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"		
+		"visible"		"0"
+		"enabled"		"0"		
 	}
 	"PlayerStatusClassImage"
 	{
@@ -22,8 +22,8 @@
 		"zpos"			"2"
 		"wide"			"50"
 		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"	
 	}
@@ -31,13 +31,19 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"350"
-		"ypos"			"r120"
+		"xpos"			"3"		[$WIN32]
+		"xpos_minmode"	"-5"	[$WIN32]
+		"ypos"			"r67"	[$WIN32]
+		"ypos_minmode"	"r44"	[$WIN32]
+		"xpos"			"35"	[$X360]
+		"ypos"			"r89"	[$X360]
 		"zpos"			"2"
 		"wide"			"55"
+		"wide_minmode"	"27"
 		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
+		"tall_minmode"	"27"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/class_spyred"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/class_spyred"
@@ -47,11 +53,17 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyOutlineImage"
-		"xpos"			"3"
-		"ypos"			"r67"
+		"xpos"			"3"		[$WIN32]
+		"xpos_minmode"	"-5"	[$WIN32]
+		"ypos"			"r67"	[$WIN32]
+		"ypos_minmode"	"r44"	[$WIN32]
+		"xpos"			"35"	[$X360]
+		"ypos"			"r89"	[$X360]
 		"zpos"			"7"
 		"wide"			"55"
+		"wide_minmode"	"27"
 		"tall"			"55"
+		"tall_minmode"	"27"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/class_spy_outline"
@@ -104,15 +116,15 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"30"	[$WIN32]
-		"ypos"			"r190"	[$WIN32]
+		"xpos"			"9999"	[$WIN32]
+		"ypos"			"9999"	[$WIN32]
 		"zpos"			"2"		
 		"wide"			"240"
 		"tall"			"200"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		
 		"render_texture"	"0"
 		"fov"			"52"
