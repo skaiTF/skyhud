@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"sh_dark_grey"
-		"infocus_bgcolor_override" "sh_dark_grey"
-		"outoffocus_bgcolor_override" "sh_dark_grey"
+		"bgcolor_override"	"sh_blank"
+		"infocus_bgcolor_override" "sh_blank"
+		"outoffocus_bgcolor_override" "sh_blank"
 
 		"selectlabely_default"		"25"
 		"selectlabely_onchanges"	"15"

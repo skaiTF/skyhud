@@ -2,26 +2,27 @@
 {
 	"HudChat"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName" 		"HudChat"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"1"
-		"ypos"			"r165"
-		"wide"	 		"210"
-		"tall"	 		"100"
-		"PaintBackgroundType"	"0"
+		"ControlName"		      "EditablePanel"
+		"fieldName" 		      "HudChat"
+		"visible" 		        "1"
+		"enabled" 		        "1"
+		"xpos"			          "4"
+		"ypos"			          "4"
+		"wide"	 		          "205"
+		"tall"	 		          "95"
+		"fgcolor"		"sh_white"
+		"PaintBackgroundType"	"2"
 	}
-
+	
 	ChatInputLine
 	{
 		"ControlName"		      "EditablePanel"
 		"fieldName" 		      "ChatInputLine"
 		"visible" 		        "1"
 		"enabled" 		        "1"
-		"xpos"			          "10"
+		"xpos"			          "3"
 		"ypos"			          "395"
-		"wide"	 		          "190"
+		"wide"	 		          "200"
 		"tall"	 		          "0"
 		"PaintBackgroundType"	"0"
 	}
@@ -43,7 +44,7 @@
 		"textAlignment"		    "center"
 		"dulltext"		        "0"
 		"brighttext"		      "0"
-		"Default"		          "0"
+		"Default"		          "0"		
 	}
 
 	"HudChatHistory"
@@ -52,7 +53,7 @@
 		"fieldName"		        "HudChatHistory"
 		"xpos"			          "0"
 		"ypos"			          "0"
-		"wide"	 		          "210"
+		"wide"	 		          "205"
 		"tall"			          "75"
 		"wrap"			          "1"
 		"autoResize"		      "1"

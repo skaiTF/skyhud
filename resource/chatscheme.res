@@ -15,6 +15,18 @@ Scheme
 	// this is a list of all the colors used by the scheme
 	Colors
 	{
+		// custom colors
+		"sh_white"			"255 255 255 255"
+		"sh_dark_grey"		"030 030 030 255"
+		"sh_black"			"005 005 005 255"
+		"sh_button_armed"	"077 191 161 255"
+		"sh_off_white"		"160 160 160 255"
+		
+		"PanelBG"				"015 015 015 215"
+		"LightPanelBG"			"015 015 015 140"
+		"DarkPanelBG"			"015 015 015 255"
+		
+		
 		// base colors
 		"White"				"255 255 255 255"
 		"OffWhite"			"216 216 216 255"
@@ -34,124 +46,115 @@ Scheme
 	BaseSettings
 	{
 		// vgui_controls color specifications
-		Border.Bright					"200 200 200 196"	// the lit side of a control
-		Border.Dark						"40 40 40 196"		// the dark/unlit side of a control
-		Border.Selection				"0 0 0 196"			// the additional border color for displaying the default/selected button
+		Border.Bright					"Blank"	// the lit side of a control
+		Border.Dark						"Blank"		// the dark/unlit side of a control
+		Border.Selection				"Blank"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"White"
-		Button.BgColor					"Blank"
-		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"Blank"				[$WIN32]
-		Button.ArmedBgColor				"190 115 0 255"		[$X360]
-		Button.DepressedTextColor		"White"
-		Button.DepressedBgColor			"Blank"
-		Button.FocusBorderColor			"Black"
+		Button.TextColor				"sh_white"
+		Button.BgColor					"sh_dark_grey"
+		Button.ArmedTextColor			"sh_white"
+		Button.ArmedBgColor				"sh_button_armed"
+		Button.DepressedTextColor		"sh_white"
+		Button.DepressedBgColor			"sh_button_armed"
+		Button.FocusBorderColor			"Blank"
 		
-		CheckButton.TextColor			"OffWhite"
-		CheckButton.SelectedTextColor	"White"
-		CheckButton.BgColor				"TransparentBlack"
+		CheckButton.TextColor			"sh_off_white"
+		CheckButton.SelectedTextColor	"sh_white"
+		CheckButton.BgColor				"sh_dark_grey"
+		CheckButton.HighlightFgColor	"sh_white"
+		CheckButton.ArmedBgColor		"Blank"
+		CheckButton.DepressedBgColor	"Blank"
 		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check				"White"				// color of the check itself
+		CheckButton.Check				"sh_white"				// color of the check itself
 
-		ComboBoxButton.ArrowColor		"DullWhite"
-		ComboBoxButton.ArmedArrowColor	"White"
-		ComboBoxButton.BgColor			"Blank"
+		ComboBoxButton.ArrowColor		"sh_white"
+		ComboBoxButton.ArmedArrowColor	"sh_white"
+		ComboBoxButton.BgColor			"sh_dark_grey"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
-		"Chat.TypingText"		"White"
+		"Chat.TypingText"		"sh_white"
 
-		Frame.TitleTextInsetX			16
-		Frame.ClientInsetX				8
-		Frame.ClientInsetY				6
-		Frame.BgColor					"160 160 160 128"	[$WIN32]
-		Frame.BgColor					"80 80 80 192"		[$X360]
-		Frame.OutOfFocusBgColor			"160 160 160 32"	[$WIN32]
-		Frame.OutOfFocusBgColor			"80 80 80 192"		[$X360]
-		Frame.FocusTransitionEffectTime	"0.3"	// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.3"	// time it takes for a window to fade in/out on open/close
-		Frame.AutoSnapRange				"0"
-		FrameGrip.Color1				"200 200 200 196"
-		FrameGrip.Color2				"0 0 0 196"
-		FrameTitleButton.FgColor		"200 200 200 196"
-		FrameTitleButton.BgColor		"Blank"
-		FrameTitleButton.DisabledFgColor	"255 255 255 192"
+		Frame.BgColor						"PanelBG"
+		Frame.OutOfFocusBgColor				"LightPanelBG"
+		Frame.FocusTransitionEffectTime		"0.3"	// time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime			"0.3"	// time it takes for a window to fade in/out on open/close
+		Frame.AutoSnapRange					"0"
+		FrameGrip.Color1					"Blank"
+		FrameGrip.Color2					"Blank"
+		FrameTitleButton.FgColor			"Blank"
+		FrameTitleButton.BgColor			"Blank"
+		FrameTitleButton.DisabledFgColor	"Blank"
 		FrameTitleButton.DisabledBgColor	"Blank"
-		FrameSystemButton.FgColor		"Blank"
-		FrameSystemButton.BgColor		"Blank"
-		FrameSystemButton.Icon			""
-		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.Font				"UiBold"		[$WIN32]
-		FrameTitleBar.Font				"DefaultLarge"	[$WIN32]
-		FrameTitleBar.TextColor			"White"
-		FrameTitleBar.BgColor			"Blank"
-		FrameTitleBar.DisabledTextColor	"255 255 255 192"
-		FrameTitleBar.DisabledBgColor	"Blank"
+		FrameSystemButton.FgColor			"Blank"
+		FrameSystemButton.BgColor			"Blank"
+		FrameSystemButton.Icon				""
+		FrameSystemButton.DisabledIcon		""
+		FrameTitleBar.TextColor				"sh_white"
+		FrameTitleBar.BgColor				"Blank"
+		FrameTitleBar.DisabledTextColor		"sh_off_white"
+		FrameTitleBar.DisabledBgColor		"Blank"
 
-		GraphPanel.FgColor				"White"
-		GraphPanel.BgColor				"TransparentBlack"
+		GraphPanel.FgColor				"sh_white"
+		GraphPanel.BgColor				"PanelBG"
 
-		Label.TextDullColor				"DullWhite"
-		Label.TextColor					"OffWhite"
-		Label.TextBrightColor				"White"
-		Label.SelectedTextColor				"White"
-		Label.BgColor					"TransparentBlack"
-		Label.DisabledFgColor1			"117 117 117 255"
-		Label.DisabledFgColor2			"30 30 30 255"
+		Label.TextDullColor				"sh_off_white"
+		Label.TextColor					"sh_white"
+		Label.TextBrightColor			"sh_white"
+		Label.SelectedTextColor			"sh_white"
+		Label.BgColor					"Blank"
+		Label.DisabledFgColor1			"sh_off_white"	
+		Label.DisabledFgColor2			"Blank"
 
-		ListPanel.TextColor					"OffWhite"
-		ListPanel.TextBgColor				"Blank"
-		ListPanel.BgColor					"TransparentBlack"
-		ListPanel.SelectedTextColor			"Black"
-		ListPanel.SelectedBgColor			"Orange"
-		ListPanel.SelectedOutOfFocusBgColor	"255 155 0 128"
-		ListPanel.EmptyListInfoTextColor	"OffWhite"
+		ListPanel.TextColor					"sh_white"
+		ListPanel.BgColor					"LightPanelBG"
+		ListPanel.SelectedBgColor			"sh_button_armed"
+		ListPanel.SelectedOutOfFocusBgColor	"sh_off_white"
 
-		Menu.TextColor					"White"
-		Menu.BgColor					"160 160 160 64"
-		Menu.ArmedTextColor				"Black"
-		Menu.ArmedBgColor				"Orange"
+		Menu.TextColor					"sh_white"
+		Menu.BgColor					"PanelBG"
+		Menu.ArmedTextColor				"sh_black"
+		Menu.ArmedBgColor				"sh_button_armed"
 		Menu.TextInset					"6"
 
 		Panel.FgColor					"Blank"
-		Panel.BgColor					"DullWhite"
+		Panel.BgColor					"PanelBG"
 
-		ProgressBar.FgColor				"White"
-		ProgressBar.BgColor				"TransparentBlack"
+		ProgressBar.FgColor				"sh_white"
+		ProgressBar.BgColor				"PanelBG"
 
 		PropertySheet.TextColor			"OffWhite"
-		PropertySheet.SelectedTextColor	"White"
+		PropertySheet.SelectedTextColor	"sh_white"
 		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
-		RadioButton.TextColor			"DullWhite"
-		RadioButton.SelectedTextColor	"White"
+		RadioButton.TextColor			"sh_off_white"
+		RadioButton.SelectedTextColor	"sh_white"
 
-		RichText.TextColor				"OffWhite"
-		RichText.BgColor				"TransparentBlack"
-		RichText.SelectedTextColor		"Black"
-		RichText.SelectedBgColor		"Orange"
+		RichText.TextColor				"sh_white"
+		RichText.BgColor				"PanelBG"
+		RichText.SelectedTextColor		"sh_black"
+		RichText.SelectedBgColor		"PanelBG"
 
-		ScrollBar.Wide					17
-
-		ScrollBarButton.FgColor				"White"
+		ScrollBar.Wide					0
+		ScrollBarButton.FgColor				"Blank"
 		ScrollBarButton.BgColor				"Blank"
-		ScrollBarButton.ArmedFgColor		"White"
+		ScrollBarButton.ArmedFgColor		"Blank"
 		ScrollBarButton.ArmedBgColor		"Blank"
-		ScrollBarButton.DepressedFgColor	"White"
+		ScrollBarButton.DepressedFgColor	"Blank"
 		ScrollBarButton.DepressedBgColor	"Blank"
 
 		ScrollBarSlider.FgColor				"Blank"			// nob color
-		ScrollBarSlider.BgColor				"255 255 255 64"	// slider background color
+		ScrollBarSlider.BgColor				"Blank"			// slider background color
 
-		SectionedListPanel.HeaderTextColor	"White"
+		SectionedListPanel.HeaderTextColor	"sh_white"
 		SectionedListPanel.HeaderBgColor	"Blank"
-		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"DullWhite"
-		SectionedListPanel.BrightTextColor	"White"
-		SectionedListPanel.BgColor			"TransparentBlack"
-		SectionedListPanel.SelectedTextColor			"Black"
+		SectionedListPanel.DividerColor		"sh_black"
+		SectionedListPanel.TextColor		"sh_off_white"
+		SectionedListPanel.BrightTextColor	"sh_white"
+		SectionedListPanel.BgColor			"PanelBG"
+		SectionedListPanel.SelectedTextColor			"sh_black"
 		SectionedListPanel.SelectedBgColor				"Orange"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"sh_black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
 
 		Slider.NobColor				"108 108 108 255"
@@ -160,46 +163,39 @@ Scheme
 		Slider.DisabledTextColor1	"117 117 117 255"
 		Slider.DisabledTextColor2	"30 30 30 255"
 
-		TextEntry.TextColor			"OffWhite"
-		TextEntry.BgColor			"TransparentBlack"
-		TextEntry.CursorColor		"OffWhite"
-		TextEntry.DisabledTextColor	"DullWhite"
+		TextEntry.TextColor			"sh_off_white"
+		TextEntry.BgColor			"LightPanelBG"
+		TextEntry.CursorColor		"sh_off_white"
+		TextEntry.DisabledTextColor	"sh_off_white"
 		TextEntry.DisabledBgColor	"Blank"
-		TextEntry.SelectedTextColor	"Black"
-		TextEntry.SelectedBgColor	"Orange"
+		TextEntry.SelectedTextColor	"sh_off_white"
+		TextEntry.SelectedBgColor	"sh_button_armed"
 		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
 		TextEntry.FocusEdgeColor	"0 0 0 196"
 
-		ToggleButton.SelectedTextColor	"White"
+		ToggleButton.SelectedTextColor	"sh_white"
 
-		Tooltip.TextColor			"0 0 0 196"
-		Tooltip.BgColor				"Orange"
+		Tooltip.TextColor			"sh_white"
+		Tooltip.BgColor				"sh_dark_grey"
 
-		TreeView.BgColor			"TransparentBlack"
+		TreeView.BgColor			"PanelBG"
 
 		WizardSubPanel.BgColor		"Blank"
 
 		// scheme-specific colors
-		MainMenu.TextColor			"White"				[$WIN32]
-		MainMenu.TextColor			"200 200 200 255"	[$X360]
-		MainMenu.ArmedTextColor		"200 200 200 255"	[$WIN32]
-		MainMenu.ArmedTextColor		"White"				[$X360]
-		MainMenu.DepressedTextColor	"192 186 80 255"
-		MainMenu.MenuItemHeight		"16"	[$WIN32]
-		MainMenu.MenuItemHeight		"32"	[$X360]
+		MainMenu.TextColor			"sh_off_white"
+		MainMenu.ArmedTextColor		"sh_white"
+		MainMenu.DepressedTextColor	"sh_white"
+		MainMenu.MenuItemHeight		"16"
 		MainMenu.Inset				"32"
 		MainMenu.Backdrop			"0 0 0 156"
-
-		Console.TextColor			"OffWhite"
-		Console.DevTextColor		"White"
-
-		NewGame.TextColor			"White"
+		Console.TextColor			"100 255 100 255"
+		Console.DevTextColor		"sh_white"
+		NewGame.TextColor			"sh_white"
 		NewGame.FillColor			"0 0 0 255"
-		NewGame.SelectionColor		"Orange"	[$WIN32]
-		NewGame.SelectionColor		"0 0 0 255"	[$X360]
+		NewGame.SelectionColor		"Orange"
 		NewGame.DisabledColor		"128 128 128 196"
-
-		TFColors.ChatTextYellow		"251 235 202 255"
+		TFColors.ChatTextYellow		"sh_white"
 		TFColors.ChatTextTeamBlue	"153 204 255 255"
 		TFColors.ChatTextTeamRed	"255 63 53 255"
 	}
@@ -360,48 +356,43 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"	[$WIN32]
-				"tall"		"15"	[$X360]
-				"weight"	"700"
-				"yres"		"480 599"
-				"dropshadow"	"1"
+				"name"			"Google Sans Regular"
+				"tall"			"14"
+				"yres"			"480 599"
+				"dropshadow"	"0"
+				"antialias"		"1"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"14"	[$WIN32]
-				"tall"		"17"	[$X360]
-				"weight"	"700"
-				"yres"		"600 767"
-				"dropshadow"	"1"
+				"name"			"Google Sans Regular"
+				"tall"			"16"
+				"yres"			"600 767"
+				"dropshadow"	"0"
+				"antialias"		"1"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"15"	[$WIN32]
-				"tall"		"18"	[$X360]
-				"weight"	"700"
-				"yres"		"768 1023"
-				"dropshadow"	"1"
+				"name"			"Google Sans Regular"
+				"tall"			"18"
+				"yres"			"768 1023"
+				"dropshadow"	"0"
+				"antialias"		"1"
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"17"	[$WIN32]
-				"tall"		"20"	[$X360]
-				"weight"	"700"
-				"yres"		"1024 1199"
-				"dropshadow"	"1"
+				"name"			"Google Sans Regular"
+				"tall"			"18"
+				"yres"			"1024 1199"
+				"dropshadow"	"0"
+				"antialias"		"1"
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"22"	[$WIN32]
-				"tall"		"25"	[$X360]
-				"weight"	"700"
-				"yres"		"1200 10000"
-				"dropshadow"	"1"
+				"name"			"Google Sans Regular"
+				"tall"			"22"
+				"yres"			"1200 10000"
+				"dropshadow"	"0"
+				"antialias"		"1"
 			}
 		}
 
@@ -811,6 +802,11 @@ Scheme
 	CustomFontFiles
 	{
 		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2EP2.ttf"		
+		"2"		"resource/HL2EP2.ttf"
+		"3"
+		{
+		    "font" "resource/scheme/fonts/GoogleSans-Regular.ttf"   
+			"name" "Google Sans Regular"
+		}
 	}
 }

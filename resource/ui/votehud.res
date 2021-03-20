@@ -10,7 +10,8 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"sh_panel_border"
+		"bgcolor_override"	"sh_black_transparent"
 				
 		"PassedIcon"
 		{
@@ -76,7 +77,8 @@
 		"tall"			"144"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"sh_panel_border"
+		"bgcolor_override"	"sh_black_transparent"
 		
 		"Header"
 		{
