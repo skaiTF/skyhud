@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui/replay/thumbnails/panels/material_generic.vtf"
+	"$baseTexture" "vgui/replay/thumbnails/panels/sh_generic_material.vtf"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1

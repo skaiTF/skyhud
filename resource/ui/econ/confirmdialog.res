@@ -1,12 +1,12 @@
-"Resource/UI/ConfirmDialogAbandonSafe.res"
+"Resource/UI/ConfirmDialog.res"
 {
 	"ConfirmDialog"
 	{
 		"ControlName"								"Frame"
 		"fieldName"									"ConfirmDialog"
-		"xpos"										"c-150"
+		"xpos"										"c-162"
 		"ypos"										"140"
-		"wide"										"300"
+		"wide"										"324"
 		"tall"										"200"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -29,8 +29,8 @@
 		"xpos"										"0"
 		"ypos"										"15"
 		"zpos"										"1"
-		"wide"										"300"
-		"tall"										"20"
+		"wide"										"324"
+		"tall"										"25"
 		"autoResize"								"1"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -49,7 +49,7 @@
 		"xpos"										"40"
 		"ypos"										"50"
 		"zpos"										"1"
-		"wide"										"220"
+		"wide"										"244"
 		"tall"										"170"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -67,7 +67,7 @@
 		"xpos"										"190"
 		"ypos"										"165"
 		"zpos"										"20"
-		"wide"										"100"
+		"wide"										"124"
 		"tall"										"25"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -75,7 +75,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"#GameUI_CancelBold"
-		"font"										"sh_white"
+		"font"										"sh_14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"dulltext"									"0"
@@ -92,20 +92,6 @@
 		"defaultFgColor_override"					"sh_white"
 		"armedFgColor_override"						"sh_white"
 		"depressedFgColor_override" 				"sh_white"
-	}
-	
-	"CancelButtonHintIcon"
-	{
-		"ControlName"								"CSCHintIcon"
-		"fieldName"									"CancelButtonHintIcon"
-		"xpos"										"195"
-		"ypos"										"165"
-		"zpos"										"25"
-		"wide"										"25"
-		"tall"										"25"
-		"visible"									"1"
-		"actionSet"									"MenuControls"
-		"actionName"								"menu_cancel"
 	}		
 
 	"ConfirmButton"
@@ -124,7 +110,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"#ConfirmButtonText"
-		"font"										"Size 14"
+		"font"										"sh_14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"dulltext"									"0"
@@ -141,19 +127,5 @@
 		"defaultFgColor_override"					"sh_white"
 		"armedFgColor_override"						"sh_white"
 		"depressedFgColor_override" 				"sh_white"
-	}
-	
-	"ConfirmButtonHintIcon"
-	{
-		"ControlName"								"CSCHintIcon"
-		"fieldName"									"ConfirmButtonHintIcon"
-		"xpos"										"15"
-		"ypos"										"165"
-		"zpos"										"25"
-		"wide"										"25"
-		"tall"										"25"
-		"visible"									"1"
-		"actionSet"									"MenuControls"
-		"actionName"								"menu_select"
-	}					
+	}			
 }

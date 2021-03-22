@@ -44,6 +44,7 @@
 	{
 		"label"										"B"
 		"command"									"questlog"
+		"tooltip"									"Contracker"
 	}
 	"ServerBrowserButton"
 	{
@@ -95,6 +96,18 @@
 		"command" 									"engine toggle tf_use_match_hud"
 		"tooltip" 									"MatchStatus ON/OFF"
 		"OnlyInGame"								"1"
+	}
+	"Streams"
+	{
+		"label" 									"0"
+		"command" 									"watch_stream"
+		"tooltip" 									"Streams"
+	}
+	"HomeServer"
+	{
+		"label" 									"n"
+		"command" 									"engine" 				//"engine connect *server ip*"
+		"tooltip" 									"Favorite Server"
 	}
 
 	// These buttons are only shown while in-game

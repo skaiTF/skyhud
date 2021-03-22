@@ -1,4 +1,4 @@
-"Resource/UI/ConfirmDialogAbandonNoPenalty.res"
+"Resource/UI/ConfirmDialogAbandonPenalty.res"
 {
 	"ConfirmDialog"
 	{
@@ -18,7 +18,7 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"sh_dark_grey"
 	}
-	
+		
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -36,7 +36,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor" 									"sh_sh_white"
+		"fgcolor" 									"sh_white"
 	}
 	
 	"AbandonIcon"
@@ -71,9 +71,9 @@
 		"enabled"									"1"
 		"wrap"										"1"
 		"AllCaps"									"1"
-		"fgcolor"		 							"sh_sh_white"
+		"fgcolor" 									"sh_team_red"
 	}
-		
+	
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -103,9 +103,9 @@
 		"border_default"							"sh_button_default_border"
 		"border_armed"								"sh_button_armed_border"
 
-		"defaultFgColor_override"					"sh_sh_white"
-		"armedFgColor_override"						"sh_sh_white"
-		"depressedFgColor_override" 				"sh_sh_white"
+		"defaultFgColor_override"					"sh_white"
+		"armedFgColor_override"						"sh_white"
+		"depressedFgColor_override" 				"sh_white"
 	}
 	
 	"CancelButtonHintIcon"
@@ -120,7 +120,7 @@
 		"visible"									"1"
 		"actionSet"									"MenuControls"
 		"actionName"								"menu_cancel"
-	}	
+	}
 
 	"ConfirmButton"
 	{

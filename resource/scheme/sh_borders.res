@@ -29,36 +29,7 @@ Scheme
 			"src_corner_width"		"32"
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"
-		}
-		
-		sh_material_blue_border
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color" 				"sh_team_blu"
-			"offset" 				"0 0"
-			
-			"image"					"replay/thumbnails/panels/sh_blue_team"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"
-		}
-		
-		sh_material_red_border
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color" 				"sh_team_red"
-			"offset" 				"0 0"
-			
-			"image"					"replay/thumbnails/panels/sh_red_team"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"	
-		}
-		
+		}		
 		MaterialTransparent30
 		{
 			"bordertype"			"scalable_image"
@@ -103,25 +74,25 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
-		MaterialBlue
+		sh_material_blue_border
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"sh_team_blu"
 			
-			"image"					"replay/thumbnails/panels/material_generic"
+			"image"					"replay/thumbnails/panels/sh_generic_material"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
-		MaterialRed
+		sh_material_red_border
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"sh_team_red"
 			
-			"image"					"replay/thumbnails/panels/material_generic"
+			"image"					"replay/thumbnails/panels/sh_generic_material"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -133,7 +104,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"sh_dark_grey"
 			
-			"image"					"replay/thumbnails/panels/material_generic"
+			"image"					"replay/thumbnails/panels/sh_generic_material"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -145,7 +116,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"sh_button_armed"
 			
-			"image"					"replay/thumbnails/panels/material_generic"
+			"image"					"replay/thumbnails/panels/sh_generic_material"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"

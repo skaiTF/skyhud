@@ -82,7 +82,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		"border"									"MaterialBlue"
+		"border"									"sh_material_blue_border"
 		
 		"pin_to_sibling" 							"TeamsAnchor"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
@@ -213,7 +213,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		"border"									"MaterialRed"
+		"border"									"sh_material_red_border"
 		
 		"pin_to_sibling" 							"SpectateFrame"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
