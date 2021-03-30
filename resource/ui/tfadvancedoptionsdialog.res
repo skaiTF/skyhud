@@ -46,8 +46,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"150"
-		"ypos"			"310"
+		"xpos"			"c-300"
+		"ypos"			"320"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"25"
@@ -65,13 +65,21 @@
 		"Command"		"Close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"							"0"
+		
+		"defaultFgColor_override"					"sh_white"
+		"armedFgColor_override" 					"sh_white"
+		"depressedFgColor_override" 				"sh_white"
+		
+		"border_default"							"sh_button_default_border"
+		"border_armed"								"sh_button_armed_border"
 	}
 	"OkButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"OkButton"
-		"xpos"			"300"
-		"ypos"			"310"
+		"xpos"			"c-200"
+		"ypos"			"320"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"25"
@@ -89,6 +97,14 @@
 		"Command"		"Ok"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"							"0"
+		
+		"defaultFgColor_override"					"sh_white"
+		"armedFgColor_override" 					"sh_white"
+		"depressedFgColor_override" 				"sh_white"
+		
+		"border_default"							"sh_button_default_border"
+		"border_armed"								"sh_button_armed_border"
 	}
 	
 	"PanelListPanel"

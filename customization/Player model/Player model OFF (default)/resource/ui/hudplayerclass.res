@@ -32,16 +32,16 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
 		"xpos"			"3"		[$WIN32]
-		"xpos_minmode"	"-5"	[$WIN32]
+		"xpos_minbad"	"-5"	[$WIN32]
 		"ypos"			"r67"	[$WIN32]
-		"ypos_minmode"	"r44"	[$WIN32]
+		"ypos_minbad"	"r44"	[$WIN32]
 		"xpos"			"35"	[$X360]
 		"ypos"			"r89"	[$X360]
 		"zpos"			"2"
 		"wide"			"55"
-		"wide_minmode"	"27"
+		"wide_minbad"	"27"
 		"tall"			"55"
-		"tall_minmode"	"27"
+		"tall_minbad"	"27"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/class_spyred"
@@ -54,16 +54,16 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyOutlineImage"
 		"xpos"			"3"		[$WIN32]
-		"xpos_minmode"	"-5"	[$WIN32]
+		"xpos_minbad"	"-5"	[$WIN32]
 		"ypos"			"r67"	[$WIN32]
-		"ypos_minmode"	"r44"	[$WIN32]
+		"ypos_minbad"	"r44"	[$WIN32]
 		"xpos"			"35"	[$X360]
 		"ypos"			"r89"	[$X360]
 		"zpos"			"7"
 		"wide"			"55"
-		"wide_minmode"	"27"
+		"wide_minbad"	"27"
 		"tall"			"55"
-		"tall_minmode"	"27"
+		"tall_minbad"	"27"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/class_spy_outline"
@@ -93,9 +93,9 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
 		"xpos"			"99999"		[$WIN32]
-		"xpos_minmode"	"-15"		[$WIN32]
+		"xpos_minbad"	"-15"		[$WIN32]
 		"ypos"			"99999"	[$WIN32]
-		"ypos_minmode"		"r40"	[$WIN32]
+		"ypos_minbad"		"r40"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
@@ -254,28 +254,28 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CarryingWeapon"
 		"xpos"					"20"
-		"xpos_minmode"			"90"
+		"xpos_minbad"			"90"
 		"ypos"					"r27"
-		"ypos_minmode"			"r36"
+		"ypos_minbad"			"r36"
 		"zpos"					"100"
 		"wide"					"500"
-		"wide_minmode"			"500"
+		"wide_minbad"			"500"
 		"tall"	 				"28"
-		"tall_minmode"	 		"28"
+		"tall_minbad"	 		"28"
 
 		"CarryingBackground"
 		{
 			"ControlName"			"CTFImagePanel"
 			"fieldName"				"CarryingBackground"
 			"xpos"					"0"
-			"xpos_minmode"			"0"
+			"xpos_minbad"			"0"
 			"ypos"					"0"
-			"ypos_minmode"			"0"
+			"ypos_minbad"			"0"
 			"zpos"					"0"
 			"wide"					"p1"
-			"wide_minmode"			"f0"
+			"wide_minbad"			"f0"
 			"tall"	 				"f0"
-			"tall_minmode"			"f0"
+			"tall_minbad"			"f0"
 			"autoResize"			"0"
 			"pinCorner"				"0"
 			"visible"				"1"
@@ -301,16 +301,16 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabel"
 			"font"				"ReplayBrowserSmallest"
-			"font_minmode"		"TFFontMedium"
+			"font_minbad"		"TFFontMedium"
 			"xpos"				"5"
-			"xpos_minmode"		"5"
+			"xpos_minbad"		"5"
 			"ypos"				"3"
-			"ypos_minmode"		"2"
+			"ypos_minbad"		"2"
 			"zpos"				"1"
 			"wide"				"200"
-			"wide_minmode"		"f0"
+			"wide_minbad"		"f0"
 			"tall"	 			"f0"
-			"tall_minmode"		"f0"
+			"tall_minbad"		"f0"
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
@@ -328,16 +328,16 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabelDropShadow"
 			"font"				"ReplayBrowserSmallest"
-			"font_minmode"		"TFFontMedium"
+			"font_minbad"		"TFFontMedium"
 			"xpos"				"p0.011"
-			"xpos_minmode"		"6"
+			"xpos_minbad"		"6"
 			"ypos"				"p0.12"
-			"ypos_minmode"		"3"
+			"ypos_minbad"		"3"
 			"zpos"				"0"
 			"wide"				"200"
-			"wide_minmode"		"f0"
+			"wide_minbad"		"f0"
 			"tall"	 			"f0"
-			"tall_minmode"		"f0"
+			"tall_minbad"		"f0"
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
@@ -356,16 +356,16 @@
 			"ControlName"		"Label"
 			"fieldName"			"OwnerLabel"
 			"font"				"FontStoreOriginalPrice"
-			"font_minmode"		"TFFontSmall"
+			"font_minbad"		"TFFontSmall"
 			"xpos"				"5"
-			"xpos_minmode"		"5"
+			"xpos_minbad"		"5"
 			"ypos"				"12"
-			"ypos_minmode"		"10"
+			"ypos_minbad"		"10"
 			"zpos"				"0"
 			"wide"				"200"
-			"wide_minmode"		"f0"
+			"wide_minbad"		"f0"
 			"tall"	 			"f0"
-			"tall_minmode"		"f0"
+			"tall_minbad"		"f0"
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"

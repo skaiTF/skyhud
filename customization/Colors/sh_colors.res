@@ -31,11 +31,11 @@ Scheme
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 		"LowAmmo1"													"230 157 062 255"
-		"LowAmmo2"													"230 087 085 255"
+		"LowAmmo2"													"230 087 085 255" //currently not in use
 		"LowHealth"													"230 087 085 255"
 		"HealthBuff"												"006 156 111 255"
-		"LowHealthPulse"											"240 036 034 255"
-		"HealthBuffPulse"											"004 209 148 255"
+		"LowHealthPulse"											"240 036 034 255" //currently not in use
+		"HealthBuffPulse"											"004 209 148 255" //currently not in use
 		
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	//Heal, Damage and Metal Account Variation Colors
@@ -50,7 +50,7 @@ Scheme
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	//HUD Colors
 	//==================================================================================================
-	//These colors are used in various hud elements and SHOULD NOT BE CHANGED (unless you know what you're doing of course)
+	//These colors are used in various hud elements and SHOULD NOT BE CHANGED (unless you know what you're doing)
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	  
 	    "sh_blank"													"000 000 000 000"

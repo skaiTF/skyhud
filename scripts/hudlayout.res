@@ -54,9 +54,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
+		"xpos_minbad"	"r52"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r50"	[$WIN32]
+		"ypos_minbad"	"r50"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"100"
@@ -92,14 +92,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
+		"xpos_minbad"	"r52"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
+		"ypos_minbad"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
-		"wide_minmode"	"50"
+		"wide_minbad"	"50"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -813,13 +813,11 @@
 
 	ArenaWinPanel
 	{
-		"fieldName"				"ArenaWinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-225"
-		"ypos"					"250"
-		"wide"					"450"
-		"tall"					"218"
+		"xpos"					"cs-0.5"
+		"ypos"					"r70"
+		"zpos"					"20"
+		"wide"					"400"
+		"tall"					"70"
 	}
 	
 	PVEWinPanel
@@ -958,9 +956,9 @@
 	HudDemomanPipes
 	{
 		"xpos"										"0"
-		"xpos_minmode"								"0"
+		"xpos_minbad"								"0"
 		"ypos"										"0"
-		"ypos_minmode"								"0"
+		"ypos_minbad"								"0"
 		"wide"										"f0"
 		"tall"										"480"
 	}	
@@ -1033,7 +1031,7 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"5"
-		"ypos_minmode"				"15"
+		"ypos_minbad"				"15"
 		"ypos_lodef"				"75"
 		"wide"					"125"
 		"tall"					"70"
@@ -1388,7 +1386,7 @@
 	
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	//REMOVED STUFF
+	//REMOVED
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	HudBowCharge

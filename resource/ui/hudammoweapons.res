@@ -5,9 +5,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"AMMOAnchor"
 		"xpos"										"c135"
-		"xpos_minmode"								"c95"
 		"ypos"										"c85"
-		"ypos_minmode"								"c40"
 		"zpos"										"0"
 		"wide"										"2"
 		"tall"										"50"
@@ -133,21 +131,24 @@
 	}	
 	"LowAmmoBG"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"LowAmmoBG"
-		"xpos"			"0"
-		"ypos"			"-9"
-		"zpos"			"1"
-		"wide"			"82"
-		"tall"			"36"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"sh_blank"
-		"PaintBackgroundType"	"0"
-
-		"pin_to_sibling"	"AmmoNoClip"
-		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+		"ControlName"								"EditablePanel"
+		"fieldName"									"LowAmmoBG"
+		"xpos"										"-30"
+		"ypos"										"-6"
+		"zpos"										"1"
+		"wide"										"93"
+		"tall"	 									"40"
+		"autoResize"								"0"
+		"paintbackground"							"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"alpha"										"0"
+		
+		"border"									"sh_dying_border"
+		"scaleImage"								"1"
+		
+		"pin_to_sibling" 							"AmmoNoClip"
 	}
 	
 	

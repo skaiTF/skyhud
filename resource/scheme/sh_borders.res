@@ -29,7 +29,17 @@ Scheme
 			"src_corner_width"		"32"
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"
-		}		
+		}
+		
+		
+		////////////////////////////////////////////////////////////////////////////////////////////////
+		//Translucent Black Borders
+		//==============================================================================================
+		//Translucent black borders used for translucent panels
+		//==============================================================================================
+		//These borders were completely copied from hypno's HUD (sorry)
+		////////////////////////////////////////////////////////////////////////////////////////////////
+		
 		MaterialTransparent30
 		{
 			"bordertype"			"scalable_image"
@@ -74,6 +84,14 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
+		
+		
+		////////////////////////////////////////////////////////////////////////////////////////////////
+		//Team Colors Borders
+		//==============================================================================================
+		//Borders used for panels that represent blu and red teams
+		////////////////////////////////////////////////////////////////////////////////////////////////
+		
 		sh_material_blue_border
 		{
 			"bordertype"			"scalable_image"
@@ -98,6 +116,14 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
+		
+		
+		////////////////////////////////////////////////////////////////////////////////////////////////
+		//Buttons Borders
+		//==============================================================================================
+		//Borders used for almost every single button on the HUD
+		////////////////////////////////////////////////////////////////////////////////////////////////
+		
 		sh_button_default_border
 		{
 			"bordertype"			"scalable_image"
@@ -122,6 +148,45 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
+		
+		
+		////////////////////////////////////////////////////////////////////////////////////////////////
+		//Health Borders
+		//==============================================================================================
+		//Buff and Dying borders for when you're buffed or almost dying
+		////////////////////////////////////////////////////////////////////////////////////////////////
+		
+		sh_buff_border
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"HealthBuff"
+			
+			"image"					"replay/thumbnails/panels/sh_generic_material"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
+		sh_dying_border
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"LowHealthPulse"
+			
+			"image"					"replay/thumbnails/panels/sh_generic_material"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
+		
+		
+		////////////////////////////////////////////////////////////////////////////////////////////////
+		//Main Menu Buttons Borders
+		//==============================================================================================
+		//Borders used for the main menu buttons
+		////////////////////////////////////////////////////////////////////////////////////////////////
 		
 		sh_translucent_black_border
 		{
