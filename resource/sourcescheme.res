@@ -12,7 +12,7 @@ Scheme
 	    "TFTextBlack"               					"077 191 161 255"	// selected text color
 	    "TFTextDull"                					"178 178 178 255"	// disabled text
 		
-	    "TFTextMediumDark"          					"005 005 005 255"		// normal bg color
+	    "TFTextMediumDark"          					"030 030 030 255"		// normal bg color
 	    "TFTextBright"              					"077 191 161 255"		// hover bg color
 	    "TFTanLightBright"          					"077 191 161 255"	// selected bg color
 	    "TFMediumBrown"									"46 43 42 155"		// disabled bg color

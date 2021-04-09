@@ -24,7 +24,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"paintbackground"						"0"
-			"border"								"TFFatLineBorderBlueBGMoreOpaque"
+			"border"								"sh_material_blue_border"
 		}
 		"sh_RedScoreBG"
 		{
@@ -40,7 +40,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"paintbackground"						"0"
-			"border"								"TFFatLineBorderRedBGMoreOpaque"
+			"border"								"sh_material_red_border"
 		}
 		"BlueScoreBG"
 		{
@@ -235,22 +235,6 @@
 			"bgcolor_override"	"117 107 94 255"
 		}
 	}
-	
-    "sh_background"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"WinPanelBG1"
-		"xpos"			"10"
-		"ypos"			"80"
-		"zpos"			"-1"
-		"wide"			"278"
-		"tall"			"170"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"005 005 005 145"
-	}
 	"WinPanelBGBorder"
 	{
 		"ControlName"		"EditablePanel"
@@ -362,21 +346,19 @@
 	}
 	"ShadedBar"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"15"
-		"ypos"			"116"
-		"zpos"			"2"
-		"wide"			"268"
-		"tall"			"125"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 150"
-		"fillcolor_lodef"		"0 0 0 200"
-		"PaintBackgroundType"	"0"
+		"ControlName"								"EditablePanel"
+		"fieldName"									"ShadedBar"
+		"xpos"										"0"
+		"ypos"										"18"
+		"zpos"										"2"
+		"wide"										"175"
+		"tall"										"62"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"paintbackground"							"0"
+		"border"									"MaterialTransparent50"
 	}
 	"TopPlayersLabel"
 	{	

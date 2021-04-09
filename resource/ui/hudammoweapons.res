@@ -1,6 +1,6 @@
 "Resource/UI/HudAmmoWeapons.res"
 {	
-	"AMMOAnchor"									//Moves the Ammos
+	"AMMOAnchor"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"AMMOAnchor"

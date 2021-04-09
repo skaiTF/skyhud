@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 //Spy disguise animation
 //======================================================================================================
-//This is the white outline of a spy animation that appears when you put on a disguise or undisguise
+//This is the white outline of a spy animation that appears when you disguise or undisguise
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 1-Select the customization
