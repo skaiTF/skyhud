@@ -1,9 +1,8 @@
-#base "engineer_blue.res"
-
+"#base"    "engineer_blue.res"
 "Resource/UI/disguise_menu/engineer_red.res"
 {
-	"ItemNameLabel"
-	{	
-		"fgcolor_override"							"sh_team_red"
-	}
+    "ItemNameLabel"
+    {
+        "fgcolor_override"    "sh_team_red"
+    }
 }

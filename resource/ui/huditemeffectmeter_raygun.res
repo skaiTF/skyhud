@@ -1,1 +1,1 @@
-#base "huditemeffectmeter.res"
+"#base"    "huditemeffectmeter.res"

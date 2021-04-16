@@ -8,7 +8,7 @@
 		// "visible" "1" = Enabled  "visible" "0" = Disabled
 		//=========================================================================
 		
-		"visible"	"0"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshair" "wide" "f0" "tall" "f0" "enabled" "1" "zpos" "0" "textAlignment" "center"
+		"visible"	"1"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshair" "wide" "f0" "tall" "f0" "enabled" "1" "zpos" "0" "textAlignment" "center"
 		
 		//=========================================================================
 		// CROSSHAIR TYPE
@@ -18,7 +18,7 @@
 		// Checkout the different options in the TF2Crosshairs.png
 		//=========================================================================
 		
-		"labelText"	"?"
+		"labelText"	"E"
 		
 		//=========================================================================
 		// CROSSHAIR SIZE & PROPERTIES

@@ -11,34 +11,39 @@
     "Version"
 	{ 
 		"command" 									"engine showconsole; echo skyhud by Fundevilam"
-		"label" 									"skyhud v1.0"
+		"label" 									"skyhud"
 	}	
 	
 	"Items"
 	{
 		"label"										"i"
 		"command"									"engine open_charinfo"
+		"tooltip"									"Items"
 	}
 	
 	"Store"
 	{
 		"label"										"x"
 		"command"									"engine open_store"
+		"tooltip"									"Mann Co. Store"
 	}
 	"Settings"
 	{
 		"label"										"|"
 		"command"									"OpenOptionsDialog"
+		"tooltip"									"Settings"
 	}
 	"Advanced"
 	{
 		"label"										"}"
 		"command"									"opentf2options"
+		"tooltip"									"Advanced Settings"
 	}
 	"DemoUI"
 	{
 		"label"										"_"
 		"command"									"engine demoui"
+		"tooltip"									"DemoUI"
 	}
 	"Contracker"
 	{
@@ -50,17 +55,19 @@
 	{
 		"label"                                     "q" 
 		"command"                                   "OpenServerBrowser"
+		"tooltip"									"Find a server"
 	} 
 	"CreateServerButton"
 	{
 		"label"                                     "~" 
 		"command"                                   "OpenCreateMultiplayerGameDialog"
+		"tooltip"									"Create a server"
 	}
 	"RefreshHUDButton"
 	{
-		"label"			"."
-		"command"		"engine hud_reloadscheme"
-		"tooltip"		"Refresh HUD"
+		"label"										"."
+		"command"									"engine hud_reloadscheme"
+		"tooltip"									"Reload HUD"
 	}
 	"InviliblePlayersFix"
 	{

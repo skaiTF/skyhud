@@ -1,9 +1,8 @@
-#base "HudMiniGame_Base.res"
-
+"#base"    "HudMiniGame_Base.res"
 "Resource/UI/HudMiniGame_Soccer.res"
 {
-	"GameImage"
-	{
-		"image"			"../hud/minigame_soccer"
-	}
+    "GameImage"
+    {
+        "image"    "../hud/minigame_soccer"
+    }
 }
