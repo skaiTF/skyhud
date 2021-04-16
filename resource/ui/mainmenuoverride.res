@@ -2047,6 +2047,24 @@
 		}
 	}
 	
+	"VersionLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"VersionLabel"
+		"font"			"sh_8"
+		"labelText"		"v2021.0416"
+		"textAlignment"	"east"
+		"xpos"			"r52"
+		"ypos"			"r13"
+		"wide"			"46"
+		"tall"			"10"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"242 242 242 10"
+	}
+	
 	"BottomBar"
 	{
 		"ControlName"								"EditablePanel"
