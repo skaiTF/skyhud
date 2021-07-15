@@ -30,18 +30,19 @@
         "wide"         "f0"
         "tall"         "480"
     }
-    "HudKothTimeStatus"
-    {
-        "fieldName"           "HudKothTimeStatus"
-        "visible"             "1"
-        "enabled"             "1"
-        "xpos"                "c-100"
-        "ypos"                "0"
-        "wide"                "200"
-        "tall"                "160"
-        "blue_active_xpos"    "31"
-        "red_active_xpos"     "131"
-    }
+    HudKothTimeStatus
+	{
+		"xpos"										"cs-0.5"
+		"ypos"										"0"
+		"wide"										"200"
+		"tall"										"32"
+		
+		"blue_active_xpos"							"56"
+		"blue_active_xpos_minmode"					"56"
+	
+		"red_active_xpos"							"104"
+		"red_active_xpos_minmode"					"104"
+	}
     "HudItemEffectMeter"
     {
         "fieldName"      "HudItemEffectMeter"
@@ -386,13 +387,13 @@
         "MaxDeathNotices"         "4"
         "IconScale"               "0.35"
         "LineHeight"              "16"
-        "LineSpacing"             "4"
+        "LineSpacing"             "2"
         "CornerRadius"            "3"
         "RightJustify"            "1"
-        "TextFont"                "Bold10"
+        "TextFont"                "sh_10"
         "TeamBlue"                "sh_team_blu"
         "TeamRed"                 "sh_team_red"
-        "IconColor"               "HudWhite"
+        "IconColor"               "sh_white"
         "LocalPlayerColor"        "HUDBlack"
         "BaseBackgroundColor"     "sh_blank" [$WIN32]
         "LocalBackgroundColor"    "sh_white" [$WIN32]

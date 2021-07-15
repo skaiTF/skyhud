@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 //Player model
 //======================================================================================================
-//This is the class 3D (or 2D) model that appears by your health
+//This is the 3D (or 2D) player model 
 //======================================================================================================
 //Having this turned off usually increases framerate by 20fps (don't quote me on that) and is therefore
 //turned off by default.
