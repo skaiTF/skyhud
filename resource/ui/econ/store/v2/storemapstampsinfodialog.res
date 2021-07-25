@@ -58,38 +58,6 @@
             "paintborder"    "1"
             "border"         "StoreInnerShadowBorder"
         }
-        "FooterTopPanel"
-        {
-            "ControlName"            "EditablePanel"
-            "fieldName"              "FooterTopPanel"
-            "xpos"                   "3"
-            "ypos"                   "240"
-            "zpos"                   "1"
-            "wide"                   "235"
-            "tall"                   "10"
-            "visible"                "1"
-            "enabled"                "1"
-            "paintborder"            "0"
-            "PaintBackgroundType"    "0"
-            "paintbackground"        "1"
-            "bgcolor_override"       "50 46 41 255"
-        }
-        "FootBottomPanel"
-        {
-            "ControlName"            "EditablePanel"
-            "fieldName"              "FootBottomPanel"
-            "xpos"                   "3"
-            "ypos"                   "240"
-            "zpos"                   "1"
-            "wide"                   "235"
-            "tall"                   "58"
-            "visible"                "1"
-            "enabled"                "1"
-            "paintborder"            "0"
-            "PaintBackgroundType"    "2"
-            "paintbackground"        "1"
-            "bgcolor_override"       "50 46 41 255"
-        }
         "MapsDescLabel"
         {
             "ControlName"      "CExLabel"
@@ -137,8 +105,8 @@
         "visible"             "1"
         "enabled"             "1"
         "tabPosition"         "0"
-        "labeltext"           ""
-        "font"                "HudFontSmallBold"
+        "labeltext"			  "-"
+		"font"				  "Symbols 18"
         "textAlignment"       "center"
         "dulltext"            "0"
         "brighttext"          "0"
@@ -146,23 +114,15 @@
         "sound_depressed"     "UI/buttonclick.wav"
         "sound_released"      "UI/buttonclickrelease.wav"
         "Command"             "close"
-        "paintbackground"     "0"
-        "image_drawcolor"     "118 107 94 255"
-        "image_armedcolor"    "246 247 213 255"
-        "SubImage"
-        {
-            "ControlName"    "ImagePanel"
-            "fieldName"      "SubImage"
-            "xpos"           "0"
-            "ypos"           "0"
-            "zpos"           "1"
-            "wide"           "14"
-            "tall"           "14"
-            "visible"        "1"
-            "enabled"        "1"
-            "image"          "close_button"
-            "scaleImage"     "1"
-        }
+		
+		"paintbackground"							"0"
+		"border_default"							"sh_button_default_border"
+		"border_armed"								"sh_button_armed_border"
+
+		"defaultFgColor_override"					"sh_white"
+		"armedFgColor_override"						"sh_white"
+		"depressedFgColor_override" 				"sh_white"
+        
     }
     "BackButton"
     {
@@ -186,6 +146,13 @@
         "Command"            "close"
         "sound_depressed"    "UI/buttonclick.wav"
         "sound_released"     "UI/buttonclickrelease.wav"
-        "fgcolor"            "White"
+        
+		"paintbackground"							"0"
+		"border_default"							"sh_button_default_border"
+		"border_armed"								"sh_button_armed_border"
+
+		"defaultFgColor_override"					"sh_white"
+		"armedFgColor_override"						"sh_white"
+		"depressedFgColor_override" 				"sh_white"
     }
 }

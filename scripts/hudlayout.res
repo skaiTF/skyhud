@@ -38,10 +38,10 @@
 		"tall"										"32"
 		
 		"blue_active_xpos"							"56"
-		"blue_active_xpos_minmode"					"56"
+		"blue_active_xpos_minbad"					"56"
 	
 		"red_active_xpos"							"104"
-		"red_active_xpos_minmode"					"104"
+		"red_active_xpos_minbad"					"104"
 	}
     "HudItemEffectMeter"
     {
@@ -233,34 +233,39 @@
             "x_offset"    "20"
         }
     }
-    "BuildingStatus_Spy"
-    {
-        "fieldName"              "BuildingStatus_Spy"
-        "visible"                "1"
-        "enabled"                "1"
-        "xpos"                   "0" [$WIN32]
-        "ypos"                   "0" [$WIN32]
-        "xpos"                   "32" [$X360]
-        "ypos"                   "16" [$X360]
-        "wide"                   "640"
-        "tall"                   "480"
-        "PaintBackgroundType"    "2"
-    }
-    "BuildingStatus_Engineer"
-    {
-        "fieldName"              "BuildingStatus_Engineer"
-        "visible"                "1"
-        "enabled"                "1"
-        "xpos"                   "0"
-        "xpos_hidef"             "32"
-        "xpos_lodef"             "40"
-        "ypos"                   "0"
-        "ypos_hidef"             "16"
-        "ypos_lodef"             "25"
-        "wide"                   "640"
-        "tall"                   "480"
-        "PaintBackgroundType"    "2"
-    }
+    "BuildingAnchor"
+	{	
+		"ControlName"			"Label"
+		"fieldName"				"BuildingAnchor"
+		"xpos"					"-13"
+		"ypos"					"130"
+		"zpos"					"0"
+		"wide"					"100"
+		"tall"					"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"paintbackground"		"0"
+	}
+
+	BuildingStatus_Spy
+	{
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
+
+		"pin_to_sibling"		"BuildingAnchor"
+	}
+	
+	BuildingStatus_Engineer
+	{
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
+		
+		"pin_to_sibling"		"BuildingAnchor"
+	}
     "HudMannVsMachineStatus"
     {
         "fieldName"              "HudMannVsMachineStatus"
@@ -800,38 +805,30 @@
         "PaintBackgroundType"    "2"
     }
     "HudMenuEngyBuild"
-    {
-        "fieldName"              "HudMenuEngyBuild"
-        "visible"                "1"
-        "enabled"                "1"
-        "xpos"                   "c-225"
-        "ypos"                   "c-55"
-        "wide"                   "450"
-        "tall"                   "195"
-        "PaintBackgroundType"    "0"
-    }
-    "HudMenuEngyDestroy"
-    {
-        "fieldName"              "HudMenuEngyDestroy"
-        "visible"                "1"
-        "enabled"                "1"
-        "xpos"                   "c-225"
-        "ypos"                   "c-59"
-        "wide"                   "450"
-        "tall"                   "200"
-        "PaintBackgroundType"    "0"
-    }
+	{
+		"xpos"					"0"
+		"ypos"					"c-112"
+		"zpos"					"20"
+		"wide"					"f0"
+		"tall"					"480"
+	}
+	
+	"HudMenuEngyDestroy"
+	{
+		"xpos"					"0"
+		"ypos"					"c-112"
+		"zpos"					"20"
+		"wide"					"f0"
+		"tall"					"480"
+	}
     "HudEurekaEffectTeleportMenu"
-    {
-        "fieldName"              "HudEurekaEffectTeleportMenu"
-        "visible"                "1"
-        "enabled"                "1"
-        "xpos"                   "c-125"
-        "ypos"                   "c-55"
-        "wide"                   "250"
-        "tall"                   "195"
-        "PaintBackgroundType"    "0"
-    }
+	{
+		"xpos"					"0"
+		"ypos"					"c-112"
+		"zpos"					"20"
+		"wide"					"f0"
+		"tall"					"480"
+	}
     "HudMenuSpyDisguise"
     {
         "fieldName"              "HudMenuSpyDisguise"
@@ -840,7 +837,7 @@
         "xpos"                   "c-95"
         "ypos"                   "c50"
         "wide"                   "195"
-        "tall"                   "35"
+        "tall"                   "45"
         "PaintBackgroundType"    "0"
     }
     "HudDemomanPipes"
@@ -886,41 +883,32 @@
         "wide"          "320"
         "tall"          "100"
     }
-    "HudTournament"
-    {
-        "fieldName"     "HudTournament"
-        "visible"       "0"
-        "enabled"       "1"
-        "xpos"          "c-125"
-        "ypos"          "5"
-        "ypos_lodef"    "75"
-        "zpos"          "2"
-        "wide"          "250"
-        "tall"          "80"
-    }
-    "HudTournamentSetup"
-    {
-        "fieldName"     "HudTournamentSetup"
-        "visible"       "0"
-        "enabled"       "1"
-        "xpos"          "c-90"
-        "ypos"          "-70"
-        "ypos_lodef"    "75"
-        "wide"          "180"
-        "tall"          "65"
-    }
-    "HudStopWatch"
-    {
-        "fieldName"      "HudStopWatch"
-        "visible"        "1"
-        "enabled"        "1"
-        "xpos"           "c-160"
-        "ypos"           "5"
-        "ypos_minbad"    "15"
-        "ypos_lodef"     "75"
-        "wide"           "125"
-        "tall"           "70"
-    }
+	
+    HudTournament
+	{
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"480"
+	}
+
+	HudTournamentSetup
+	{
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"480"
+	}
+
+	HudStopWatch
+	{
+		"xpos"										"0"
+		"ypos"										"0"
+		"ypos_minbad"								"0"
+		"wide"										"f0"
+		"tall"										"480"
+	}
+	
     "NotificationPanel"
     {
         "fieldName"    "NotificationPanel"

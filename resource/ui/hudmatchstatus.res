@@ -193,7 +193,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 
-		"max_size"									"32"
+		"max_size"									"20"
 
 		"6v6_gap"									"2"
 		"12v12_gap"									"1"
@@ -240,14 +240,14 @@
 				"font"								"sh_8"
 				"textinsetx"						"1"
 				"textAlignment"						"west"
-				"bgcolor_override"					"sh_black"
+				"bgcolor_override"					"sh_black_transparent"
 				"proportionaltoparent"				"1"
 			}
 			"classimage"
 			{
 				"ControlName"						"CTFClassImage"
 				"fieldName"							"classimage"
-				"xpos"								"0"
+				"xpos"								"cs-0.5"
 				"ypos"								"0"
 				"zpos"								"4"
 				"wide"								"12"
@@ -289,7 +289,7 @@
 				"textAlignment"						"Left"
 				"dulltext"							"0"
 				"brighttext"						"0"
-				"bgcolor_override"	   				"Blank"
+				"bgcolor_override"	   				"sh_blank"
 				"proportionaltoparent"				"1"
 			}
 			"overhealbar"
@@ -307,7 +307,7 @@
 				"textAlignment"						"Left"
 				"dulltext"							"0"
 				"brighttext"						"0"
-				"bgcolor_override"	   				"Blank"
+				"bgcolor_override"	   				"sh_blank"
 				"fgcolor_override"	   				"255 255 255 100"
 				"proportionaltoparent"				"1"
 			}
@@ -315,7 +315,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"respawntime"
-				"font"								"Regular10"
+				"font"								"sh_10"
 				"xpos"								"rs1"
 				"ypos"								"0"
 				"zpos"								"10"

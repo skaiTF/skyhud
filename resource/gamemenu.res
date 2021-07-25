@@ -10,7 +10,10 @@
 
     "Version"
 	{ 
-		"command" 									"engine showconsole; echo skyhud by Fundevilam"
+		"command" "engine showconsole;
+			echo ---------------------------------------------------------------------;
+			echo -------------------------SKYHUD v2021.0725---------------------------;
+			echo ---------------------------------------------------------------------"
 		"label" 									"skyhud"
 	}	
 	

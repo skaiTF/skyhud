@@ -32,7 +32,7 @@
 		"scaleImage"								"1"
 		"teambg_1"									"replay/thumbnails/panels/bg_blank"
 		"teambg_2"									"replay/thumbnails/panels/bg_red"
-		"teambg_3"									"replay/thumbnails/panels/bg_blu"
+		"teambg_3"									"replay/thumbnails/panels/bg_blue"
 		
 		"src_corner_height"							"32"
 		"src_corner_width"							"32"

@@ -7,7 +7,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"155"
-		"tall"										"45"
+		"tall"										"45"		
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -19,22 +19,22 @@
 		
 		"skilltreebuttons_kv"
 		{
-			"wide"									"12"
-			"tall"									"12"
+			"wide"									"16"
+			"tall"									"16"
 			"textAlignment"							"center"
 			"font"									"sh_11"
-			"image"									"pve/upgrade_unowned"
+			"image"									"replay/thumbnails/mvm/upgrade_unowned"
 			"scaleImage"							"1"	
 			
 			"defaultFgColor_override"				"sh_white"
-			"defaultBgColor_override"				"sh_blank"
-			"armedFgColor_override"					"sh_white"
-			"armedBgColor_override"					"sh_blank"
-			"depressedFgColor_override"				"sh_white"
-			"depressedBgColor_override"				"sh_blank"
-			"selectedFgColor_override"				"sh_white"
-			"selectedBgColor_override"				"sh_blank"
-			"disabledfgcolor2_override"				"sh_white"
+			"defaultBgColor_override"				"sh_dark_grey"
+			"armedFgColor_override"					"sh_button_armed"
+			"armedBgColor_override"					"sh_dark_grey"
+			"depressedFgColor_override"				"sh_button_armed"
+			"depressedBgColor_override"				"sh_dark_grey"
+			"selectedFgColor_override"				"sh_button_armed"
+			"selectedBgColor_override"				"sh_dark_grey"
+			"disabledfgcolor2_override"				"sh_dark_grey"
 		}
 	}
 	
@@ -51,8 +51,7 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		
-		"PaintBackgroundType" 						"0"
+		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"sh_dark_grey"
 	}
 	
@@ -69,7 +68,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		
 		"PaintBackgroundType" 						"0"
 		"bgcolor_override"							"sh_white"
 	}
@@ -88,10 +86,8 @@
 		"visible"									"1"
 		"enabled"									"0"
 		"tabPosition"								"0"
-		
+		"image"										"replay/thumbnails/mvm/buy_disabled"
 		"scaleImage"								"1"	
-
-		"image"										"pve/buy_disabled"
 	}
 	
 	"PriceLabel"
@@ -111,7 +107,8 @@
 		
 		"labelText"									""
 		"textAlignment"								"center"
-		"font"										"sh_12"
+		"fgcolor_override"							"sh_white"
+		"font"										"sh_14"
 	}
 	
 	"ShortDescriptionLabel"
@@ -148,19 +145,18 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		
-		"PaintBackgroundType" 						"0"
-		"bgcolor_override"							"sh_dark_grey"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"0 0 0 100"
 	}
 	
 	"IncrementButton"
 	{
 		"ControlName"								"CImageButton"
 		"fieldName"									"IncrementButton"
-		"xpos"										"137"
-		"ypos"										"4"
-		"wide"										"16"
-		"tall"										"16"
+		"xpos"										"135"
+		"ypos"										"0"
+		"wide"										"20"
+		"tall"										"20"
 		"zpos"										"20"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -171,30 +167,30 @@
 		"labelText"									""
 		"scaleImage"								"1"	
 
-		"activeimage"								"pve/buy_disabled"
-		"inactiveimage"								"pve/buy_disabled"
+		"activeimage"								"replay/thumbnails/mvm/buy_disabled"
+		"inactiveimage"								"replay/thumbnails/mvm/buy_disabled"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"defaultFgColor_override"					"sh_white"
-		"defaultBgColor_override"					"sh_blank"
-		"armedFgColor_override"						"sh_white"
-		"armedBgColor_override"						"sh_blank"
+		"defaultBgColor_override"					"sh_dark_grey"
+		"armedFgColor_override"						"sh_button_armed"
+		"armedBgColor_override"						"sh_dark_grey"
 		"depressedFgColor_override"					"sh_white"
-		"depressedBgColor_override"					"sh_blank"
-		"selectedFgColor_override"					"sh_white"
-		"selectedBgColor_override"					"sh_blank"
-		"disabledfgcolor2_override"					"sh_white"
+		"depressedBgColor_override"					"sh_dark_grey"
+		"selectedFgColor_override"					"sh_button_armed"
+		"selectedBgColor_override"					"sh_dark_grey"
+		"disabledfgcolor2_override"					"sh_dark_grey"
 	}
 	
 	"DecrementButton"
 	{
 		"ControlName"								"CImageButton"
 		"fieldName"									"DecrementButton"
-		"xpos"										"137"
-		"ypos"										"24"
-		"wide"										"16"
-		"tall"										"16"
+		"xpos"										"135"
+		"ypos"										"23"
+		"wide"										"20"
+		"tall"										"20"
 		"zpos"										"20"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -205,19 +201,19 @@
 		"labelText"									""
 		"scaleImage"								"1"	
 
-		"activeimage"								"pve/sell_disabled"
-		"inactiveimage"								"pve/sell_disabled"
+		"activeimage"								"replay/thumbnails/mvm/sell_disabled"
+		"inactiveimage"								"replay/thumbnails/mvm/sell_disabled"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"defaultFgColor_override"					"255 255 255 0"
-		"defaultBgColor_override"					"255 255 255 0"
-		"armedFgColor_override"						"255 255 255 0"
-		"armedBgColor_override"						"255 255 255 0"
-		"depressedFgColor_override"					"255 255 255 0"
-		"depressedBgColor_override"					"255 255 255 0"
-		"selectedFgColor_override"					"255 255 255 0"
-		"selectedBgColor_override"					"255 255 255 0"
-		"disabledfgcolor2_override"					"255 255 255 0"
+		"defaultFgColor_override"					"sh_white"
+		"defaultBgColor_override"					"sh_dark_grey"
+		"armedFgColor_override"						"sh_button_armed"
+		"armedBgColor_override"						"sh_dark_grey"
+		"depressedFgColor_override"					"sh_white"
+		"depressedBgColor_override"					"sh_dark_grey"
+		"selectedFgColor_override"					"sh_button_armed"
+		"selectedBgColor_override"					"sh_dark_grey"
+		"disabledfgcolor2_override"					"sh_dark_grey"
 	}
 }

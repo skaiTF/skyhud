@@ -47,7 +47,7 @@
     {
         "ControlName"      "CExLabel"
         "fieldName"        "TitleLabel"
-        "font"             "HudFontSmallBold"
+        "font"             "sh_14"
         "labelText"        "#Store_Maps_Title"
         "textAlignment"    "north-west"
         "xpos"             "c-292"
@@ -59,12 +59,13 @@
         "pinCorner"        "0"
         "visible"          "1"
         "enabled"          "1"
+		"fgcolor"		   "sh_white"
     }
     "SubTitleLabel"
     {
         "ControlName"      "CExLabel"
         "fieldName"        "SubTitleLabel"
-        "font"             "FontStoreOriginalPrice"
+        "font"             "sh_11"
         "labelText"        "#Store_Maps_SubTitle"
         "textAlignment"    "south-west"
         "xpos"             "c-292"
@@ -76,7 +77,7 @@
         "pinCorner"        "0"
         "visible"          "1"
         "enabled"          "1"
-        "fgcolor"          "96 90 85 255"
+        "fgcolor"          "sh_white"
     }
     "LearnMoreButton"
     {
@@ -93,12 +94,21 @@
         "enabled"            "1"
         "tabPosition"        "0"
         "labelText"          "#Store_LearnMore"
-        "font"               "HudFontSmallBold"
+        "font"               "sh_14"
         "textAlignment"      "center"
         "dulltext"           "0"
         "brighttext"         "0"
         "Command"            "maps_learnmore"
         "sound_depressed"    "UI/buttonclick.wav"
         "sound_released"     "UI/buttonclickrelease.wav"
+		
+		"paintbackground"				"0"
+		
+		"defaultFgColor_override"		"sh_white"
+		"armedFgColor_override"			"sh_white"
+		"depressedFgColor_override"		"sh_white"
+		
+		"border_default"				"sh_button_default_border"
+		"border_armed"					"sh_button_armed_border"
     }
 }

@@ -1,313 +1,474 @@
-"#base"    "MatchMakingDashboardSidePanel.res"
+#base "matchmakingdashboardsidepanel.res"
+
 "Resource/UI/MatchMakingPingPanel.res"
 {
-    "PingPanel"
-    {
-        "fieldName"               "PingPanel"
-        "xpos"                    "-300"
-        "ypos"                    "10"
-        "zpos"                    "1001"
-        "wide"                    "300"
-        "tall"                    "f70"
-        "visible"                 "1"
-        "proportionaltoparent"    "1"
-        "datacenter_y"            "3"
-        "datacenter_y_space"      "1"
-    }
-    "BGPanel"
-    {
-        "ControlName"             "EditablePanel"
-        "fieldName"               "BGPanel"
-        "xpos"                    "0"
-        "ypos"                    "0"
-        "zpos"                    "-1"
-        "wide"                    "f0"
-        "tall"                    "f-50"
-        "visible"                 "1"
-        "PaintBackgroundType"     "2"
-        "border"                  "MainMenuBGBorder"
-        "proportionaltoparent"    "1"
-    }
-    "Title"
-    {
-        "ControlName"             "Label"
-        "fieldName"               "Title"
-        "xpos"                    "13"
-        "ypos"                    "20"
-        "zpos"                    "99"
-        "wide"                    "f0"
-        "tall"                    "20"
-        "proportionaltoparent"    "1"
-        "labeltext"               "#TF_MM_OpenSettings"
-        "textAlignment"           "west"
-        "font"                    "sh_24"
-        "fgcolor_override"        "sh_white"
-        "mouseinputenabled"       "0"
-    }
-    "InviteModeLabel"
-    {
-        "ControlName"               "Label"
-        "fieldName"                 "InviteModeLabel"
-        "xpos"                      "26"
-        "ypos"                      "50"
-        "zpos"                      "3"
-        "wide"                      "208"
-        "tall"                      "20"
-        "proportionaltoparent"      "1"
-        "labeltext"                 "#TF_MM_InviteMode"
-        "textAlignment"             "west"
-        "font"                      "sh_11"
-        "smallcheckimage"           "1"
-        "fgcolor_override"          "TanDark"
-        "sound_depressed"           "UI/buttonclickrelease.wav"
-        "button_activation_type"    "1"
-    }
-    "InviteModeComboBox"
-    {
-        "fieldName"                            "InviteModeComboBox"
-        "xpos"                                 "26"
-        "ypos"                                 "66"
-        "zpos"                                 "1"
-        "wide"                                 "200"
-        "tall"                                 "15"
-        "textAlignment"                        "west"
-        "font"                                 "sh_11"
-        "keyboardinputenabled"                 "0"
-        "editable"                             "0"
-        "bgcolor_override"                     "0 0 0 255"
-        "fgcolor_override"                     "235 226 202 255"
-        "disabledFgColor_override"             "235 226 202 255"
-        "disabledBgColor_override"             "0 0 0 0"
-        "selectionColor_override"              "0 0 0 0"
-        "selectionTextColor_override"          "235 226 202 255"
-        "defaultSelectionBG2Color_override"    "0 0 0 0"
-    }
-    "IgnorePartyInvites"
-    {
-        "ControlName"               "CvarToggleCheckButton"
-        "fieldName"                 "IgnorePartyInvites"
-        "xpos"                      "23"
-        "ypos"                      "80"
-        "zpos"                      "3"
-        "wide"                      "208"
-        "tall"                      "20"
-        "proportionaltoparent"      "1"
-        "labeltext"                 "#TF_MM_IgnoreInvites"
-        "textAlignment"             "west"
-        "font"                      "sh_11"
-        "smallcheckimage"           "1"
-        "sound_depressed"           "UI/buttonclickrelease.wav"
-        "button_activation_type"    "1"
-        "cvar_name"                 "tf_party_ignore_invites"
-    }
-    "KeepPartyOnSameTeam"
-    {
-        "ControlName"               "CvarToggleCheckButton"
-        "fieldName"                 "KeepPartyOnSameTeam"
-        "xpos"                      "23"
-        "ypos"                      "95"
-        "zpos"                      "3"
-        "wide"                      "250"
-        "tall"                      "20"
-        "proportionaltoparent"      "1"
-        "labeltext"                 ""
-        "textAlignment"             "west"
-        "font"                      "sh_11"
-        "smallcheckimage"           "1"
-        "enabled"                   "0"
-        "sound_depressed"           "UI/buttonclickrelease.wav"
-        "button_activation_type"    "1"
-    }
-    "KeepPartyOnSameTeamLabel"
-    {
-        "ControlName"               "Label"
-        "fieldName"                 "KeepPartyOnSameTeamLabel"
-        "xpos"                      "42"
-        "ypos"                      "95"
-        "zpos"                      "3"
-        "wide"                      "250`"
-        "tall"                      "20"
-        "proportionaltoparent"      "1"
-        "labeltext"                 "#TF_MM_PartySameTeam"
-        "textAlignment"             "west"
-        "font"                      "sh_11"
-        "smallcheckimage"           "1"
-        "sound_depressed"           "UI/buttonclickrelease.wav"
-        "button_activation_type"    "1"
-        "fgcolor_override"          "TanDark"
-    }
-    "CustomPingCheckButton"
-    {
-        "ControlName"               "CvarToggleCheckButton"
-        "fieldName"                 "CustomPingCheckButton"
-        "xpos"                      "23"
-        "ypos"                      "110"
-        "zpos"                      "3"
-        "wide"                      "208"
-        "tall"                      "20"
-        "proportionaltoparent"      "1"
-        "labeltext"                 ""
-        "textAlignment"             "west"
-        "font"                      "sh_14"
-        "smallcheckimage"           "1"
-        "actionsignallevel"         "1"
-        "sound_depressed"           "UI/buttonclickrelease.wav"
-        "button_activation_type"    "1"
-        "cvar_name"                 "tf_mm_custom_ping_enabled"
-    }
-    "CheckLabel"
-    {
-        "ControlName"               "Label"
-        "fieldName"                 "CheckLabel"
-        "xpos"                      "42"
-        "ypos"                      "110"
-        "zpos"                      "3"
-        "wide"                      "208"
-        "tall"                      "20"
-        "proportionaltoparent"      "1"
-        "labeltext"                 "#TF_LobbyContainer_CustomPingButton"
-        "textAlignment"             "west"
-        "font"                      "sh_11"
-        "smallcheckimage"           "1"
-        "sound_depressed"           "UI/buttonclickrelease.wav"
-        "button_activation_type"    "1"
-    }
-    "DescLabel"
-    {
-        "ControlName"               "CExLabel"
-        "fieldName"                 "DescLabel"
-        "xpos"                      "43"
-        "ypos"                      "127"
-        "zpos"                      "3"
-        "wide"                      "p0.81"
-        "tall"                      "45"
-        "proportionaltoparent"      "1"
-        "labeltext"                 "#TF_LobbyContainer_CustomPingDesc"
-        "textAlignment"             "north-west"
-        "font"                      "sh_11"
-        "wrap"                      "1"
-        "fgcolor"                   "117 107 94 255"
-        "sound_depressed"           "UI/buttonclickrelease.wav"
-        "button_activation_type"    "1"
-    }
-    "CurrentPingLabel"
-    {
-        "ControlName"             "Label"
-        "fieldName"               "CurrentPingLabel"
-        "xpos"                    "27"
-        "ypos"                    "156"
-        "zpos"                    "0"
-        "wide"                    "f0"
-        "tall"                    "20"
-        "proportionaltoparent"    "1"
-        "labeltext"               ""
-        "textAlignment"           "west"
-        "font"                    "sh_11"
-        "mouseinputenabled"       "0"
-    }
-    "PingSlider"
-    {
-        "ControlName"              "CCvarSlider"
-        "fieldName"                "PingSlider"
-        "xpos"                     "rs1-10"
-        "ypos"                     "175"
-        "wide"                     "f40"
-        "tall"                     "24"
-        "autoResize"               "0"
-        "pinCorner"                "0"
-        "RoundedCorners"           "15"
-        "pin_corner_to_sibling"    "0"
-        "pin_to_sibling_corner"    "0"
-        "visible"                  "1"
-        "enabled"                  "1"
-        "tabPosition"              "0"
-        "proportionaltoparent"     "1"
-        "cvar_name"                "tf_mm_custom_ping"
-        "use_convar_minmax"        "1"
-    }
-    "DataCenterContainer"
-    {
-        "ControlName"             "EditablePanel"
-        "fieldName"               "DataCenterContainer"
-        "xpos"                    "rs1-10"
-        "ypos"                    "200"
-        "zpos"                    "100"
-        "wide"                    "f37"
-        "tall"                    "f220"
-        "autoResize"              "0"
-        "pinCorner"               "0"
-        "visible"                 "1"
-        "enabled"                 "1"
-        "tabPosition"             "0"
-        "proportionaltoparent"    "1"
-        "DataCenterList"
-        {
-            "ControlName"             "CScrollableList"
-            "fieldName"               "DataCenterList"
-            "xpos"                    "0"
-            "ypos"                    "0"
-            "zpos"                    "2"
-            "wide"                    "f0"
-            "tall"                    "f0"
-            "visible"                 "1"
-            "proportionaltoparent"    "1"
-            "restrict_width"          "0"
-            "ScrollBar"
-            {
-                "ControlName"             "ScrollBar"
-                "FieldName"               "ScrollBar"
-                "xpos"                    "rs1-1"
-                "ypos"                    "0"
-                "tall"                    "f0"
-                "wide"                    "5"
-                "zpos"                    "1000"
-                "nobuttons"               "1"
-                "proportionaltoparent"    "1"
-                "Slider"
-                {
-                    "fgcolor_override"    "TanDark"
-                }
-                "UpButton"
-                {
-                    "ControlName"    "Button"
-                    "FieldName"      "UpButton"
-                    "visible"        "0"
-                }
-                "DownButton"
-                {
-                    "ControlName"    "Button"
-                    "FieldName"      "DownButton"
-                    "visible"        "0"
-                }
-            }
-        }
-        "Frame"
-        {
-            "Controlname"             "EditablePanel"
-            "fieldName"               "Frame"
-            "xpos"                    "0"
-            "ypos"                    "0"
-            "wide"                    "f0"
-            "tall"                    "f0"
-            "zpos"                    "5"
-            "proportionaltoparent"    "1"
-            "border"                  "InnerShadowBorder"
-            "mouseinputenabled"       "0"
-        }
-        "Background"
-        {
-            "ControlName"             "EditablePanel"
-            "fieldname"               "Background"
-            "xpos"                    "0"
-            "ypos"                    "0"
-            "zpos"                    "0"
-            "wide"                    "f0"
-            "tall"                    "f0"
-            "visible"                 "1"
-            "PaintBackgroundType"     "0"
-            "proportionaltoparent"    "1"
-            "paintborder"             "1"
-            "border"                  "ReplayDefaultBorder"
-        }
-    }
+	"PingPanel"
+	{
+		"fieldName"									"PingPanel"
+		"xpos"										"-302"
+		"ypos"										"10"
+		"zpos"										"1001"
+		"wide"										"205"
+		"tall"										"300"
+		"visible"									"1"
+		"proportionaltoparent"						"1"
+
+		"datacenter_y"								"3"
+		"datacenter_y_space"						"1"
+	}
+
+	"BGPanel"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"BGPanel"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"-1"
+		"wide"										"f0"
+		"tall"										"300"
+		"visible"									"1"
+		"PaintBackgroundType"						"0"
+		"paintbackground"							"0"
+		"border"									"MaterialTransparent70"
+		"proportionaltoparent"						"1"
+	}
+
+	"Title"
+	{
+		"ControlName"								"Label"
+		"fieldName"									"Title"
+		"xpos"										"0"
+		"ypos"										"11"
+		"zpos"										"99"
+		"wide"										"200"
+		"tall"										"20"
+		"proportionaltoparent"						"1"
+		"labeltext"									"Ping Settings"
+		"AllCaps"									"1"
+		"textAlignment"								"center"
+		"font"										"sh_18"
+		"fgcolor_override"							"sh_white"
+		
+		"mouseinputenabled"							"0"
+	}
+
+	"InviteModeLabel"
+	{
+		"ControlName"								"Label"
+		"fieldName"									"InviteModeLabel"
+		"xpos"										"0"
+		"ypos"										"28"
+		"zpos"										"3"
+		"wide"										"200"
+		"tall"										"20"
+		"proportionaltoparent"						"1"
+		"labeltext"									"#TF_MM_InviteMode"
+		"textAlignment"								"center"
+		"font"										"sh_11"
+		"smallcheckimage"							"1"
+		"fgcolor_override"							"sh_white"
+		"AllCaps"									"1"
+
+		"sound_depressed"							"UI/buttonclickrelease.wav"	
+		"button_activation_type"					"1"
+	}
+
+	"InviteModeComboBox"
+	{
+	//	"ControlName"								"ComboBox"
+		"fieldName"									"InviteModeComboBox"
+		"xpos"										"8"
+		"ypos"										"46"
+		"zpos"										"1"
+		"wide"										"190"
+		"tall"										"15"
+		"textAlignment"								"west"
+		"font"										"sh_11"
+		"keyboardinputenabled"						"0"
+		"AllCaps"									"1"
+
+		"editable"									"0"
+		"bgcolor_override"							"0 0 0 100"
+		"fgcolor_override"							"sh_white"
+		"disabledFgColor_override" 					"sh_white"
+		"disabledBgColor_override" 					"sh_blank"
+		"selectionColor_override" 					"sh_blank"
+		"selectionTextColor_override" 				"sh_white"
+		"defaultSelectionBG2Color_override" 		"sh_blank"
+	}
+
+	"IgnorePartyInvites"
+	{
+		"ControlName"								"CvarToggleCheckButton"
+		"fieldName"									"IgnorePartyInvites"
+		"xpos"										"4"
+		"ypos"										"66"
+		"zpos"										"3"
+		"wide"										"190"
+		"tall"										"20"
+		"proportionaltoparent"						"1"
+		"labeltext"									"#TF_MM_IgnoreInvites"
+		"textAlignment"								"west"
+		"font"										"sh_11"
+		"smallcheckimage"							"1"
+		"fgcolor_override"							"sh_white"
+		"fgcolor"									"sh_white"
+		"AllCaps"									"1"
+
+		"sound_depressed"							"UI/buttonclickrelease.wav"	
+		"button_activation_type"					"1"
+
+		"cvar_name" 								"tf_party_ignore_invites"
+	}
+
+	"KeepPartyOnSameTeam"
+	{
+		"ControlName"								"CvarToggleCheckButton"
+		"fieldName"									"KeepPartyOnSameTeam"
+		"xpos"										"4"
+		"ypos"										"83"
+		"zpos"										"3"
+		"wide"										"190"
+		"tall"										"20"
+		"proportionaltoparent"						"1"
+		"labeltext"									""
+		"textAlignment"								"west"
+		"font"										"sh_11"
+		"smallcheckimage"							"1"
+		"enabled"									"0"
+		"AllCaps"									"1"
+
+		"sound_depressed"							"UI/buttonclickrelease.wav"	
+		"button_activation_type"					"1"
+	}
+
+	"KeepPartyOnSameTeamLabel"
+	{
+		"ControlName"								"Label"
+		"fieldName"									"KeepPartyOnSameTeamLabel"
+		"xpos"										"23"
+		"ypos"										"85"
+		"zpos"										"3"
+		"wide"										"185"
+		"tall"										"20"
+		"proportionaltoparent"						"1"
+		"labeltext"									"#TF_MM_PartySameTeam"
+		"textAlignment"								"west"
+		"font"										"sh_11"
+		"smallcheckimage"							"1"
+		"wrap"										"1"
+		"AllCaps"									"1"
+
+		"sound_depressed"							"UI/buttonclickrelease.wav"	
+		"button_activation_type"					"1"
+		"fgcolor_override"							"sh_white"
+	}
+
+	"CustomPingCheckButton"
+	{
+		"ControlName"								"CvarToggleCheckButton"
+		"fieldName"									"CustomPingCheckButton"
+		"xpos"										"4"
+		"ypos"										"100"
+		"zpos"										"3"
+		"wide"										"190"
+		"tall"										"20"
+		"proportionaltoparent"						"1"
+		"labeltext"									""
+		"textAlignment"								"west"
+		"font"										"sh_11"
+		"smallcheckimage"							"1"
+		"actionsignallevel"							"1"
+		"AllCaps"									"1"
+
+		"sound_depressed"							"UI/buttonclickrelease.wav"	
+		"button_activation_type"					"1"
+
+		"cvar_name"									"tf_mm_custom_ping_enabled"
+	}
+
+	"CheckLabel"
+	{
+		"ControlName"								"Label"
+		"fieldName"									"CheckLabel"
+		"xpos"										"23"
+		"ypos"										"102"
+		"zpos"										"3"
+		"wide"										"190"
+		"tall"										"20"
+		"proportionaltoparent"						"1"
+		"labeltext"									"#TF_LobbyContainer_CustomPingButton"
+		"textAlignment"								"west"
+		"font"										"sh_11"
+		"smallcheckimage"							"1"
+		"AllCaps"									"1"
+
+		"sound_depressed"							"UI/buttonclickrelease.wav"	
+		"button_activation_type"					"1"
+	}
+
+	"DescLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"DescLabel"
+		"xpos"										"43"
+		"ypos"										"127"
+		"zpos"										"3"
+		"wide"										"p0.81"
+		"tall"										"0"
+		"proportionaltoparent"						"1"
+		"labeltext"									"#TF_LobbyContainer_CustomPingDesc"
+		"textAlignment"								"north-west"
+		"font"										"sh_11"
+		"wrap"										"1"
+		"fgcolor"									"sh_white"
+		"AllCaps"									"1"
+
+		"sound_depressed"							"UI/buttonclickrelease.wav"	
+		"button_activation_type"					"1"
+	}
+
+	"CurrentPingLabel"
+	{
+		"ControlName"								"Label"
+		"fieldName"									"CurrentPingLabel"
+		"xpos"										"0"
+		"ypos"										"124"
+		"zpos"										"0"
+		"wide"										"200"
+		"tall"										"20"
+		"proportionaltoparent"						"1"
+		"labeltext"									""
+		"textAlignment"								"center"
+		"font"										"sh_11"
+		"AllCaps"									"1"
+		
+		"mouseinputenabled"							"0"
+	}
+
+	"PingSlider"
+	{
+		"ControlName"								"CCvarSlider"
+		"fieldName"									"PingSlider"
+		"xpos"										"25"
+		"ypos"										"140"
+		"wide"										"150"
+		"tall"										"24"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"RoundedCorners"							"15"
+		"pin_corner_to_sibling"						"0"
+		"pin_to_sibling_corner"						"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"proportionaltoparent"						"1"
+
+		"cvar_name"									"tf_mm_custom_ping"
+		"use_convar_minmax" 						"1"
+	}
+	
+	"DataCenterBackground"
+	{
+		"ControlName"							"EditablePanel"
+		"fieldname"								"DataCenterBackground"
+		"xpos"									"6"
+		"ypos"									"158"
+		"zpos"									"0"
+		"wide"									"191"
+		"tall"									"135"
+		"visible"								"1"
+		"PaintBackgroundType"					"0"
+		"proportionaltoparent"					"1"
+
+		"paintborder"							"1"
+		"border"								"sh_button_default_border"
+	}
+
+	"DataCenterContainer"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"DataCenterContainer"
+		"xpos"										"rs1-10"
+		"ypos"										"161"
+		"zpos"										"100"
+		"wide"										"184"
+		"tall"										"129"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"proportionaltoparent"						"1"
+
+		"DataCenterList"
+		{
+			"ControlName"							"CScrollableList"
+			"fieldName"								"DataCenterList"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"2"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"proportionaltoparent"					"1"
+			"restrict_width" 						"0"
+
+			"ScrollBar"
+			{
+				"ControlName"						"ScrollBar"
+				"FieldName"							"ScrollBar"
+				"xpos"								"rs1-2"
+				"ypos"								"0"
+				"tall"								"f0"
+				"wide"								"3"
+				"zpos"								"1000"
+				"nobuttons"							"1"
+				"proportionaltoparent"				"1"
+
+				"Slider"
+				{
+					"fgcolor_override"				"sh_white"
+				}
+		
+				"UpButton"
+				{
+					"ControlName"					"Button"
+					"FieldName"						"UpButton"
+					"visible"						"0"
+				}
+		
+				"DownButton"
+				{
+					"ControlName"					"Button"
+					"FieldName"						"DownButton"
+					"visible"						"0"
+				}
+			}
+		}
+
+		"Frame"
+		{
+			"Controlname"							"EditablePanel"
+			"fieldName"								"Frame"
+			"xpos"									"9999"
+		}
+	}
+	
+	"CloseButton"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"CloseButton"
+		"xpos"										"rs1"
+		"labelText"									">"
+
+		if_left
+		{
+			"xpos"									"0"
+			"labelText"								"<"
+		}
+
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"0"
+		"tall"										"f0"
+		"visible"									"1"
+		"proportionaltoparent"						"1"
+		"command"									"nav_close"
+
+		"textAlignment"								"east"
+		"font"										"sh_14"
+
+		"armedBgColor_override"						"Blank"
+		"defaultBgColor_override"					"Blank"
+
+		"armedFgColor_override"						"sh_button_armed"
+	}
+
+	"ReturnButton"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"ReturnButton"
+		"xpos"										"3"
+		"labelText"									"<"
+
+		if_left
+		{
+			"xpos"									"rs1-3"
+			"labelText"								">"
+		}
+
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"0"
+		"tall"										"f0"
+		"visible"									"1"
+		"proportionaltoparent"						"1"
+		"command"									"nav_to"
+		"labelText"									"<"
+
+		"textAlignment"								"west"
+		"font"										"sh_14"
+
+		"armedBgColor_override"						"Blank"
+		"defaultBgColor_override"					"Blank"
+
+		"armedFgColor_override"						"sh_button_armed"
+	}
+	
+	"InnerGradient"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"InnerGradient"
+		"xpos"										"9999"
+		"rotation"									"2"
+
+		if_left
+		{
+			"xpos"									"rs1-3"
+			"rotation"								"1"
+		}
+
+		"ypos"										"0"
+		"wide"										"0"
+		"tall"										"0"
+		"zpos"										"1000"
+		"visible"									"1"
+		"enabled"									"1"
+
+		"proportionaltoparent"						"1"
+		"scaleimage"								"1"
+		"mouseinputenabled"							"0"
+
+		"image"										"gradient_pure_black"
+	}
+
+	"OuterGradient"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"OuterGradient"
+		"xpos"										"rs1"
+		"rotation"									"1"
+
+		if_left
+		{
+			"xpos"									"0"
+			"rotation"								"2"
+		}
+
+		"ypos"										"0"
+		"wide"										"0"
+		"tall"										"f0"
+		"zpos"										"1000"
+		"visible"									"1"
+		"enabled"									"1"
+
+
+		"proportionaltoparent"						"1"
+		"scaleimage"								"1"
+		"mouseinputenabled"							"0"
+		"alpha"										"255"
+
+		"image"										"gradient_pure_black"
+	}
 }

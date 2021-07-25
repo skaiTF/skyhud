@@ -41,79 +41,90 @@
         }
     }
     "RankBorder"
-    {
-        "ControlName"             "EditablePanel"
-        "fieldName"               "RankBorder"
-        "xpos"                    "cs-0.5"
-        "ypos"                    "r0"
-        "zpos"                    "9000"
-        "wide"                    "510"
-        "tall"                    "43"
-        "visible"                 "0"
-        "PaintBackgroundType"     "2"
-        "border"                  "sh_translucent_black_border"
-        "BgColor_override"        "0 0 0 150"
-        "proportionaltoparent"    "1"
-        "if_uses_xp"
-        {
-            "visible"    "1"
-        }
-    }
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"RankBorder"
+		"xpos"										"cs-0.5"
+		"ypos"										"r0"
+		"zpos"										"9000"
+		"wide"										"510"
+		"tall"										"43"
+		"visible"									"0"
+		"PaintBackgroundType"						"0"
+		"border"									"sh_button_default_border"
+		"proportionaltoparent"						"1"
+
+		if_uses_xp
+		{
+			"visible"								"1"
+		}
+	}
+	
     "RankPanel"
-    {
-        "ControlName"                 "CMiniPvPRankPanel"
-        "fieldName"                   "RankPanel"
-        "xpos"                        "cs-0.5"
-        "ypos"                        "r0"
-        "zpos"                        "9001"
-        "wide"                        "f0"
-        "tall"                        "480"
-        "visible"                     "1"
-        "proportionaltoparent"        "1"
-        "mouseinputenabled"           "1"
-        "matchgroup"                  "MatchGroup_Ladder_6v6"
-        "show_name"                   "0"
-        "show_sources_when_hidden"    "1"
-        "instantly_update"            "0"
-        "if_uses_placement"
-        {
-            "show_model"    "0"
-        }
-    }
-    "RankModelPanel"
-    {
-        "ControlName"             "CPvPRankPanel"
-        "fieldName"               "RankModelPanel"
-        "xpos"                    "cs-0.5"
-        "ypos"                    "r1"
-        "zpos"                    "9002"
-        "wide"                    "2000"
-        "tall"                    "2000"
-        "visible"                 "1"
-        "proportionaltoparent"    "1"
-        "mouseinputenabled"       "1"
-        "matchgroup"              "MatchGroup_Casual_12v12"
-        "show_progress"           "0"
-        "instantly_update"        "0"
-        "if_uses_xp"
-        {
-            "visible"    "0"
-        }
-    }
+	{
+		"ControlName"								"CMiniPvPRankPanel"
+		"fieldName"									"RankPanel"
+		"xpos"										"cs-0.5"
+		"ypos"										"r0"
+		"zpos"										"9001"
+		"wide"										"f0"
+		"tall"										"480"
+		"visible"									"1"
+		"proportionaltoparent"						"1"
+		"mouseinputenabled"							"1"
+
+		"matchgroup"								"MatchGroup_Ladder_6v6"
+		"show_name"									"0"
+		"show_sources_when_hidden"					"1"
+		"instantly_update"							"0"
+
+		if_uses_placement
+		{
+			"show_model"							"0"
+		}
+
+	}
+
+	"RankModelPanel"
+	{
+		"ControlName"								"CPvPRankPanel"
+		"fieldName"									"RankModelPanel"
+		"xpos"										"cs-0.5"
+		"ypos"										"r1"
+
+		"zpos"										"9002"
+		"wide"										"2000"
+		"tall"										"2000"
+		"visible"									"1"
+		"proportionaltoparent"						"1"
+		"mouseinputenabled"							"1"
+
+		"matchgroup"								"MatchGroup_Casual_12v12"
+
+		"show_progress"								"0"
+		"instantly_update"							"0"
+
+		if_uses_xp
+		{
+			"visible"								"0"
+		}
+	}
+	
     "StatsBgPanel"
-    {
-        "ControlName"            "EditablePanel"
-        "fieldName"              "StatsBgPanel"
-        "xpos"                   "0"
-        "ypos"                   "0"
-        "zpos"                   "0"
-        "wide"                   "f0"
-        "tall"                   "f0"
-        "visible"                "0"
-        "enabled"                "1"
-        "PaintBackgroundType"    "1"
-        "bgcolor_override"       "0 0 0 250"
-    }
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"StatsBgPanel"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"0"
+		"enabled"									"1"
+		"PaintBackgroundType"						"1"
+		"bgcolor_override" 							"0 0 0 250"
+	}
+	
     "DrawingPanel"
     {
         "ControlName"             "CDrawingPanel"

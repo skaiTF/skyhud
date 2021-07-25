@@ -16,6 +16,21 @@
 		"textAlignment"								"west"
 		"fgcolor_override"							"sh_white"
 	}
+	
+	"Shade"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"Shade"
+		"xpos"										"5"
+		"ypos"										"18"
+		"zpos"										"-1"
+		"wide"										"250"
+		"tall"										"27"
+		"visible"									"1"
+		"enabled"									"1"
+		"border"									"MaterialTransparent30"
+	}
+	
 	"TargetNameLabelShadow"
 	{
 		"ControlName"								"Label"
@@ -41,7 +56,7 @@
 		"fieldName"									"TargetDataLabel"
 		"font"										"sh_10"
 		"xpos"										"40"
-		"ypos"										"32"
+		"ypos"										"34"
 		"zpos"										"1"
 		"wide"										"640"
 		"tall"										"25"
@@ -56,9 +71,9 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"SpectatorGUIHealth"
 		"xpos"										"10"
-		"xpos_minmode"								"16"
+		"xpos_minbad"								"16"
 		"ypos"										"20"
-		"ypos_minmode"								"22"
+		"ypos_minbad"								"22"
 		"wide"										"44"
 		"tall"										"36"
 		"visible"									"0"
@@ -93,7 +108,7 @@
 		"tall"										"11"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/game/streak"
+		"image"										"replay/thumbnails/streak"
 		"scaleImage"								"1"
 		
 		"pin_to_sibling" 							"KillAnchor"
