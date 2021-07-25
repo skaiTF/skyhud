@@ -5,7 +5,7 @@ Installation: Download the HUD .zip file and extract the main file (called "skyh
 
 If you detect any bugs, issues or if you have any suggestions, please feel free to add an issue to the github page: https://github.com/Fundevilam/skyhud/issues
 
-Screenshots album: https://imgur.com/a/w9CDaXV
+Screenshots album: https://imgur.com/a/nX2t80F
 
 Customization: This HUD has some customization possibility, all customizations are in the "customization" folder and are fully documented. 
 If you intend to use the customizations, please read All "README.TXT" files! 
