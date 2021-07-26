@@ -5,7 +5,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"StopWatchAnchor"
 		"xpos"										"cs-0.5-10"
-		"ypos"										"0"
+		"ypos"										"30"
 		"zpos"										"0"
 		"wide"										"1"
 		"tall"										"1"

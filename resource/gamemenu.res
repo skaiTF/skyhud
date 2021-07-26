@@ -72,41 +72,6 @@
 		"command"									"engine hud_reloadscheme"
 		"tooltip"									"Reload HUD"
 	}
-	"InviliblePlayersFix"
-	{
-		"label" 									"P"
-		"command" 									"engine stop; record fix"
-		"tooltip" 									"Fix Invisible Players"
-		"OnlyInGame"								"1"
-	}
-	"SoundFix"
-	{
-		"label" 									"{"
-		"command" 									"engine snd_restart"
-		"tooltip" 									"Reload Sound"
-		"OnlyInGame"								"1"
-	}
-	"NetgraphToggle"
-	{
-		"label" 									"4"
-		"command" 									"engine toggle net_graph 1 0"
-		"tooltip" 									"Netgraph ON/OFF"
-		"OnlyInGame"								"1"
-	}
-	"ChatToggle"
-	{
-		"label" 									"Z"
-		"command" 									"engine toggle hud_saytext_time 6 0"
-		"tooltip" 									"Chat ON/OFF"
-		"OnlyInGame"								"1"
-	}
-	"MatchStatusToggle"
-	{
-		"label" 									"M"
-		"command" 									"engine toggle tf_use_match_hud"
-		"tooltip" 									"MatchStatus ON/OFF"
-		"OnlyInGame"								"1"
-	}
 	"Streams"
 	{
 		"label" 									"0"
@@ -118,6 +83,13 @@
 		"label" 									"n"
 		"command" 									"engine" 				//"engine connect *server ip*"
 		"tooltip" 									"Favorite Server"
+	}
+	"sh_tools_button"
+	{
+		"label"										"{"
+		"command"									"motd_show"
+		"tooltip"									"Tool Panel"
+		"OnlyInGame"								"1"
 	}
 
 	// These buttons are only shown while in-game

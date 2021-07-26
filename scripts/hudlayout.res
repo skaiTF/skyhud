@@ -894,10 +894,10 @@
 
 	HudTournamentSetup
 	{
-		"xpos"										"0"
-		"ypos"										"0"
-		"wide"										"f0"
-		"tall"										"480"
+		"xpos"										"cs-0.5"
+		"ypos"										"23"
+		"wide"										"91"
+		"tall"										"15"
 	}
 
 	HudStopWatch
@@ -1122,18 +1122,16 @@
         "priority"     "40"
     }
     "HudMenuTauntSelection"
-    {
-        "fieldName"              "HudMenuTauntSelection"
-        "visible"                "1"
-        "enabled"                "1"
-        "xpos"                   "c-235"
-        "ypos"                   "c-52"
-        "ypos_hidef"             "c-42"
-        "ypos_lodef"             "c-42"
-        "wide"                   "470"
-        "tall"                   "200"
-        "PaintBackgroundType"    "0"
-    }
+	{
+		"fieldName" 	"HudMenuTauntSelection"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-146"
+		"ypos"			"c140"
+		"wide"			"f0"
+		"tall"			"400"
+		"PaintBackgroundType"	"0"
+	}
     "ItemAttributeTracker"
     {
         "fieldName"              "ItemAttributeTracker"

@@ -10,7 +10,7 @@
         "tall"                   "100"
         "visible"                "0"
         "PaintBackgroundType"    "2"
-        "border"                 "sh_main_menu_bg_border"
+        "border"                 "MaterialTransparent50"
         "mouseinputenabled"      "0"
         "TipLabel"
         {
@@ -18,15 +18,15 @@
             "fieldName"               "TipLabel"
             "if_small"
             {
-                "font"    "sh_9"
+                "font"    "sh_12"
             }
             "if_medium"
             {
-                "font"    "sh_14"
+                "font"    "sh_18"
             }
             "if_large"
             {
-                "font"    "sh_14"
+                "font"    "sh_24"
             }
             "labelText"               "%tiptext%"
             "textAlignment"           "center"
@@ -39,7 +39,7 @@
             "pinCorner"               "0"
             "visible"                 "1"
             "enabled"                 "1"
-            "fgcolor_override"        "235 226 202 255"
+            "fgcolor_override"        "255 255 255 255"
             "auto_wide_tocontents"    "1"
             "auto_tall_tocontents"    "1"
             "wrap"                    "1"

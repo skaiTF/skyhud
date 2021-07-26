@@ -106,7 +106,7 @@
 		"zpos"										"12"
 		"wide"										"11"
 		"tall"										"11"
-		"visible"									"0"
+		"visible"									"1"
 		"enabled"									"1"
 		"image"										"replay/thumbnails/streak"
 		"scaleImage"								"1"
