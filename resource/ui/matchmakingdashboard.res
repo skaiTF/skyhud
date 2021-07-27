@@ -226,7 +226,7 @@
                 "tall"                    "30"
                 "visible"                 "1"
                 "proportionaltoparent"    "1"
-                "border"                  "sh_button_default_border"
+                "border"                  "MaterialTransparent70"
             }
             "CTFLogoPanel"
             {
@@ -376,7 +376,7 @@
                 "tall"                    "30"
                 "visible"                 "1"
                 "proportionaltoparent"    "1"
-                "border"                  "sh_button_default_border"
+                "border"                  "MaterialTransparent70"
             }
             "PromptText"
             {

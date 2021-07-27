@@ -74,7 +74,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"paintbackground"							"0"
-		"border"									"sh_button_default_border"
+		"border"									"MaterialTransparent90"
 		
 		"InnerBGPanel"
 		{
@@ -87,7 +87,7 @@
 			"tall"									"230"
 			"visible"								"1"
 			"PaintBackground"						"0"
-			"border"								"sh_button_default_border"
+			"border"								"MaterialTransparent70"
 		}
 	
 		"PlayerUpgradeButton"
@@ -528,8 +528,8 @@
 			"tall"									"25"
 			"autoResize"							"0"
 			"pinCorner"								"0"
-			"visible"								"0"
-			"enabled"								"0"
+			"visible"								"1"
+			"enabled"								"1"
 			"fgcolor"								"sh_white"
 			
 			"pin_to_sibling"						"CreditsBG"

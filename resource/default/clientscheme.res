@@ -3987,9 +3987,9 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"Normal"
+			"color"					"sh_black_transparent"
 			
-			"image"					"backpack_rect"
+			"image"					"replay/thumbnails/panels/sh_generic_material"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"

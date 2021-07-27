@@ -27,14 +27,14 @@
 			"scaleImage"							"1"	
 			
 			"defaultFgColor_override"				"sh_white"
-			"defaultBgColor_override"				"sh_dark_grey"
+			"defaultBgColor_override"				"sh_blank"
 			"armedFgColor_override"					"sh_button_armed"
-			"armedBgColor_override"					"sh_dark_grey"
+			"armedBgColor_override"					"sh_blank"
 			"depressedFgColor_override"				"sh_button_armed"
-			"depressedBgColor_override"				"sh_dark_grey"
+			"depressedBgColor_override"				"sh_blank"
 			"selectedFgColor_override"				"sh_button_armed"
-			"selectedBgColor_override"				"sh_dark_grey"
-			"disabledfgcolor2_override"				"sh_dark_grey"
+			"selectedBgColor_override"				"sh_blank"
+			"disabledfgcolor2_override"				"sh_black"
 		}
 	}
 	
@@ -52,7 +52,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"sh_dark_grey"
+		"bgcolor_override"							"sh_black"
 	}
 	
 	"IconBorder"
@@ -69,7 +69,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"PaintBackgroundType" 						"0"
-		"bgcolor_override"							"sh_white"
+		"bgcolor_override"							"sh_button_armed"
 	}
 	
 	"Icon"
@@ -173,14 +173,14 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"defaultFgColor_override"					"sh_white"
-		"defaultBgColor_override"					"sh_dark_grey"
+		"defaultBgColor_override"					"sh_blank"
 		"armedFgColor_override"						"sh_button_armed"
-		"armedBgColor_override"						"sh_dark_grey"
+		"armedBgColor_override"						"sh_blank"
 		"depressedFgColor_override"					"sh_white"
-		"depressedBgColor_override"					"sh_dark_grey"
+		"depressedBgColor_override"					"sh_blank"
 		"selectedFgColor_override"					"sh_button_armed"
-		"selectedBgColor_override"					"sh_dark_grey"
-		"disabledfgcolor2_override"					"sh_dark_grey"
+		"selectedBgColor_override"					"sh_blank"
+		"disabledfgcolor2_override"					"sh_black"
 	}
 	
 	"DecrementButton"
@@ -207,13 +207,13 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"defaultFgColor_override"					"sh_white"
-		"defaultBgColor_override"					"sh_dark_grey"
+		"defaultBgColor_override"					"sh_blank"
 		"armedFgColor_override"						"sh_button_armed"
-		"armedBgColor_override"						"sh_dark_grey"
+		"armedBgColor_override"						"sh_blank"
 		"depressedFgColor_override"					"sh_white"
-		"depressedBgColor_override"					"sh_dark_grey"
+		"depressedBgColor_override"					"sh_blank"
 		"selectedFgColor_override"					"sh_button_armed"
-		"selectedBgColor_override"					"sh_dark_grey"
-		"disabledfgcolor2_override"					"sh_dark_grey"
+		"selectedBgColor_override"					"sh_blank"
+		"disabledfgcolor2_override"					"sh_black"
 	}
 }

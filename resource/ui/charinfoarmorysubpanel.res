@@ -88,7 +88,7 @@
 		"visible"						"1"
 		"enabled"						"1"
 		"paintbackground"				"0"
-		"border"						"MateriallTransparent30"
+		"border"						"MaterialTransparent30"
 	}
 	
 	"ArmoryLabel"
@@ -159,7 +159,7 @@
 		"tall"							"20"
 		"visible"						"1"
 		"enabled"						"1"
-		"border"						"MateriallTransparent70"
+		"border"						"MaterialTransparent70"
 		
 		"pin_to_sibling" 				"FilterComboBox"
 	}
@@ -340,7 +340,7 @@
 		"visible"						"1"
 		"enabled"						"1"
 		"paintbackground"				"0"
-		"border"						"MateriallTransparent70"
+		"border"						"MaterialTransparent70"
 		
 		"pin_to_sibling" 				"ItemsBG"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"

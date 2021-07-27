@@ -2,134 +2,148 @@
 
 Scheme
 {
-    //////////////////////// COLORS ///////////////////////////
-	// color details
-	// this is a list of all the colors used by the scheme
-	Colors
-	{
-	    "TFTextLight"               					"255 255 255 255"	// normal text color
-	    "TFTextMedium"              					"077 191 161 255"	// hover text color
-	    "TFTextBlack"               					"077 191 161 255"	// selected text color
-	    "TFTextDull"                					"178 178 178 255"	// disabled text
+    Colors
+	{	
+		"FrameActive"										"0 0 0 180"
+		"FrameInactive"										"0 0 0 120"
+		"ListBG"											"0 0 0 100"
 		
-	    "TFTextMediumDark"          					"030 030 030 255"		// normal bg color
-	    "TFTextBright"              					"077 191 161 255"		// hover bg color
-	    "TFTanLightBright"          					"077 191 161 255"	// selected bg color
-	    "TFMediumBrown"									"46 43 42 155"		// disabled bg color
+		"ServerSelected"									"077 191 161 255"
 		
-	    "Blank"											"0 0 0 0"
-	    "TFTanBright"               					"255 255 255 250"	// check color
-	    "TFTanMedium"               					"131 121 104 150"	// scroll
+		"TextList"											"255 255 255 255"
+		"TextEnty"											"255 255 255 255"
+		"TextSelected"										"077 191 161 255"
+		"TextConsoleEntry"									"077 191 161 255"
 		
-		//unused		
-		"WindowBG"										"62 70 55 255"
-		"ControlDarkBG"									"90 106 80 255"
-		"ControlBG"										"76 88 68 255"
-		"ListBG"										"39 36 34 255"		
-	    "TFDarkBrown"               					"60 56 53 255"		
-	    "TFDarkBrownTransparent"    					"60 56 53 190"		
-		"SelectionBG"									"90 84 75 255"		
-		"SelectionBG2"									"69 64 57 255"			
-	    "QuickListBGSelected"       					"131 121 104 150"	
-	    "QuickListBGDeselected"							"69 64 58 255"		
-	    "TFOrangeBright"            					"156 82 33 255"		
-	    "TFTanLightDark"            					"96 90 78 90"		
-	    "TFTanLight"                					"201 188 162 150"			
+		"Title"												"255 255 255 255"
+		"CloseButton"										"255 255 255 255"
+		
+		"Button"											"014 014 014 255"
+		"ButtonArmed"										"077 191 161 255"
+		"ButtonText"										"255 255 255 255"
+		"ButtonTextArmed"									"255 255 255 255"
+		
+		"CheckButtonText"									"255 255 255 255"
+		"CheckButtonTextArmed"								"077 191 161 255"
+		"CheckButtonFG"										"077 191 161 255"
+		"CheckButtonBG"										"000 000 000 100"
+		
+		"TextComboBoxes"									"255 255 255 255"
+		
+		"ScrollBarFG"										"255 255 255 210"
+		"ScrollBarBG"										"000 000 000 180"
+		
+		"OptionsMenuBG"										"000 000 000 100"
+		"OptionsMenuArmed"									"077 191 161 255"
+		"OptionsMenuText"									"255 255 255 255"
+		
+		"QuickListBGDeselected"								"077 191 161 255"
+	    "QuickListBGSelected"              					"255 200 55 255"
+		
+		"sh_blank"											"000 000 000 000"
+		"sh_black"											"014 014 014 255"
+		"sh_white"											"255 255 255 255"
+		"sh_team_blu"										"056 099 130 255"
+		"sh_team_red"										"130 056 056 255"
+		"sh_button_armed"									"077 191 161 255"
+		"sh_orange"											"237 149 055 255"
+		"sh_dark_grey"										"030 030 030 255"
+		"sh_light_green"									"117 189 124 255"
+		"sh_light_grey"										"150 150 150 255"
 	}
+	
 	BaseSettings
 	{
-		Border.Bright									"120 120 120 155"	// right/down border
-		Border.Dark										"120 120 120 155"	// left/up border
-		Border.Selection								"BorderSelection"	// the additional border color for displaying the default/selected button
+		// scheme-specific colors
+		Border.Bright										"sh_blank"
+		Border.Dark											"sh_blank"
+		Border.Selection									"sh_blank"
 
-		// buttons
-		Button.TextColor								"TFTextLight"		// normal text color
-		Button.BgColor									"TFTextMediumDark"	// normal bg color
-		Button.ArmedTextColor							"TFTextMedium"		// hover text color
-		Button.ArmedBgColor								"TFTextBright"		// hover bg color
-		Button.DepressedTextColor						"TFTextBlack"		// clicked text color
-		Button.DepressedBgColor							"TFTanLightBright"	// clicked bg color
-		Button.FocusBorderColor							"TransparentBlack"	// idk
+		Button.TextColor									"ButtonText"
+		Button.BgColor										"Button"
+		Button.ArmedTextColor								"ButtonTextArmed"
+		Button.ArmedBgColor									"ButtonArmed"
+		Button.DepressedTextColor							"ButtonTextArmed"
+		Button.DepressedBgColor								"ButtonArmed"	
+		Button.FocusBorderColor								"sh_blank"
+		
+		CheckButton.TextColor								"CheckButtonText"
+		CheckButton.SelectedTextColor						"CheckButtonTextArmed"
+		CheckButton.BgColor									"CheckButtonBG"
+		CheckButton.HighlightFgColor						"CheckButtonTextArmed"
+		CheckButton.ArmedBgColor							"sh_blank"
+		CheckButton.DepressedBgColor						"sh_blank"
+		CheckButton.Border1  								"sh_blank"
+		CheckButton.Border2  								"sh_blank"
+		CheckButton.Check									"CheckButtonFG"
+		CheckButton.DisabledBgColor	   						"CheckButtonBG"
 
-		// Checkboxes
-		CheckButton.TextColor							"TFTextLight"		// normal text color
-		CheckButton.SelectedTextColor					"TFTextMedium"		// clicked text color
-		CheckButton.BgColor								"TFTextMediumDark"	// normal bg color
-		CheckButton.HighlightFgColor					"TFTextMedium"		// selected text color
-		CheckButton.ArmedBgColor						"Blank"				// this isn't really used
-		CheckButton.DepressedBgColor					"Blank"				// this isn't really used
-		CheckButton.Border1  							"Border.Dark" 		// the left checkbutton border
-		CheckButton.Border2  							"Border.Bright"		// the right checkbutton border
-		CheckButton.Check								"TFTanBright"		// color of the check itself
-		CheckButton.DisabledBgColor	    				"TFMediumBrown"		// deselected bg color
+		ToggleButton.SelectedTextColor						"sh_light_grey"
+		
+		ComboBoxButton.ArrowColor							"ComboBoxFG"
+		ComboBoxButton.ArmedArrowColor						"ComboBoxFG"
+		ComboBoxButton.BgColor								"sh_blank"
+		ComboBoxButton.DisabledBgColor						"sh_blank"
+		
+		RadioButton.TextColor								"Text"
+		RadioButton.SelectedTextColor						"Text"
+		RadioButton.ArmedTextColor							"Text"
+		
+		Frame.BgColor										"FrameActive"
+		Frame.OutOfFocusBgColor								"FrameInactive"
+		FrameGrip.Color1									"sh_light_grey"
+		FrameGrip.Color2									"FrameActive"
+		FrameTitleButton.FgColor							"CloseButton"
+		FrameTitleBar.Font									"DefaultLarge"
+		FrameTitleBar.TextColor								"Title"
+		FrameTitleBar.DisabledTextColor						"Title"
+		
+		Label.TextDullColor									"TextComboBoxes"
+		Label.TextColor										"TextComboBoxes"
+		Label.TextBrightColor								"TextComboBoxes"
+		Label.SelectedTextColor								"TextComboBoxes"
+		Label.BgColor										"sh_blank"
+		Label.DisabledFgColor1								"TextComboBoxes"	
+		Label.DisabledFgColor2								"sh_blank"	
+		
+		ListPanel.TextColor									"Text"
+		ListPanel.BgColor									"ListBG"
+		ListPanel.SelectedBgColor							"ServerSelected"
+		ListPanel.SelectedOutOfFocusBgColor					"ServerSelected"
+		
+		MainMenu.TextColor									"sh_white"
+		MainMenu.ArmedTextColor								"sh_white"
+		MainMenu.Inset										"32"
+		
+		Menu.TextInset										"6"
+		Menu.FgColor										"OptionsMenuText"
+		Menu.BgColor										"OptionsMenuBG"
+		Menu.ArmedFgColor									"OptionsMenuText"
+		Menu.ArmedBgColor									"OptionsMenuArmed"
+		Menu.DividerColor									"sh_blank"
+		
+		ScrollBarButton.FgColor								"ScrollBarFG"
+		ScrollBarButton.BgColor								"ScrollBarBG"
+		ScrollBarButton.ArmedFgColor						"ScrollBarFG"
+		ScrollBarButton.ArmedBgColor						"ScrollBarBG"
+		ScrollBarButton.DepressedFgColor					"ScrollBarFG"
+		ScrollBarButton.DepressedBgColor					"ScrollBarBG"
 
-		ToggleButton.SelectedTextColor					"TFTextLight"		// normal text color
-
-		ComboBoxButton.ArrowColor						"TFTextLight"		// normal text color
-		ComboBoxButton.ArmedArrowColor					"TFTextMedium"		// hover text color
-		ComboBoxButton.BgColor							"Blank"				// this isn't really used
-		ComboBoxButton.DisabledBgColor					"Blank"				// this isn't really used
-
-		RadioButton.TextColor							"TFTextLight"		// normal text color
-		RadioButton.SelectedTextColor					"TFTextBlack"		// selected text color
-		RadioButton.ArmedTextColor						"TFTextMedium"		// hover text color
-
-		Frame.BgColor									"TFTextMediumDark"	// normal bg color window
-		Frame.OutOfFocusBgColor							"TFMediumBrown"		// no focus bg color window
-		FrameGrip.Color1								"TFTanMedium"		// scroll
-		FrameGrip.Color2								"TFTextBlack"		// idk
-		FrameTitleButton.FgColor						"TFTextLight"		// normal text color
-		FrameTitleBar.Font								"DefaultLarge"		// normal font
-		FrameTitleBar.TextColor							"TFTextMedium"		// hover text color
-		FrameTitleBar.DisabledTextColor					"TFTextDull"		// disabled text color
-
-		// labels
-		Label.TextDullColor								"TFTextDull"		// disabled text color
-		Label.TextColor									"TFTextLight"		// normal text color
-		Label.TextBrightColor							"TFTextLight"		// normal text color
-		Label.SelectedTextColor							"TFTextBlack"		// selected text color
-		Label.BgColor									"Blank"				// this isn't really used
-		Label.DisabledFgColor1							"TFTextLight"		// normal text color
-		Label.DisabledFgColor2							"Blank"				// this isn't really used
-
-		// lists		
-		ListPanel.TextColor								"TFTextLight"		// normal text color
-		ListPanel.BgColor								"TFTextMediumDark"	// normal bg color
-		ListPanel.SelectedBgColor						"TFTanLightBright"	// selected bg color
-		ListPanel.SelectedOutOfFocusBgColor				"TFMediumBrown"		// no focus bg color
-
-		MainMenu.TextColor								"TFTextLight"		// normal text color
-		MainMenu.ArmedTextColor							"TFTextMedium"		// hover text color
-		MainMenu.Inset									"32"				// idk
-
-		Menu.TextInset									"6"					// idk
-		Menu.FgColor									"TFTextLight"		// normal color
-		Menu.BgColor									"TFTextMediumDark"	// normal bg color
-		Menu.ArmedFgColor								"TFTextMedium"		// hover text color
-		Menu.ArmedBgColor								"TFTextBright"		// hover bg color
-		Menu.DividerColor								"BorderDark"
-
-		// scroll
-		ScrollBarButton.FgColor							"TFTextBlack"		// normal color
-		ScrollBarButton.BgColor							"TFTextMediumDark"	// normal bg color
-		ScrollBarButton.ArmedFgColor					"TFTextBlack"		// hover color
-		ScrollBarButton.ArmedBgColor					"TFTextBright"		// hover bg color
-		ScrollBarButton.DepressedFgColor				"TFTextBlack"		// clicked color
-		ScrollBarButton.DepressedBgColor				"TFTanLightBright"	// clicked bg color
-
-		ScrollBarSlider.BgColor							"TFTanMedium"		// scroll
-		ScrollBarSlider.FgColor							"TFTextLight"		// handle with which the slider is grabbed
-
-		Slider.NobColor									"TFTextMediumDark"	// normal bg color
-		Slider.TextColor								"TFTextLight"		// normal text color
-		Slider.TrackColor								"TFTextMediumDark"	// normal bg color
-		Slider.DisabledTextColor1						"TFTextDull"  		// disabled text color
-        Slider.DisabledTextColor2						"Blank"				// this isn't really used
-
-		// text
-		TextEntry.TextColor			        			"TFTextLight"		// normal text color
-		TextEntry.DisabledTextColor	        			"TFTextDull"		// disabled text color
-		TextEntry.SelectedBgColor	        			"TFTanLightBright"	// selected bg color
+		ScrollBarSlider.BgColor								"ScrollBarBG"
+		ScrollBarSlider.FgColor								"ScrollBarFG"
+		
+		Slider.NobColor										"TFTanLight"		
+		Slider.TextColor									"TFTextBright"
+		Slider.TrackColor									"ListBG"
+		Slider.DisabledTextColor1							"TFTextMediumDark"
+        Slider.DisabledTextColor2							"sh_blank"
+		
+		TextEntry.TextColor			        				"TextEnty"
+		TextEntry.DisabledTextColor	        				"TextEnty"
+		TextEntry.SelectedBgColor	        				"TextSelected"
+		
+		Console.TextColor									"TextConsoleEntry"
+		Console.DevTextColor								"TextList"
 	}
 	
 	Fonts
@@ -263,6 +277,76 @@ Scheme
 			}
 		}
 
+	}
+	
+	Borders
+	{
+		BaseBorder											SubtleBorder
+		ButtonBorder										RaisedBorder
+		ComboBoxBorder										DepressedBorder
+		MenuBorder											SubtleBorder
+		BrowserBorder										DepressedBorder
+		PropertySheetBorder									RaisedBorder
+
+		FrameBorder
+		{
+			Left
+			{
+				"1"
+				{
+					"color" 								"sh_blank"
+					"offset" 								"0 0"
+				}
+				"2"
+				{
+					"color" 								"sh_blank"
+					"offset" 								"0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" 								"sh_blank"
+					"offset" 								"0 0"
+				}
+				"2"
+				{
+					"color" 								"sh_blank"
+					"offset" 								"0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 								"sh_blank"
+					"offset" 								"0 0"
+				}
+				"2"
+				{
+					"color" 								"sh_blank"
+					"offset" 								"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 								"sh_blank"
+					"offset" 								"0 0"
+				}
+				"2"
+				{
+					"color"									"sh_blank"
+					"offset" 								"0 0"
+				}
+			}
+		}
+		
 	}
 	
 	CustomFontFiles

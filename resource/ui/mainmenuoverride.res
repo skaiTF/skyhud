@@ -2010,7 +2010,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"sh_8"
-		"labelText"		"v2021.0725"
+		"labelText"		"v2021.0727"
 		"textAlignment"	"east"
 		"xpos"			"r52"
 		"ypos"			"r13"

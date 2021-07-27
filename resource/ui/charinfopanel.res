@@ -153,6 +153,43 @@
         "armedFgColor_override"        "sh_white"
         "depressedFgColor_override"    "sh_white"
     }
+	
+	"CloseButton"
+	{
+		"ControlName"						"CExButton"
+		"fieldName"							"CloseButton"
+		"xpos"								"r75"
+		"ypos"								"r21"
+		"zpos"								"2"
+		"wide"								"70"
+		"tall"								"22"
+		"autoResize"						"0"
+		"pinCorner"							"3"
+		"visible"							"1"
+		"enabled"							"1"
+		"tabPosition"						"0"
+		"labelText"							"Close (&E)"
+		"font"								"sh_14"
+		"textAlignment"						"center"
+		"AllCaps"							"1"
+		"dulltext"							"0"
+		"brighttext"						"0"
+		"default"							"0"
+		"Command"							"close"
+		
+		"sound_depressed"					"UI/buttonclick.wav"
+		"sound_released"					"UI/buttonclickrelease.wav"
+		
+		"paintbackground" 					"0"
+		
+		"border_default"					"sh_button_default_border"
+		"border_armed"						"sh_button_armed_border"
+		
+		"defaultFgColor_override"      		"sh_white"
+        "armedFgColor_override"        		"sh_white"
+        "depressedFgColor_override"    		"sh_white"
+	}
+	
     "NotificationsPresentPanel"
     {
         "ControlName"    "CNotificationsPresentPanel"
