@@ -23,7 +23,7 @@ If you happen to need extra help, you can contact me on discord @ skai#7608 or y
 - **Main Menu Background** : Daniel Leone (obtained from unsplash.com)
 - **Closed Captions** : clovervidia
 
-##Special Thanks##
+## Special Thanks
 - Wingo
 - The whole HUDS.tf discord
 - **References & Guides** : Doodle, Jarateking, Rays, Flame
