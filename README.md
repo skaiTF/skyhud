@@ -23,7 +23,7 @@ If you happen to need extra help, you can contact me on discord @ skai#7608 or y
 - **Material Design VTFS** : extracrispy & Rawsor
 - **Main Menu Background** : Daniel Leone (obtained from unsplash.com)
 - **Closed Captions** : clovervidia
-. **Font** : Nunito by Vernon Adams (http://sansoxygen.com)
+- **Font** : Nunito by Vernon Adams (http://sansoxygen.com)
 
 ## Special Thanks
 - Wingo
