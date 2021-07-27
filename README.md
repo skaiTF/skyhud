@@ -12,7 +12,7 @@ Screenshots album: https://imgur.com/a/nX2t80F
 All customizations are in the "customization" folder and are fully documente. If you intend to use any customizations, please read **ALL** "README.txt" files!
 
 ## Contribution
-If you detect any bugs, issues or if you have any suggestions, please feel free to add an issue to the github page: https://github.com/Fundevilam/skyhud/issues
+If you detect any bugs, issues or if you have any suggestions, please feel free to add an issue to the github page: https://github.com/Fundevilam/skyhud/issues .
 If you happen to need extra help, you can contact me on discord @ skai#7608 or you can ask for help in the [HUDS.tf public discord](http://discord.huds.tf/)
 
 ## Credits
@@ -23,6 +23,7 @@ If you happen to need extra help, you can contact me on discord @ skai#7608 or y
 - **Material Design VTFS** : extracrispy & Rawsor
 - **Main Menu Background** : Daniel Leone (obtained from unsplash.com)
 - **Closed Captions** : clovervidia
+. **Font** : Nunito by Vernon Adams (http://sansoxygen.com)
 
 ## Special Thanks
 - Wingo
