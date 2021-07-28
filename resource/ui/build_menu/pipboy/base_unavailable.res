@@ -1,1 +1,1 @@
-#base "../base_unavailable.res"
+"#base"    "../base_unavailable.res"

@@ -1,1 +1,1 @@
-#base "../tele_exit_active.res"
+"#base"    "../tele_exit_active.res"

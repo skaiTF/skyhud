@@ -1,1 +1,1 @@
-#base "../base_unavailable_teleport_target.res"
+"#base"    "../base_unavailable_teleport_target.res"

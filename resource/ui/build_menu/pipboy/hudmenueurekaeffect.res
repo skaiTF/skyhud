@@ -1,1 +1,1 @@
-#base "../hudmenueurekaeffect.res"
+"#base"    "../hudmenueurekaeffect.res"

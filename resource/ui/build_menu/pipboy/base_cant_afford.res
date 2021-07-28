@@ -1,1 +1,1 @@
-#base "../base_cant_afford.res"
+"#base"    "../base_cant_afford.res"

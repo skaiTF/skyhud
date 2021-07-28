@@ -1,1 +1,1 @@
-#base "base_inactive.res"
+"#base"    "base_inactive.res"

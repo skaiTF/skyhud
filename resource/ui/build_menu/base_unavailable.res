@@ -1,27 +1,26 @@
-#base "base_active.res"
-
+"#base"    "base_active.res"
 "Resource/UI/build_menu/base_unavailable.res"
 {
-	"Background"
-	{
-		"border"									"MaterialTransparent50"
-	}
-	"CantBuildReason"
-	{	
-		"font"										"Symbols 24"
-		"visible"									"1"
-		"labelText"									"-"
-	}
-	"CostLabel"
-	{	
-		"visible"									"0"
-	}
-	"NumberLabelBG"
-	{	
-		"visible"									"0"
-	}
-	"NumberLabel"
-	{	
-		"visible"									"0"
-	}
+    "Background"
+    {
+        "border"    "MaterialTransparent50"
+    }
+    "CantBuildReason"
+    {
+        "font"         "Symbols 24"
+        "visible"      "1"
+        "labelText"    "-"
+    }
+    "CostLabel"
+    {
+        "visible"    "0"
+    }
+    "NumberLabelBG"
+    {
+        "visible"    "0"
+    }
+    "NumberLabel"
+    {
+        "visible"    "0"
+    }
 }

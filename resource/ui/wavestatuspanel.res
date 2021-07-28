@@ -102,7 +102,7 @@
         "fieldName"             "ProgressBar"
         "xpos"                  "211"
         "ypos"                  "4"
-        "ypos_minbad"          "4"
+        "ypos_minbad"           "4"
         "zpos"                  "3"
         "wide"                  "178"
         "tall"                  "17"
