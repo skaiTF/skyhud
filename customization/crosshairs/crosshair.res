@@ -47,7 +47,7 @@
 		// Adjust each value to get the desired color
 		//=========================================================================
 		
-		"fgcolor"	"255 255 255 255"
+		"fgcolor"	"Crosshair"
 	}
 	
 	

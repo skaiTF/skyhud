@@ -6,15 +6,6 @@
 		"command" "engine vr_toggle"
 		"subimage" "glyph_vr"
 		"OnlyWhenVREnabled" "1"
-	}
-
-    "Version"
-	{ 
-		"command" "engine showconsole;
-			echo ---------------------------------------------------------------------;
-			echo -------------------------SKYHUD v2021.0728---------------------------;
-			echo ---------------------------------------------------------------------"
-		"label" 									"skyhud"
 	}	
 	
 	"Items"
@@ -48,12 +39,6 @@
 		"command"									"engine demoui"
 		"tooltip"									"DemoUI"
 	}
-	"Contracker"
-	{
-		"label"										"B"
-		"command"									"questlog"
-		"tooltip"									"Contracker"
-	}
 	"ServerBrowserButton"
 	{
 		"label"                                     "q" 
@@ -66,11 +51,16 @@
 		"command"                                   "OpenCreateMultiplayerGameDialog"
 		"tooltip"									"Create a server"
 	}
-	"RefreshHUDButton"
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	//Bottom Bar Buttons
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	"Contracker"
 	{
-		"label"										"."
-		"command"									"engine hud_reloadscheme"
-		"tooltip"									"Reload HUD"
+		"label" 									"B"
+		"command" 									"questlog"
+		"tooltip" 									"Contracker"
 	}
 	"Streams"
 	{
@@ -84,44 +74,120 @@
 		"command" 									"engine" 				//"engine connect *server ip*"
 		"tooltip" 									"Favorite Server"
 	}
-	"sh_tools_button"
+	"Achievements"
+	{
+		"label"										"V"
+		"command"									"OpenAchievementsDialog"
+		"tooltip" 									"Achievements"
+	}
+	"Replays"
+	{
+		"label"										"^"
+		"command"									"engine replay_reloadbrowser"
+		"tooltip" 									"Replays"
+	}
+	"Workshop"
 	{
 		"label"										"{"
-		"command"									"motd_show"
-		"tooltip"									"Tool Panel"
+		"command"									"engine OpenSteamWorkshopDialog"
+		"tooltip" 									"Workshop"
+	}
+	"Console"
+	{ 
+		"command" "engine showconsole;
+			echo ---------------------------------------------------------------------;
+			echo -------------------------SKYHUD v2021.0728---------------------------;
+			echo ---------------------------------------------------------------------"
+		"label" 									"("
+		"tooltip"									"Console"
+	}
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	//In-game buttons
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	"Vote"
+	{
+		"label"										"y"
+		"command"									"callvote"
+		"OnlyInGame" 								"1"
+	}
+	"Mute"
+	{
+		"label"										"h"
+		"command"									"OpenMutePlayerDialog"
+		"OnlyInGame" 								"1"
+	}
+	"Report"
+	{
+		"label"										"f"
+		"command"									"OpenReportPlayerDialog"
 		"OnlyInGame"								"1"
 	}
-
-	// These buttons are only shown while in-game
-	// and also are positioned by the .res file
-	"CallVoteButton"
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	//In-game tools
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	"ToolsBG"
 	{
-		"label"			"y"
-		"command"		"callvote"
-		"OnlyInGame"	"1"
-		"tooltip" "#MMenu_CallVote"
+		"command" 									"engine"
+		"OnlyInGame"								"1"
 	}
-	"MutePlayersButton"
+	"ReloadScheme"
 	{
-		"label"			"k"
-		"command"		"OpenMutePlayerDialog"
-		"OnlyInGame"	"1"
-		"tooltip" "#MMenu_MutePlayers"
+		"label" 									"/"
+		"command" 									"engine vgui_cache_res_files 0;hud_reloadscheme"
+		"tooltip" 									"Reload Hud"
+		"OnlyInGame"								"1"
 	}
-	"RequestCoachButton"
+	"ClosedCaptionsON"
 	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"1"
-		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
+		"label" 									"3"
+		"command" 									"engine closecaption 1;cc_subtitles 0;cc_lang clovervidiac;cc_predisplay_time 0"
+		"tooltip" 									"Closed Captions ON"
+		"OnlyInGame"								"1"
 	}
-	"ReportPlayerButton"
+	"ClosedCaptionsOFF"
 	{
-		"label"			""
-		"command"		"OpenReportPlayerDialog"
-		"OnlyInGame"	"1"
-		"subimage"		"glyph_alert"
-		"tooltip"		"#MMenu_ReportPlayer"
+		"label" 									"3"
+		"command" 									"engine closecaption 0; cc_predisplay_time 0"
+		"tooltip" 									"Closed Captions OFF"
+		"OnlyInGame"								"1"
+	}
+	"SoundFix"
+	{
+		"label" 									"k"
+		"command" 									"engine snd_restart"
+		"tooltip" 									"Reload Sound"
+		"OnlyInGame"								"1"
+	}
+	"InviliblePlayersFix"
+	{
+		"label" 									"P"
+		"command" 									"engine stop; record fix"
+		"tooltip" 									"Fix Invisible Players"
+		"OnlyInGame"								"1"
+	}
+	"NetgraphToggle"
+	{
+		"label" 									"4"
+		"command" 									"engine toggle net_graph 1 0"
+		"tooltip" 									"Netgraph ON/OFF"
+		"OnlyInGame"								"1"
+	}
+	"MatchStatusToggle"
+	{
+		"label" 									"M"
+		"command" 									"engine toggle tf_use_match_hud"
+		"tooltip" 									"MatchStatus ON/OFF"
+		"OnlyInGame"								"1"
+	}
+	"ChatToggle"
+	{
+		"label" 									"Z"
+		"command" 									"engine toggle hud_saytext_time 6 0"
+		"tooltip" 									"Chat ON/OFF"
+		"OnlyInGame"								"1"
 	}
 }
