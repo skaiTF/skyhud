@@ -246,9 +246,15 @@
             "wide"                    "124"
             "tall"                    "28"
             "proportionaltoparent"    "1"
-            "if_mini"
-            {
-            }
+			
+            if_mini
+			{
+				"xpos"								"rs1-10"
+				"ypos"								"0"
+				"wide"								"p0.85"
+				"tall"								"f0"
+			}
+			
             "XPBar"
             {
                 "Controlname"             "EditablePanel"
@@ -258,6 +264,15 @@
                 "wide"                    "126"
                 "tall"                    "20"
                 "proportionaltoparent"    "1"
+				
+				if_mini
+				{
+					"xpos"							"cs-0.5"
+					"ypos"							"rs1-3"
+					"wide"							"p1"
+					"tall"							"30"
+				}
+				
                 "CurrentXPLabel"
                 {
                     "ControlName"             "Label"
@@ -274,6 +289,11 @@
                     "textAlignment"           "south-west"
                     "labelText"               "%current_xp%"
                     "proportionaltoparent"    "1"
+					
+					if_mini
+					{
+						"xpos"						"0"
+					}
                 }
                 "NextLevelXPLabel"
                 {
@@ -291,6 +311,11 @@
                     "textAlignment"           "south-east"
                     "labelText"               "%next_level_xp%"
                     "proportionaltoparent"    "1"
+					
+					if_mini
+					{
+						"xpos"						"rs1"
+					}
                 }
                 "ProgressBarsContainer"
                 {
@@ -301,7 +326,16 @@
                     "wide"                    "113"
                     "tall"                    "1"
                     "proportionaltoparent"    "1"
-                    "ProgressBar"
+                    
+					if_mini
+					{
+						"xpos"						"0"
+						"ypos"						"rs1-10"
+						"wide"						"p1"
+						"tall"						"4"
+					}
+					
+					"ProgressBar"
                     {
                         "ControlName"             "ProgressBar"
                         "fieldName"               "ProgressBar"
@@ -314,6 +348,11 @@
                         "progress"                "1"
                         "fgcolor_override"        "077 191 161 255"
                         "bgcolor_override"        "255 255 255 0"
+						
+						if_mini
+						{
+							"xpos"					"0"
+						}
                     }
                     "ContinuousProgressBar"
                     {
@@ -327,6 +366,16 @@
                         "progress"                "0"
                         "fgcolor_override"        "077 191 161 255"
                         "bgcolor_override"        "255 255 255 016"
+						
+						if_mini
+						{
+							"xpos"					"cs-0.5"
+							"ypos"					"cs-0.5"
+							"zpos"					"6"
+							"wide"					"f2"
+							"tall"					"f2"
+							"fgcolor_override"		"077 191 161 255"
+						}
                     }
                     "Frame"
                     {
@@ -339,6 +388,15 @@
                         "zpos"                    "5"
                         "proportionaltoparent"    "1"
                         "border"                  "InnerShadowBorderThin"
+						
+						if_mini
+						{
+							"xpos"					"0"
+							"ypos"					"0"
+							"wide"					"f0"
+							"tall"					"f0"
+							"zpos"					"5"
+						}
                     }
                 }
             }

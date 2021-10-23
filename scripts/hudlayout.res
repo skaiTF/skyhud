@@ -1230,4 +1230,5 @@
         "wide"    "0"
     }
 }
-"#base"    "../customization/crosshairs/crosshair.res"
+#base   "../customization/crosshairs/crosshair.res"
+#base 	"../customization/transparent viewmodels.res"

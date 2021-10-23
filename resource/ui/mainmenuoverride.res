@@ -346,11 +346,11 @@
 			"ypos"									"4"
 			"zpos"									"500"
 			"wide"									"108"
-			"tall"									"27"
+			"tall"									"20"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
 
-			"columns_count"							"3"
+			"columns_count"							"1"
 			"inset_x"								"1"
 			"inset_y"								"0"
 			"row_gap"								"0"
@@ -367,7 +367,7 @@
 			{
 				"ControlName"						"ScrollBar"
 				"FieldName"							"ScrollBar"
-				"xpos"								"50"
+				"xpos"								"100"
 				"ypos"								"0"
 				"tall"								"f0"
 				"wide"								"3"
@@ -1045,7 +1045,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"ReloadScheme"
-		"xpos"										"-3"
+		"xpos"										"-4"
 		"ypos"										"-3"
 		"zpos"										"16"
 		"wide"										"28"
@@ -1190,7 +1190,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"SoundFix"
-		"xpos"										"-3"
+		"xpos"										"-4"
 		"ypos"										"-2"
 		"zpos"										"16"
 		"wide"										"28"
