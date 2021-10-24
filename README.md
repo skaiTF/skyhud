@@ -9,7 +9,7 @@ Download the HUD .zip file and extract the main file (called "skyhud-master") in
 Screenshots album: https://imgur.com/a/nX2t80F
 
 ## Customization
-All customizations are in the "customization" folder and are fully documente. If you intend to use any customizations, please read **ALL** "README.txt" files!
+All customizations are in the "customization" folder and are fully documented. If you intend to use any customizations, please read **ALL** "README.txt" files!
 
 ## Contribution
 If you detect any bugs, issues or if you have any suggestions, please feel free to add an issue to the github page: https://github.com/Fundevilam/skyhud/issues .
@@ -27,6 +27,7 @@ If you happen to need extra help, you can contact me on discord @ skai#7608 or y
 
 ## Special Thanks
 - Wingo
+- Hypnotize: for creating Hypnotize Hud, my main inspiration
 - The whole HUDS.tf discord
 - **References & Guides** : Doodle, Jarateking, Rays, Flame
 

@@ -4,4 +4,4 @@
 // Uncomment (by removing the // before #base) the line to activate the transparent viewmodels
 //=============================================================================================
 
-#base "../scripts/transparent_viewmodels.res"
+//#base "../scripts/transparent_viewmodels.res"
