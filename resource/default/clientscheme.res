@@ -3098,6 +3098,148 @@ Scheme
 				"antialias" "1"
 			}
 		}
+
+		//Nunito Bold
+
+		sh_bold_34
+		{
+			"1"
+			{
+				"name"		"Nunito Bold"
+				"tall"		"34"
+				"antialias" "1"
+			}
+		}
+
+		sh_bold_36
+		{
+			"1"
+			{
+				"name"		"Nunito Bold"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+
+		sh_bold_38
+		{
+			"1"
+			{
+				"name"		"Nunito Bold"
+				"tall"		"38"
+				"antialias" "1"
+			}
+		}
+
+		sh_bold_40
+		{
+			"1"
+			{
+				"name"		"Nunito Bold"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+
+		sh_bold_42
+		{
+			"1"
+			{
+				"name"		"Nunito Bold"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+
+		sh_bold_44
+		{
+			"1"
+			{
+				"name"		"Nunito Bold"
+				"tall"		"44"
+				"antialias" "1"
+			}
+		}
+
+		sh_bold_46
+		{
+			"1"
+			{
+				"name"		"Nunito Bold"
+				"tall"		"46"
+				"antialias" "1"
+			}
+		}
+
+		sh_bold_48
+		{
+			"1"
+			{
+				"name"		"Nunito Bold"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+
+		sh_bold_50
+		{
+			"1"
+			{
+				"name"		"Nunito Bold"
+				"tall"		"50"
+				"antialias" "1"
+			}
+		}
+
+		sh_bold_52
+		{
+			"1"
+			{
+				"name"		"Nunito Bold"
+				"tall"		"52"
+				"antialias" "1"
+			}
+		}
+
+		sh_bold_54
+		{
+			"1"
+			{
+				"name"		"Nunito Bold"
+				"tall"		"54"
+				"antialias" "1"
+			}
+		}
+
+		sh_bold_56
+		{
+			"1"
+			{
+				"name"		"Nunito Bold"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
+
+		sh_bold_58
+		{
+			"1"
+			{
+				"name"		"Nunito Bold"
+				"tall"		"58"
+				"antialias" "1"
+			}
+		}
+
+		sh_bold_60
+		{
+			"1"
+			{
+				"name"		"Nunito Bold"
+				"tall"		"60"
+				"antialias" "1"
+			}
+		}
 		
 		//Google Sans 
 		"Regular10"
@@ -6243,6 +6385,11 @@ Scheme
 		{
 		    "font" "resource/scheme/fonts/WorkSans-Medium.ttf"   
 			"name" "Work Sans Medium"
+		}
+		"13"
+		{
+		    "font" "resource/scheme/fonts/Nunito-Bold.ttf"   
+			"name" "Nunito Bold"
 		}
 	} 
 }

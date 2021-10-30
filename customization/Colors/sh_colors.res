@@ -21,12 +21,14 @@ Scheme
 	//-HealthBuff controls the color of the health numbers when you are overhealed
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-		"LowAmmo1"													"230 157 062 255"
-		"LowAmmo2"													"230 087 085 255" //currently not in use
+		"LowAmmo1"													"230 087 085 255"
+		"LowAmmo2"													"230 087 085 255"
+		"LowAmmo1_Pulse"											"230 027 025 255"
+		"LowAmmo2_Pulse"											"230 027 025 255"
 		"LowHealth"													"230 087 085 255"
 		"HealthBuff"												"006 156 111 255"
-		"LowHealthPulse"											"240 036 034 255" //currently not in use
-		"HealthBuffPulse"											"004 209 148 255" //currently not in use
+		"LowHealthPulse"											"240 036 034 255"
+		"HealthBuffPulse"											"004 209 148 255"
 		
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	//Heal, Damage and Metal Account Variation Colors

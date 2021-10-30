@@ -27,7 +27,6 @@ If you happen to need extra help, you can contact me on discord @ skai#7608 or y
 
 ## Special Thanks
 - Wingo
-- Hypnotize: for creating Hypnotize Hud, my main inspiration
 - The whole HUDS.tf discord
 - **References & Guides** : Doodle, Jarateking, Rays, Flame
 

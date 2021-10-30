@@ -2,9 +2,9 @@
 {
     "CHudAccountPanel"
     {
-        "delta_item_x"          "28"
-        "delta_item_start_y"    "90"
-        "delta_item_end_y"      "70"
+        "delta_item_x"          "30"
+        "delta_item_start_y"    "102"
+        "delta_item_end_y"      "90"
         "PositiveColor"         "CHudAccountPositive"
         "NegativeColor"         "CHudAccountNegative"
         "delta_lifetime"        "1.5"
@@ -14,7 +14,7 @@
     {
         "ControlName"      "CExLabel"
         "fieldName"        "AccountValue"
-        "xpos"             "20"
+        "xpos"             "21"
         "ypos"             "112"
         "zpos"             "2"
         "wide"             "55"

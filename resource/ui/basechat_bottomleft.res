@@ -7,7 +7,7 @@
         "visible"                "1"
         "enabled"                "1"
         "xpos"                   "4"
-        "ypos"                   "r115"
+        "ypos"                   "r135"
         "wide"                   "205"
         "tall"                   "95"
         "fgcolor"                "sh_white"
