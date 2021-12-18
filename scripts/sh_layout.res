@@ -387,15 +387,15 @@
         "IconScale"               "0.35"
         "LineHeight"              "16"
         "LineSpacing"             "2"
-        "CornerRadius"            "0"
+        "CornerRadius"            "3"
         "RightJustify"            "1"
         "TextFont"                "sh_10"
         "TeamBlue"                "sh_team_blu"
         "TeamRed"                 "sh_team_red"
         "IconColor"               "sh_white"
         "LocalPlayerColor"        "HUDBlack"
-        "BaseBackgroundColor"     "sh_black_transparent"
-        "LocalBackgroundColor"    "sh_white_transparent"
+        "BaseBackgroundColor"     "sh_blank" [$WIN32]
+        "LocalBackgroundColor"    "sh_white" [$WIN32]
     }
     "HudVehicle"
     {
