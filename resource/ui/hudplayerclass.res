@@ -1,3 +1,2 @@
-#base	"../../customization/streamerhud/hudplayerclass.res"
-#base 	"hudplayerclass_base.res"
-#base   "../customization/crosshairs/crosshair.res"
+#base "../../customization/streamerhud/hudplayerclass.res"
+#base "../../customization/sh_player_model.res"
