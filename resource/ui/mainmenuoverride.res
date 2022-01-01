@@ -1533,9 +1533,9 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"skyhudlabel"
-		"font"										"sh_20"
+		"font"										"sh_18"
 		"fgcolor"   								"sh_white"
-		"xpos"										"-10"
+		"xpos"										"-12"
 		"ypos"										"-1"
 		"zpos"										"1"
 		"wide"										"60"

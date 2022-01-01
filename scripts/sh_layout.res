@@ -37,9 +37,9 @@
         "wide"                       "200"
         "tall"                       "32"
         "blue_active_xpos"           "56"
-        "blue_active_xpos_minbad"    "56"
+        "blue_active_xpos_minmode"   "56"
         "red_active_xpos"            "104"
-        "red_active_xpos_minbad"     "104"
+        "red_active_xpos_minmode"    "104"
     }
     "HudItemEffectMeter"
     {
@@ -836,9 +836,9 @@
     "HudDemomanPipes"
     {
         "xpos"           "0"
-        "xpos_minbad"    "0"
+        "xpos_minmode"   "0"
         "ypos"           "0"
-        "ypos_minbad"    "0"
+        "ypo_minmoded"   "0"
         "wide"           "f0"
         "tall"           "480"
     }
@@ -894,7 +894,7 @@
     {
         "xpos"           "0"
         "ypos"           "0"
-        "ypos_minbad"    "0"
+        "ypos_minmode"   "0"
         "wide"           "f0"
         "tall"           "480"
     }

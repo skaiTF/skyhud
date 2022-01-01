@@ -12,9 +12,9 @@
     "ItemEffectMeter"
     {
         "xpos"           "cs-0.5-30"
-        "xpos_minbad"    "cs-0.5-25"
+        "xpos_minmode"   "cs-0.5-25"
         "wide"           "60"
-        "wide_minbad"    "50"
+        "wide_minmode"   "50"
     }
     "ItemEffectMeter2"
     {
@@ -25,7 +25,7 @@
         "ypos"                     "0"
         "zpos"                     "2"
         "wide"                     "59"
-        "wide_minbad"              "49"
+        "wide_minmode"             "49"
         "tall"                     "2"
         "autoResize"               "0"
         "pinCorner"                "0"
