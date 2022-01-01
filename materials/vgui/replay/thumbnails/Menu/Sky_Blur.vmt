@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/replay/thumbnails/Menu/Sky_Blur"
+	"$basetexture" "vgui/replay/thumbnails/menu/sky_blur"
 	"%keywords" "tf"
 	"$translucent" 1
 	"$vertexalpha" 1

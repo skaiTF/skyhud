@@ -169,7 +169,7 @@
         "tall"           "480"
         "visible"        "1"
         "enabled"        "1"
-        "image"          "replay/thumbnails/Menu/Sky_Blur"
+        "image"          "replay/thumbnails/menu/sky_blur"
         "scaleimage"     "1"
     }
     "TopWhiteBar"

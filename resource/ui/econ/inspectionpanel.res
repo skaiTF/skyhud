@@ -11,7 +11,7 @@
         "tall"           "f0"
         "visible"        "1"
         "enabled"        "1"
-        "image"          "replay/thumbnails/menu/Sky_Blur"
+        "image"          "replay/thumbnails/menu/sky_blur"
         "scaleimage"     "1"
         "consume_mode"
         {
