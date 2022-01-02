@@ -7,5 +7,5 @@
 //WARNING: ONLY UNCOMMENT ONE LINE AT A TIME
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
-//#base "../resource/ui/basechat_topleft.res"			//TOP LEFT
-#base "../resource/ui/basechat_bottomleft.res"	//BOTTOM LEFT
+#base "../resource/ui/basechat_topleft.res"			//TOP LEFT
+//#base "../resource/ui/basechat_bottomleft.res"	//BOTTOM LEFT

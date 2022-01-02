@@ -6,11 +6,11 @@
 
 -CHAT: Follow the instructions present in "chat_styles.res"
 
--COLORS: Follow the README file present in the "Colors" folder
+-COLORS: Follow the README file present in the "colors" folder
 
 -CROSSHAIRS: Follow the instructions present in "crosshair.res"
 
--PLAYER MODEL: Follow the README file present in the "Player model" folder
+-PLAYER MODEL: Follow the instructions present in "sh_player_model.res"
 
 -SPY DISGUISE OUTLINE ANIMATION: Followthe README file present in the "SPY Disguise Outline Animation" folder
 
