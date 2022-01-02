@@ -8,10 +8,10 @@
         "tall"                    "35"
         "visible"                 "1"
         "proportionaltoparent"    "1"
-        "border"                  "ReplayDefaultBorder"
+        "border"                  "MaterialTransparent70"
         "paintbackground"         "0"
-        "bgcolor_override"        "255 0 0 250"
     }
+	
     "avatar"
     {
         "fieldName"               "avatar"
@@ -24,6 +24,7 @@
         "proportionaltoparent"    "1"
         "scaleImage"              "1"
     }
+	
     "Text"
     {
         "ControlName"             "CAutoFittingLabel"
@@ -40,32 +41,33 @@
         "labelText"               "%invite%"
         "textAlignment"           "east"
         "proportionaltoparent"    "1"
-        "fgcolor_override"        "TanLight"
+        "fgcolor_override"        "sh_white"
         "fonts"
         {
             "1"
             {
-                "font"    "AdFont_ItemName"
+                "font"    "sh_11"
             }
             "2"
             {
-                "font"    "MMenuPlayListDesc"
+                "font"    "sh_10"
             }
             "3"
             {
-                "font"    "ItemFontAttribSmall"
+                "font"    "sh_9"
             }
             "4"
             {
-                "font"    "ItemFontAttribSmallest"
+                "font"    "sh_8"
             }
         }
         "colors"
         {
-            "1"    "Orange"
-            "2"    "TanLight"
+            "1"    "sh_dark_grey"
+            "2"    "sh_button_armed"
         }
     }
+	
     "Spinner"
     {
         "ControlName"             "CTFLogoPanel"
@@ -85,8 +87,9 @@
         "alpha"                   "200"
         "radius"                  "10"
         "velocity"                "60"
-        "fgcolor_override"        "Orange"
+        "fgcolor_override"        "sh_white"
     }
+	
     "AcceptButton"
     {
         "ControlName"                "CExButton"
@@ -99,7 +102,7 @@
         "visible"                    "1"
         "enabled"                    "1"
         "tabPosition"                "0"
-        "font"                       "HudFontSmallestBold"
+        "font"                       "sh_11"
         "textAlignment"              "center"
         "dulltext"                   "0"
         "brighttext"                 "0"
@@ -109,38 +112,59 @@
         "mouseinputenabled"          "1"
         "keyboardinputenabled"       "0"
         "actionsignallevel"          "1"
-        "armedBgColor_override"      "CreditsGreen"
-        "defaultBgColor_override"    "SaleGreen"
         "sound_depressed"            "UI/buttonclick.wav"
         "sound_released"             "UI/buttonclickrelease.wav"
+		
+		"paintbackground"			 "0"
+		"border_default"			 "sh_button_default_border"
+		"border_armed"				 "sh_button_armed_border"
+		
+		"defaultFgColor_override"	 "sh_white"
+		"armedFgColor_override"		 "sh_white"
+		"depressedFgColor_override"	 "sh_white"
     }
-    "DeclineButton"
-    {
-        "ControlName"             "CExButton"
-        "fieldName"               "DeclineButton"
-        "if_incoming"
-        {
-            "xpos"    "rs1-5"
-        }
-        "xpos"                    "rs1-30"
-        "ypos"                    "rs1-5"
-        "wide"                    "60"
-        "zpos"                    "100"
-        "tall"                    "15"
-        "visible"                 "1"
-        "enabled"                 "1"
-        "tabPosition"             "0"
-        "font"                    "HudFontSmallestBold"
-        "textAlignment"           "center"
-        "dulltext"                "0"
-        "brighttext"              "0"
-        "Command"                 "decline"
-        "proportionaltoparent"    "1"
-        "labeltext"               "%cancel_text%"
-        "mouseinputenabled"       "1"
-        "keyboardinputenabled"    "0"
-        "actionsignallevel"       "1"
-        "sound_depressed"         "UI/buttonclick.wav"
-        "sound_released"          "UI/buttonclickrelease.wav"
-    }
+	
+   "DeclineButton"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"DeclineButton"
+		
+		if_incoming
+		{
+			"xpos"									"rs1-5"
+		}
+
+		"xpos"										"rs1-30"
+
+		"ypos"										"rs1-5"
+		"wide"										"60"
+		"zpos"										"100"
+		"tall"										"16"
+		
+		"visible"									"1"
+
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"font"										"sh_11"
+		"textAlignment"								"center"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"Command"									"decline"
+		"proportionaltoparent"						"1"
+		"labeltext"									"%cancel_text%"
+		"mouseinputenabled"							"1"
+		"keyboardinputenabled"						"0"
+		"actionsignallevel"							"1"
+		"AllCaps"									"1"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
+
+		"paintbackground"							"0"
+		"border_default"							"sh_material_red_border"
+		"border_armed"								"sh_dying_border"
+
+		"defaultFgColor_override"					"sh_white"
+		"armedFgColor_override"						"sh_white"
+		"depressedFgColor_override" 				"sh_white"
+	}
 }

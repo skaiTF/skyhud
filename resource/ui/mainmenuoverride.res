@@ -886,6 +886,103 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
+	"Minmode"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"Minmode"
+		"xpos"										"-2"
+		"ypos"										"0"
+		"zpos"										"15"
+		"wide"										"82"
+		"tall"										"42"
+		"visible"									"1"
+		
+		"pin_to_sibling" 							"Console"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"82"
+			"tall"									"42"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"textinsetx"							"0"
+			"use_proportional_insets" 				"1"
+			"font"									"Symbols 22"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"border_default"						"MaterialBlackLight"
+			"border_armed"							"MaterialHypno"
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"White"
+			"armedFgColor_override" 				"White"
+			"depressedFgColor_override" 			"White"
+		}
+	}
+	
+	"Minmode"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"Minmode"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"16"
+		"wide"										"22"
+		"tall"										"25"
+		"visible"									"1"
+		
+		"pin_to_sibling" 							"Console"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"22"
+			"tall"									"25"
+			"autoResize"							"0"
+			"pinCorner"								"3"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"use_proportional_insets" 				"1"
+			"font"									"Symbols 22"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			"actionsignallevel" 					"2"
+			"border_default"						""
+			"border_armed"							""
+			"paintbackground"						"0"
+
+			"FgColor" 								"sh_white"
+			"defaultFgColor_override" 				"sh_white"
+			"armedFgColor_override"				 	"sh_button_armed"
+			"depressedFgColor_override" 			"sh_white"
+		}
+	}
+	
 	"Vote"
 	{
 		"ControlName"	"EditablePanel"
@@ -1559,29 +1656,6 @@
 	//Includes 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-	"HUDS.TF"
-	{
-		"ControlName"								"URLLabel"
-		"fieldname"									"HUDS.TF"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"16"
-		"wide"										"22"
-		"tall"										"25"
-		"visible"									"0"
-		"enabled"									"0"
-		"proportionaltoparent"						"1"
-		"labelText"									"Q"
-		"font"										"Symbols 20"
-		"textAlignment"								"center"
-		"urlText"									"https://huds.tf"
-		"FgColor_override" 							"sh_white"
-
-		"pin_to_sibling" 							"HUDRepository"
-		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
-	}
 	"HUDRepository"
 	{
 		"ControlName"								"URLLabel"

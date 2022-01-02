@@ -14,7 +14,7 @@
         "paintborder"            "1"
         "PaintBackgroundType"    "0"
         "paintbackground"        "0"
-        "border"                 "sh_button_default_border"
+        "border"                 "MaterialTransparent70"
     }
     "DeleteButton"
     {

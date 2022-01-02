@@ -1,7 +1,8 @@
 hudanimations_manifest
 {
 	"file"      "scripts/sh_animations/sh_health_animations.txt"
-	"file"      "scripts/sh_animations/sh_ammo_animations.txt"
+	"file"      "scripts/sh_animations/sh_ammo_nobox_animation.txt"
+	"file"		"scripts/sh_animations/sh_ammo_box_animation.txt"
 	"file"		"scripts/hudanimations_tf.txt"
 	"file"		"scripts/hudanimations.txt"
 	"file"      "customization/crosshairs/crosshair_animation.txt"

@@ -64,6 +64,7 @@
         "enabled"      "1"
         "xpos"         "0"
         "ypos"         "c65"
+		"ypos_minmode" "c28"
         "wide"         "f0"
         "tall"         "300"
     }
@@ -222,7 +223,8 @@
         "enabled"      "1"
         "xpos"         "c-126"
         "ypos"         "275"
-        "wide"         "200"
+		"ypos_minmode" "320"
+        "wide"         "252"
         "tall"         "50"
         "priority"     "35"
         "if_vr"

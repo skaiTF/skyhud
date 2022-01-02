@@ -92,12 +92,19 @@
 		"command"									"engine OpenSteamWorkshopDialog"
 		"tooltip" 									"Workshop"
 	}
+	"Minmode"
+	{
+		"label"										")"
+		"command"									"engine toggle cl_hud_minmode"
+		"tooltip"									"Mininmal HUD"
+		"OnlyInGame"								"1"
+	}
 	"Console"
 	{ 
 		"command" "engine showconsole; clear;
 			echo ##############################;
 			echo # SKYHUD by skai			   ;
-			echo # v2022.0101                  ;
+			echo # v2022.0102                  ;
 			echo # Happy New Year!             ;
 			echo ##############################"
 		"label" 									"("

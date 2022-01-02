@@ -2,9 +2,6 @@
 
 event HudLowAmmoPulse
 {
-
-	//Animate LowAmmoBox							Alpha 		"255"								Accel 	0.0 	0.0
-	
 	Animate AmmoInClip 							FgColor 	"LowAmmo1" 							Linear 	0.0 	0.075
 	Animate AmmoInClip 							FgColor 	"LowAmmo1_Pulse" 					Linear 	0.125 	0.075
 	
@@ -32,6 +29,4 @@ event HudLowAmmoPulseStop
 	Animate AmmoInReserve 						FgColor 	"Ammo_Reserve" 						Linear 	0.0 	0.0
 	
 	Animate AmmoNoClip 							FgColor 	"Ammo_Clip" 						Linear 	0.0 	0.0
-	
-	//Animate LowAmmoBox							Alpha 		"0"									Accel 	0.0 	0.0
 }
