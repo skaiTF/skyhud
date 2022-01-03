@@ -2,7 +2,7 @@
 //Ammo Styles
 //===========================================================================================================
 //This allows you to change the low ammo colored numbers to colored boxes.
-//Look at "AmmoStyles.png" for a better visualization of the styles
+//Look at "sh_health_and_ammo_styles.png" for a better visualization of the styles
 //===========================================================================================================
 //
 //BOX STYLE INTRUCTIONS: In order to enable the BOX STYLE, head to scripts/sh_animations and 
