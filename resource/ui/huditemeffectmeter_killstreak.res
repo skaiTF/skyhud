@@ -45,7 +45,7 @@
         "AllCaps"                 "1"
         "proportionaltoparent"    "1"
         "textAlignment"           "east"
-        "font"                    "Symbols 14 Blur"
+        "font"                    "Symbols 14"
         "fgcolor"                 "sh_black"
         "pin_to_sibling"          "KillstreakIcon"
     }

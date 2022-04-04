@@ -96,7 +96,7 @@
 	{
 		"label"										")"
 		"command"									"engine toggle cl_hud_minmode"
-		"tooltip"									"Mininmal HUD"
+		"tooltip"									"Minimal HUD"
 		"OnlyInGame"								"1"
 	}
 	"Console"
