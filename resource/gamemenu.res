@@ -1,4 +1,6 @@
-"GameMenu" [$WIN32]
+#base "../customization/sh_menu_bg.res"
+
+"GameMenu"
 {
 	"VRModeButton"
 	{

@@ -164,65 +164,32 @@
 		}
 	}
 	
-	"Background"
+	"SkyBG"
 	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
-		"zpos"			"-200"
-		"wide"			"o1.6"
-		"tall"			"f0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"
-		"proportionaltoparent"	"1"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"SkyBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"1"
+		"wide"				"f0"
+		"tall"				"f0"
+		"visible"			"1"
+		"enabled"			"1"
 
-		if_wider
+		"SkyImage"
 		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SkyImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
 			"wide"			"f0"
-			"tall"			"o0.628"
-		}
-
-		if_taller
-		{
-			"wide"			"o1.6"
 			"tall"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/menu/Sky"
+			"scaleimage"	"1"
 		}
-		
-		if_halloween_0
-		{
-			"image"		"../console/background_upward"
-		}
-		if_halloween_1
-		{
-			"image"		"../console/background_upward"
-		}
-		if_halloween_2
-		{
-			"image"		"../console/background_upward"
-		}
-		if_halloween_3
-		{
-			"image"		"../console/background_upward"
-		}
-		if_halloween_4
-		{	
-			"image"		"../console/background_upward"
-		}
-		if_halloween_5
-		{	
-			"image"		"../console/background_upward"
-		}
-		if_fullmoon
-		{
-			"image"		"../console/background_upward"
-		}
-		if_christmas
-		{
-			"image"		"../console/background_upward"
-		}		
 	}
 					
 	"TFLogoImage"
