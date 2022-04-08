@@ -226,25 +226,25 @@
 	//Rank Panel
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	"RankModelPanel"
+	"RankPanel"
 	{
-		"ControlName"	"CPvPRankPanel"
-		"fieldName"		"RankModelPanel"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"ControlName"								"CPvPRankPanel"
+		"fieldName"									"RankPanel"
+		"xpos"										"145"
+		"ypos"										"1"
+		"zpos"										"10003"
+		"wide"										"200"
+		"tall"										"30"
+		"visible"									"0"
+		"proportionaltoparent"						"1"
+		"mouseinputenabled"							"0"
 
-		"zpos"			"-51"
-		"wide"			"1000"
-		"tall"			"1000"
-		"visible"		"0"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"1"
+		"matchgroup"								"MatchGroup_Casual_12v12"
 
-		"matchgroup"	"MatchGroup_Casual_12v12"
-
-		"show_progress"	"0"
+		"show_model"								"0"
+		"show_type"									"1"
 	}
-
+	
 	"CycleRankTypeButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -265,23 +265,23 @@
 		"pin_to_sibling" 							"RankPanel"
 	}
 	
-	"RankPanel"
+	"RankModelPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
-		"fieldName"		"RankPanel"
-		"xpos"			"140"
-		"ypos"			"1"
-		"zpos"			"10003"
-		"wide"			"200"
-		"tall"			"30"
+		"fieldName"		"RankModelPanel"
+		"xpos"			"9999"
+		"ypos"			"9999"
+
+		"zpos"			"-51"
+		"wide"			"1000"
+		"tall"			"1000"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
+		"mouseinputenabled"	"1"
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
 
-		"show_model"	"0"
-		"show_type"		"1"
+		"show_progress"	"0"
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
