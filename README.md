@@ -28,6 +28,6 @@ If you happen to need extra help, you can contact me on discord @skaideer or you
 ## Special Thanks
 - **Wingo**: for always helping me with design ideas, testing the hud and making suggestions.
 - **HUDS.tf discord server**: for having amazing and talented people always willing to help.
-- **References & Guides** : Doodle, Jarateking, Rays, Flame
+- **References & Guides** : Doodle, Jarateking, Rays, Flame.
 
 
