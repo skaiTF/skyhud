@@ -15,6 +15,7 @@ All customizations are in the "customization" folder and are fully documented. I
 ## Contribution
 If you detect any bugs, issues or if you have any suggestions, feel free to add an issue to the github page: https://github.com/skaiTF/skyhud/issues .
 If you happen to need extra help, you can contact me on discord @skaideer or you can ask for help in the [HUDS.tf public discord](http://discord.huds.tf/)
+
 A discord server for skyhud is currently in the works
 
 ## Credits
