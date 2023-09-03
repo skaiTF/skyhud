@@ -106,8 +106,7 @@
 		"command" "engine showconsole; clear;
 			echo ##############################;
 			echo # SKYHUD by skai			   ;
-			echo # v2022.0102                  ;
-			echo # Happy New Year!             ;
+			echo # v2023.0903                  ;            ;
 			echo ##############################"
 		"label" 									"("
 		"tooltip"									"Console"
