@@ -56,7 +56,7 @@
     {
         "ControlName"              "CExLabel"
         "fieldName"                "AmmoInReserve"
-        "font"                     "sh_bold_34"
+        "font"                     "sh_20"
         "font_minmode"              "sh_20"
         "fgcolor"                  "Ammo_Reserve"
         "xpos"                     "5"
@@ -76,8 +76,8 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"         "AmmoInReserveShadow"
-        "font"              "sh_bold_34"
-        "font_minmode"       "sh_20"
+        "font"              "sh_20"
+        "font_minmode"      "sh_20"
         "fgcolor"           "Health_and_Ammo_shadow"
         "xpos"              "-1"
         "ypos"              "-1"

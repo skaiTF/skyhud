@@ -8,24 +8,24 @@ Scheme
 		"FrameInactive"										"0 0 0 120"
 		"ListBG"											"0 0 0 100"
 		
-		"ServerSelected"									"077 191 161 255"
+		"ServerSelected"									"230 099 158 255"
 		
 		"TextList"											"255 255 255 255"
 		"TextEnty"											"255 255 255 255"
-		"TextSelected"										"077 191 161 255"
-		"TextConsoleEntry"									"077 191 161 255"
+		"TextSelected"										"230 099 158 255"
+		"TextConsoleEntry"									"230 099 158 255"
 		
 		"Title"												"255 255 255 255"
 		"CloseButton"										"255 255 255 255"
 		
 		"Button"											"014 014 014 255"
-		"ButtonArmed"										"077 191 161 255"
+		"ButtonArmed"										"230 099 158 255"
 		"ButtonText"										"255 255 255 255"
 		"ButtonTextArmed"									"255 255 255 255"
 		
 		"CheckButtonText"									"255 255 255 255"
-		"CheckButtonTextArmed"								"077 191 161 255"
-		"CheckButtonFG"										"077 191 161 255"
+		"CheckButtonTextArmed"								"230 099 158 255"
+		"CheckButtonFG"										"230 099 158 255"
 		"CheckButtonBG"										"000 000 000 100"
 		
 		"TextComboBoxes"									"255 255 255 255"
@@ -34,10 +34,10 @@ Scheme
 		"ScrollBarBG"										"000 000 000 180"
 		
 		"OptionsMenuBG"										"000 000 000 100"
-		"OptionsMenuArmed"									"077 191 161 255"
+		"OptionsMenuArmed"									"230 099 158 255"
 		"OptionsMenuText"									"255 255 255 255"
 		
-		"QuickListBGDeselected"								"077 191 161 255"
+		"QuickListBGDeselected"								"230 099 158 255"
 	    "QuickListBGSelected"              					"255 200 55 255"
 		
 		"sh_blank"											"000 000 000 000"
@@ -45,7 +45,7 @@ Scheme
 		"sh_white"											"255 255 255 255"
 		"sh_team_blu"										"056 099 130 255"
 		"sh_team_red"										"130 056 056 255"
-		"sh_button_armed"									"077 191 161 255"
+		"sh_button_armed"									"230 099 158 255"
 		"sh_orange"											"237 149 055 255"
 		"sh_dark_grey"										"030 030 030 255"
 		"sh_light_green"									"117 189 124 255"

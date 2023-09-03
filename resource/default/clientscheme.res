@@ -3301,9 +3301,8 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Google Sans"
-				"tall" "20"
-				"weight" "400"
+				"name" "Nunito SemiBold"
+				"tall" "22"
 				"additive" "0"
 				"antialias" "1"
 				"outline" "1"
@@ -3313,9 +3312,8 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Google Sans Bold"
-				"tall" "30"
-				"weight" "400"
+				"name" "Nunito SemiBold"
+				"tall" "22"
 				"additive" "0"
 				"antialias" "1"
 				"outline" "1"
