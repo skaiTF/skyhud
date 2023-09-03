@@ -21,7 +21,7 @@ If you happen to need extra help, you can contact me on discord @skaideer or you
 - **TF2 HUD Crosshairs Pack** : Hypnotize
 - **Crosshairs & Hitmarkers** : Broesel, Knuckles, Seeker, m0re, Fog, ToonHud, Garm3n
 - **Material Design VTFS** : extracrispy & Rawsor
-- **Main Menu Background** : Daniel Leone (obtained from unsplash.com)
+- **Main Menu Background** : Mehdi MeSSrro (obtained from unsplash.com)
 - **Closed Captions** : clovervidia
 - **Font** : Nunito by Vernon Adams (http://sansoxygen.com)
 
