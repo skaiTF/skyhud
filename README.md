@@ -1,5 +1,5 @@
 # skyhud
-![Logo](https://imgur.com/LnTqrTZ.png)
+![Logo](https://imgur.com/NtvSG1A)
 A TF2 Head's Up Display, inspired by many other existing huds, and focused on simplicity.
 
 ## Installation
