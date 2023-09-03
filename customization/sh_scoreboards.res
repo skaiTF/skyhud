@@ -7,5 +7,5 @@
 //WARNING: ONLY UNCOMMENT ONE LINE AT A TIME
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//ONLY KD
-//FULL STATS
+//#base "../resource/ui/alternatives/scoreboard_kd.res"   //ONLY KD
+#base "../resource/ui/alternatives/scoreboard_full.res"   //FULL STATS

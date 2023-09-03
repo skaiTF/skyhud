@@ -1,2 +1,2 @@
 #base 	"../../customization/streamerhud/scoreboard.res"
-#base 	"scoreboard_base.res"
+#base 	"../../customization/sh_scoreboards.res"

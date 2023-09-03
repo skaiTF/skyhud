@@ -112,17 +112,17 @@
     {
         "ControlName"            "CTFPlayerModelPanel"
         "fieldName"              "classmodelpanel"
-        "xpos"                   "30" [$WIN32]
-        "ypos"                   "r190" [$WIN32]
+        "xpos"                   "15" [$WIN32]
+        "ypos"                   "r200" [$WIN32]
         "zpos"                   "2"
-        "wide"                   "240"
+        "wide"                   "100"
         "tall"                   "200"
         "autoResize"             "0"
         "pinCorner"              "0"
         "visible"                "1"
         "enabled"                "1"
         "render_texture"         "0"
-        "fov"                    "52"
+        "fov"                    "12"
         "allow_rot"              "1"
         "disable_speak_event"    "1"
         "model"
@@ -138,7 +138,6 @@
             "frame_origin_y"    "0"
             "frame_origin_z"    "0"
             "spotlight"         "1"
-            "fov"               "100"
             "modelname"         ""
         }
         "customclassdata"
@@ -147,95 +146,95 @@
             {
             }
             "Scout"
-            {
-                "fov"         "13"
-                "angles_x"    "-3"
-                "angles_y"    "270"
-                "angles_z"    "0"
-                "origin_x"    "805"
-                "origin_y"    "75"
-                "origin_z"    "-108"
-            }
-            "Sniper"
-            {
-                "fov"         "13"
-                "angles_x"    "0"
-                "angles_y"    "270"
-                "angles_z"    "0"
-                "origin_x"    "805"
-                "origin_y"    "73"
-                "origin_z"    "-108"
-            }
-            "Soldier"
-            {
-                "fov"         "13"
-                "angles_x"    "0"
-                "angles_y"    "270"
-                "angles_z"    "0"
-                "origin_x"    "805"
-                "origin_y"    "76"
-                "origin_z"    "-108"
-            }
-            "Demoman"
-            {
-                "fov"         "13"
-                "angles_x"    "-3"
-                "angles_y"    "270"
-                "angles_z"    "0"
-                "origin_x"    "805"
-                "origin_y"    "75"
-                "origin_z"    "-108"
-            }
-            "Medic"
-            {
-                "fov"         "13"
-                "angles_x"    "0"
-                "angles_y"    "270"
-                "angles_z"    "0"
-                "origin_x"    "805"
-                "origin_y"    "70"
-                "origin_z"    "-108"
-            }
-            "Heavy"
-            {
-                "fov"         "13"
-                "angles_x"    "0"
-                "angles_y"    "270"
-                "angles_z"    "0"
-                "origin_x"    "805"
-                "origin_y"    "73"
-                "origin_z"    "-108"
-            }
-            "Pyro"
-            {
-                "fov"         "13"
-                "angles_x"    "0"
-                "angles_y"    "270"
-                "angles_z"    "0"
-                "origin_x"    "805"
-                "origin_y"    "77"
-                "origin_z"    "-108"
-            }
-            "Spy"
-            {
-                "fov"         "8"
-                "angles_x"    "-3"
-                "angles_y"    "270"
-                "angles_z"    "0"
-                "origin_x"    "1500"
-                "origin_y"    "85"
-                "origin_z"    "-108"
-            }
-            "Engineer"
-            {
-                "fov"         "13"
-                "angles_x"    "0"
-                "angles_y"    "270"
-                "angles_z"    "0"
-                "origin_x"    "805"
-                "origin_y"    "79"
-                "origin_z"    "-100"
-            }
+			{
+				"fov"			"25"
+				"angles_x"		"-17"
+				"angles_y"		"203"
+				"angles_z"		"-5"
+				"origin_x"		"115"
+				"origin_y"		"-1"
+				"origin_z"		"-85"
+			}
+			"Sniper"
+			{
+				"fov"			"25"
+				"angles_x"		"-10"
+				"angles_y"		"172"
+				"angles_z"		"0"
+				"origin_x"		"125"
+				"origin_y"		"-3"
+				"origin_z"		"-93"
+			}
+			"Soldier"
+			{
+				"fov"			"25"
+				"angles_x"		"-5"
+				"angles_y"		"172"
+				"angles_z"		"0"
+				"origin_x"		"145"
+				"origin_y"		"-5"
+				"origin_z"		"-90"
+			}
+			"Demoman"
+			{
+				"fov"			"25"
+				"angles_x"		"-13"
+				"angles_y"		"225"
+				"angles_z"		"0"
+				"origin_x"		"145"
+				"origin_y"		"-7"
+				"origin_z"		"-95"
+			}
+			"Medic"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"225"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"-5"
+				"origin_z"		"-94"
+			}
+			"Heavy"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"203"
+				"angles_z"		"0"
+				"origin_x"		"200"
+				"origin_y"		"0"
+				"origin_z"		"-102"
+			}
+			"Pyro"
+			{
+				"fov"			"20"
+				"angles_x"		"-10"
+				"angles_y"		"172"
+				"angles_z"		"0"
+				"origin_x"		"175"
+				"origin_y"		"-1"
+				"origin_z"		"-90"
+			}
+			"Spy"
+			{
+				"fov"			"20"
+				"angles_x"		"-1"
+				"angles_y"		"203"
+				"angles_z"		"0"
+				"origin_x"		"160"
+				"origin_y"		"0"
+				"origin_z"		"-95"
+			}
+			"Engineer"
+			{
+				"fov"			"20"
+				"angles_x"		"-10"
+				"angles_y"		"203"
+				"angles_z"		"0"
+				"origin_x"		"140"
+				"origin_y"		"-2"
+				"origin_z"		"-82"
+			}
         }
     }
     "CarryingWeapon"
