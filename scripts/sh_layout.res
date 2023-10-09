@@ -830,7 +830,7 @@
         "visible"                "1"
         "enabled"                "1"
         "xpos"                   "c-95"
-        "ypos"                   "c50"
+        "ypos"                   "c130"
         "wide"                   "195"
         "tall"                   "45"
         "PaintBackgroundType"    "0"
