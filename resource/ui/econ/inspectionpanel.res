@@ -648,7 +648,7 @@
             "default"              "1"
             "NumericInputOnly"     "1"
             "bgcolor_override"     "sh_blank"
-            "maxchars"             "18"
+            "maxchars"             "20"
         }
         "SeedTextEntryBG"
         {
