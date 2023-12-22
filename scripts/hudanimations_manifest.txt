@@ -5,7 +5,7 @@ hudanimations_manifest
 	"file"		"scripts/sh_animations/sh_ammo_box_animation.txt"
 	"file"		"scripts/hudanimations_tf.txt"
 	"file"		"scripts/hudanimations.txt"
-	"file"      "customization/crosshairs/crosshair_animation.txt"
+	"file"      "scripts/sh_animations/crosshair_animation.txt"
 	"file"		"scripts/sh_animations/sh_mediccharge.txt"
     "file"      "scripts/sh_animations/sh_spy_disguise_animation.txt"
 	"file"		"scripts/sh_animations/sh_chat_animation.txt"
