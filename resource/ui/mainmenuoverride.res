@@ -1,4 +1,4 @@
-#base "../../resource/preload.res"
+#base "../preload.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -529,7 +529,7 @@
 		"visible"		"1"
 		
 		"pin_to_sibling" 							"Items"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFTT"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 		
 		"SubButton"
