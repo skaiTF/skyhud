@@ -1231,4 +1231,11 @@
     {
         "wide"    "0"
     }
+    "CurrencyStatusPanel"
+	{
+		"xpos"										"42"
+		"ypos"										"r19"
+        "wide"                                      "50"
+        "tall"                                      "50"
+	}
 }
