@@ -10,8 +10,12 @@
         "ypos"                   "45"
         "wide"                   "205"
         "tall"                   "95"
-        "fgcolor"                "sh_white"
         "PaintBackgroundType"    "2"
+
+        "Texture1"        "vgui/replay/thumbnails/blank"
+        "Texture2"        "vgui/replay/thumbnails/blank"
+        "Texture3"        "vgui/replay/thumbnails/blank"
+        "Texture4"        "vgui/replay/thumbnails/blank"
     }
     "ChatInputLine"
     {

@@ -6,7 +6,6 @@ event HudHealthBonusPulse
 	Animate Health_Spectator_BG						BgColor 	"HealthBuff" 						Linear 	0.0		0.0
 	
 	Animate PlayerStatusHealthValue					FgColor 	"HealthBuff" 						Linear 	0.0		0.075
-	Animate PlayerStatusHealthValue					FgColor 	"HealthBuffPulse" 					Linear 	0.125	0.175
 	
 	RunEvent HudHealthBonusPulseLoop				0.7
 }

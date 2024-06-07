@@ -7,11 +7,15 @@
         "visible"                "1"
         "enabled"                "1"
         "xpos"                   "4"
-        "ypos"                   "r135"
+        "ypos"                   "r180"
         "wide"                   "205"
         "tall"                   "95"
-        "fgcolor"                "sh_white"
         "PaintBackgroundType"    "2"
+
+        "Texture1"        "vgui/replay/thumbnails/blank"
+        "Texture2"        "vgui/replay/thumbnails/blank"
+        "Texture3"        "vgui/replay/thumbnails/blank"
+        "Texture4"        "vgui/replay/thumbnails/blank"
     }
     "ChatInputLine"
     {
