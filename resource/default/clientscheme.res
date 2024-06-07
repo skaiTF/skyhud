@@ -2948,6 +2948,28 @@ Scheme
 				"antialias" "1"
 			}
 		}
+
+		sh_18_dropshadow
+		{
+			"1"
+			{
+				"name"		"Nunito SemiBold"
+				"tall"		"18"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+		}
+
+		sh_18_outline
+		{
+			"1"
+			{
+				"name"		"Nunito SemiBold"
+				"tall"		"18"
+				"antialias" "1"
+				"outline" "1"
+			}
+		}
 		
 		sh_20
 		{
@@ -2968,6 +2990,28 @@ Scheme
 				"antialias" "1"
 			}
 		}
+
+		sh_22_dropshadow
+		{
+			"1"
+			{
+				"name"		"Nunito SemiBold"
+				"tall"		"22"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+		}
+
+		sh_22_outline
+		{
+			"1"
+			{
+				"name"		"Nunito SemiBold"
+				"tall"		"22"
+				"antialias" "1"
+				"outline" "1"
+			}
+		}
 		
 		sh_24
 		{
@@ -2986,6 +3030,28 @@ Scheme
 				"name"		"Nunito SemiBold"
 				"tall"		"26"
 				"antialias" "1"
+			}
+		}
+
+		sh_26_dropshadow
+		{
+			"1"
+			{
+				"name"		"Nunito SemiBold"
+				"tall"		"26"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+		}
+
+		sh_26_outline
+		{
+			"1"
+			{
+				"name"		"Nunito SemiBold"
+				"tall"		"26"
+				"antialias" "1"
+				"outline" "1"
 			}
 		}
 		
