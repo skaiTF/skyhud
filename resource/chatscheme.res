@@ -291,7 +291,7 @@
         {
             "1"
             {
-                "name"          "Google Sans Regular"
+                "name"          "Nunito Bold"
                 "tall"          "14"
                 "yres"          "480 599"
                 "dropshadow"    "0"
@@ -299,7 +299,7 @@
             }
             "2"
             {
-                "name"          "Google Sans Regular"
+                "name"          "Nunito Bold"
                 "tall"          "16"
                 "yres"          "600 767"
                 "dropshadow"    "0"
@@ -307,7 +307,7 @@
             }
             "3"
             {
-                "name"          "Google Sans Regular"
+                "name"          "Nunito Bold"
                 "tall"          "18"
                 "yres"          "768 1023"
                 "dropshadow"    "0"
@@ -315,7 +315,7 @@
             }
             "4"
             {
-                "name"          "Google Sans Regular"
+                "name"          "Nunito Bold"
                 "tall"          "18"
                 "yres"          "1024 1199"
                 "dropshadow"    "0"
@@ -323,7 +323,7 @@
             }
             "5"
             {
-                "name"          "Google Sans Regular"
+                "name"          "Nunito Bold"
                 "tall"          "22"
                 "yres"          "1200 10000"
                 "dropshadow"    "0"
@@ -689,9 +689,9 @@
         "1"    "resource/HALFLIFE2.ttf"
         "2"    "resource/HL2EP2.ttf"
         "3"
-        {
-            "font"    "resource/scheme/fonts/GoogleSans-Regular.ttf"
-            "name"    "Google Sans Regular"
-        }
+		{
+		    "font" "resource/scheme/fonts/Nunito-Bold.ttf"   
+			"name" "Nunito Bold"
+		}
     }
 }

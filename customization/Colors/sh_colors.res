@@ -38,7 +38,7 @@ Scheme
 	
 		"CHudAccountPositive"										"006 156 111 255"
 		"CHudAccountNegative"										"156 073 006 255"
-		"sh_uber_drop"												"210 052 235 255"
+		"sh_uber_drop"												"230 099 158 255"
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	//Crosshair & Hitmarker Colors
@@ -58,6 +58,7 @@ Scheme
 	    "sh_blank"													"000 000 000 000"
 		"sh_black"													"014 014 014 255"
 		"sh_black_transparent"										"014 014 014 180"
+		"sh_dark_transparent"										"014 014 014 230"
 		"sh_white"													"255 255 255 255"
 		"sh_white_transparent"										"235 235 235 180"
 		"sh_team_blu"												"056 099 130 255"

@@ -28,7 +28,7 @@
         "textAlignment"    "center"
         "dulltext"         "0"
         "brighttext"       "0"
-        "font"             "sh_26"
+        "font"             "sh_20"
         "fgcolor"          "sh_white"
     }
     "AccountValueShadow"
@@ -49,7 +49,7 @@
         "textAlignment"     "center"
         "dulltext"          "0"
         "brighttext"        "0"
-        "font"              "sh_26"
+        "font"              "sh_20"
         "fgcolor"           "sh_black"
         "pin_to_sibling"    "AccountValue"
     }

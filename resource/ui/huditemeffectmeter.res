@@ -7,7 +7,7 @@
         "enabled"        "1"
         "xpos"           "cs-0.5"
         "ypos"           "c108"
-        "ypos_minmode"   "c64"
+        "ypos_minmode"   "c74"
         "wide"           "120"
         "tall"           "10"
         "tall_minmode"   "9"

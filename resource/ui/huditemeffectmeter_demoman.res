@@ -18,7 +18,7 @@
     {
         "ControlName"             "CExLabel"
         "fieldName"               "HeadsIcon"
-        "xpos"                    "0"
+        "xpos"                    "7"
         "ypos"                    "0"
         "zpos"                    "2"
         "wide"                    "25"
@@ -28,7 +28,7 @@
         "labelText"               "K"
         "textAlignment"           "east"
         "proportionaltoparent"    "1"
-        "font"                    "Symbols 22"
+        "font"                    "Symbols 16"
         "fgcolor"                 "sh_white"
     }
     "HeadsIconShadow"
@@ -45,7 +45,7 @@
         "labelText"               "K"
         "textAlignment"           "east"
         "proportionaltoparent"    "1"
-        "font"                    "Symbols 22 Blur"
+        "font"                    "Symbols 16 Blur"
         "fgcolor"                 "sh_black"
         "pin_to_sibling"          "HeadsIcon"
     }
@@ -53,8 +53,8 @@
     {
         "ControlName"              "CExLabel"
         "fieldName"                "ItemEffectMeterCount"
-        "xpos"                     "5"
-        "ypos"                     "1"
+        "xpos"                     "3"
+        "ypos"                     "0"
         "zpos"                     "2"
         "wide"                     "25"
         "tall"                     "25"
@@ -67,7 +67,7 @@
         "dulltext"                 "0"
         "brighttext"               "0"
         "proportionaltoparent"     "1"
-        "font"                     "sh_24"
+        "font"                     "sh_16"
         "fgcolor_override"         "sh_white"
         "pin_to_sibling"           "HeadsIcon"
         "pin_corner_to_sibling"    "PIN_CENTER_LEFT"
@@ -91,7 +91,7 @@
         "dulltext"                "0"
         "brighttext"              "0"
         "proportionaltoparent"    "1"
-        "font"                    "sh_24"
+        "font"                    "sh_16"
         "fgcolor_override"        "sh_black"
         "pin_to_sibling"          "ItemEffectMeterCount"
     }

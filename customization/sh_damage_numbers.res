@@ -8,8 +8,8 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-//#base "../resource/ui/huddamageaccount_small_shadow.res" //font 18 damage numbers with dropshadow
-#base "../resource/ui/huddamageaccount_medium_shadow.res" //font 22 damage numbers with dropshadow
+#base "../resource/ui/huddamageaccount_small_shadow.res" //font 18 damage numbers with dropshadow
+//#base "../resource/ui/huddamageaccount_medium_shadow.res" //font 22 damage numbers with dropshadow
 //#base "../resource/ui/huddamageaccount_big_shadow.res" //font 26 damage numbers with dropshadow
 
 //#base "../resource/ui/huddamageaccount_small_outline.res" //font 18 damage numbers with outline
