@@ -27,7 +27,6 @@
             "scaleImage"              "1"
             "proportionaltoparent"    "1"
             "mouseinputenabled"       "0"
-            "autoResize"              "0"
             "drawcolor"               "255 255 255 255"
         }
         "StarCostImage"
@@ -60,7 +59,6 @@
             "enabled"                 "1"
             "proportionaltoparent"    "1"
             "mouseinputenabled"       "1"
-            "autoResize"              "0"
             "fgcolor_override"        "QuestMap_ActiveOrange"
             "font"                    "QuestMap_Large"
             "textAlignment"           "east"
@@ -83,7 +81,6 @@
             "scaleImage"              "1"
             "proportionaltoparent"    "1"
             "mouseinputenabled"       "0"
-            "autoResize"              "0"
             "drawcolor"               "QuestMap_ActiveOrange"
         }
         "NodeIcon"
@@ -101,7 +98,6 @@
             "scaleImage"              "1"
             "proportionaltoparent"    "1"
             "mouseinputenabled"       "0"
-            "autoResize"              "3"
             "drawcolor"               "QuestMap_ActiveOrange"
         }
         "NodeNameLabel"
@@ -136,7 +132,6 @@
             "enabled"                 "1"
             "tabPosition"             "0"
             "proportionaltoparent"    "1"
-            "autoResize"              "3"
             "paintbackground"         "0"
             "eatmouseinput"           "0"
         }
@@ -165,7 +160,6 @@
             "actionsignallevel"            "1"
             "proportionaltoparent"         "1"
             "stay_armed_on_click"          "1"
-            "autoResize"                   "3"
             "paintbackground"              "0"
             "button_activation_type"       "1"
             "defaultFgColor_override"      "46 43 42 255"

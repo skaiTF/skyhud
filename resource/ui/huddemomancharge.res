@@ -13,7 +13,6 @@
         "wide_minmode"        "100"
         "tall"                "3"
         "tall_minmode"        "2"
-        "autoResize"          "0"
         "pinCorner"           "0"
         "visible"             "1"
         "enabled"             "1"

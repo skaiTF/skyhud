@@ -17,7 +17,6 @@
             "ypos"           "0"
             "wide"           "250"
             "tall"           "70"
-            "autoResize"     "0"
             "pinCorner"      "0"
             "visible"        "1"
             "enabled"        "1"

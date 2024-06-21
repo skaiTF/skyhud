@@ -34,7 +34,6 @@
         "wide"                    "44"
         "tall"                    "34"
         "zpos"                    "0"
-        "autoResize"              "0"
         "pinCorner"               "3"
         "visible"                 "1"
         "enabled"                 "1"

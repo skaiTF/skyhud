@@ -9,7 +9,6 @@
         "zpos"                         "1005"
         "wide"                         "8"
         "tall"                         "8"
-        "autoResize"                   "0"
         "pinCorner"                    "0"
         "visible"                      "0"
         "enabled"                      "1"
@@ -55,7 +54,6 @@
         "zpos"                         "1000"
         "wide"                         "12"
         "tall"                         "o1"
-        "autoResize"                   "0"
         "pinCorner"                    "0"
         "visible"                      "1"
         "enabled"                      "1"
@@ -109,7 +107,6 @@
         "TextAlignment"           "center"
         "proportionaltoparent"    "1"
         "mouseinputenabled"       "0"
-        "autoresize"              "1"
     }
     "StateBorderOverlay"
     {
@@ -120,7 +117,6 @@
         "zpos"                    "999"
         "wide"                    "f0"
         "tall"                    "f0"
-        "autoresize"              "3"
         "proportionaltoparent"    "1"
         "mouseinputenabled"       "0"
         "border"                  "CYOANodeViewBorder_Inactive"
@@ -150,7 +146,6 @@
         "zpos"                    "1"
         "wide"                    "199"
         "tall"                    "f3"
-        "autoresize"              "2"
         "proportionaltoparent"    "1"
         "ContractsLabel"
         {

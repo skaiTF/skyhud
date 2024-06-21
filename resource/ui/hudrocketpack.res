@@ -27,7 +27,6 @@
         "wide"                     "59"
         "wide_minmode"             "49"
         "tall"                     "2"
-        "autoResize"               "0"
         "pinCorner"                "0"
         "visible"                  "1"
         "enabled"                  "1"

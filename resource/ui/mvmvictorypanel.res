@@ -17,7 +17,6 @@
             "ypos"                  "0"
             "wide"                  "530"
             "tall"                  "230"
-            "autoResize"            "0"
             "pinCorner"             "0"
             "visible"               "1"
             "enabled"               "1"
@@ -84,7 +83,6 @@
             "ypos"           "90"
             "wide"           "400"
             "tall"           "70"
-            "autoResize"     "1"
             "visible"        "1"
         }
         "RatingContainer"
@@ -95,7 +93,6 @@
             "ypos"           "80"
             "wide"           "400"
             "tall"           "400"
-            "autoResize"     "1"
             "visible"        "1"
             "RatingLabel"
             {
@@ -145,7 +142,6 @@
             "ypos"           "135"
             "wide"           "400"
             "tall"           "70"
-            "autoResize"     "1"
             "visible"        "1"
         }
     }
@@ -158,7 +154,6 @@
         "zpos"                     "100"
         "wide"                     "106"
         "tall"                     "25"
-        "autoResize"               "0"
         "visible"                  "1"
         "enabled"                  "1"
         "tabPosition"              "0"

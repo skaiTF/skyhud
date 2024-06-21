@@ -138,7 +138,6 @@
         "wide"               "100"
         "wide_minmode"        "83"
         "tall"               "45"
-        "autoResize"         "0"
         "paintbackground"    "0"
         "pinCorner"          "0"
         "visible"            "1"

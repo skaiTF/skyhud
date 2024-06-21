@@ -112,7 +112,6 @@
             "border"                  "NoBorder"
             "proportionaltoparent"    "1"
             "pinCorner"               "2"
-            "autoResize"              "1"
             "PlayListDropShadow"
             {
                 "ControlName"    "EditablePanel"

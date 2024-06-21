@@ -42,7 +42,6 @@
         "font"                    "sh_22"
         "paintbackground"         "0"
         "pinCorner"               "2"
-        "autoResize"              "1"
         "ScrollBar"
         {
             "FieldName"               "ScrollBar"

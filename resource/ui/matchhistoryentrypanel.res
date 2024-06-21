@@ -131,7 +131,6 @@
         "tall"                    "0"
         "proportionaltoparent"    "1"
         "bgcolor_override"        "0 0 0 190"
-        "autoresize"              "2"
         "pincorner"               "3"
         "InnerShadow"
         {
@@ -143,7 +142,6 @@
             "tall"                    "f0"
             "zpos"                    "1"
             "proportionaltoparent"    "1"
-            "autoresize"              "2"
             "pincorner"               "3"
             "border"                  "InnerShadowBorder"
         }

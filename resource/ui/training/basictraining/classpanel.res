@@ -14,7 +14,6 @@
     {
         "ControlName"                  "CExButton"
         "fieldName"                    "SelectButton"
-        "autoResize"                   "0"
         "pinCorner"                    "0"
         "visible"                      "1"
         "enabled"                      "1"
@@ -47,7 +46,6 @@
         "ypos"                "241"
         "wide"                "30"
         "tall"                "15"
-        "autoResize"          "1"
         "pinCorner"           "0"
         "visible"             "0"
         "enabled"             "1"

@@ -8,7 +8,6 @@
         "ypos"                   "285"
         "wide"                   "220"
         "tall"                   "70"
-        "autoResize"             "0"
         "pinCorner"              "0"
         "visible"                "1"
         "enabled"                "1"
@@ -29,7 +28,6 @@
             "zpos"             "1"
             "wide"             "220"
             "tall"             "30"
-            "autoResize"       "1"
             "pinCorner"        "0"
             "visible"          "1"
             "enabled"          "1"
@@ -46,7 +44,6 @@
             "zpos"                "1"
             "wide"                "200"
             "tall"                "170"
-            "autoResize"          "0"
             "pinCorner"           "0"
             "visible"             "1"
             "enabled"             "1"
@@ -62,7 +59,6 @@
             "zpos"                         "20"
             "wide"                         "100"
             "tall"                         "20"
-            "autoResize"                   "0"
             "pinCorner"                    "0"
             "visible"                      "1"
             "enabled"                      "1"
@@ -99,7 +95,6 @@
             "TFFont"                     "HudFontSmallest"
             "HealthDeathWarningColor"    "HUDDeathWarning"
             "TextColor"                  "HudOffWhite"
-            "autoResize"                 "1"
         }
     }
 }

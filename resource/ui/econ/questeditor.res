@@ -31,7 +31,6 @@
             "zpos"                       "10"
             "wide"                       "30"
             "tall"                       "30"
-            "autoResize"                 "0"
             "pinCorner"                  "1"
             "visible"                    "1"
             "enabled"                    "1"
@@ -100,7 +99,6 @@
             "bgcolor_override"        "0 0 0 255"
             "autohide_buttons"        "1"
             "proportionaltoparent"    "1"
-            "autoresize"              "2"
             "ScrollBar"
             {
                 "ControlName"             "ScrollBar"
@@ -112,7 +110,6 @@
                 "zpos"                    "1000"
                 "nobuttons"               "1"
                 "proportionaltoparent"    "1"
-                "autoresize"              "2"
                 "pincorner"               "3"
                 "Slider"
                 {
@@ -168,7 +165,6 @@
             "bgcolor_override"        "0 0 0 255"
             "autohide_buttons"        "1"
             "proportionaltoparent"    "1"
-            "autoresize"              "2"
             "ScrollBar"
             {
                 "ControlName"             "ScrollBar"
@@ -180,7 +176,6 @@
                 "zpos"                    "1000"
                 "nobuttons"               "1"
                 "proportionaltoparent"    "1"
-                "autoresize"              "2"
                 "pincorner"               "3"
                 "Slider"
                 {
@@ -214,7 +209,6 @@
             "PaintBackgroundType"     "2"
             "fgcolor_override"        "118 107 94 255"
             "bgcolor_override"        "51 47 46 255"
-            "autoresize"              "3"
             "Scrollbar"
             {
                 "ControlName"             "ScrollBar"
@@ -227,7 +221,6 @@
                 "nobuttons"               "1"
                 "nobuttons"               "1"
                 "proportionaltoparent"    "1"
-                "autoresize"              "2"
                 "pincorner"               "3"
                 "Slider"
                 {

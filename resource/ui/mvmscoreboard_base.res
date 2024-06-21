@@ -26,7 +26,6 @@
         "visible"        "1"
         "enabled"        "1"
         "tabPosition"    "0"
-        "autoresize"     "3"
         "linespacing"    "20"
         "textcolor"      "sh_white"
         "alpha"          "255"

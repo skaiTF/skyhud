@@ -9,7 +9,6 @@
         "zpos"           "-1"
         "wide"           "320"
         "tall"           "150"
-        "autoResize"     "0"
         "pinCorner"      "0"
         "visible"        "1"
         "enabled"        "1"
@@ -30,7 +29,6 @@
         "zpos"             "1"
         "wide"             "240"
         "tall"             "55"
-        "autoResize"       "0"
         "pinCorner"        "0"
         "visible"          "1"
         "enabled"          "1"
@@ -51,7 +49,6 @@
         "wide"             "230" [$WIN32]
         "wide"             "180" [$X360]
         "tall"             "55"
-        "autoResize"       "0"
         "pinCorner"        "0"
         "visible"          "1"
         "enabled"          "1"
@@ -68,7 +65,6 @@
         "zpos"           "1"
         "wide"           "50"
         "tall"           "50"
-        "autoResize"     "0"
         "pinCorner"      "0"
         "visible"        "1"
         "enabled"        "1"

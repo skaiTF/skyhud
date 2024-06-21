@@ -82,7 +82,6 @@
         "zpos"                    "20"
         "wide"                    "p1"
         "tall"                    "64"
-        "autoResize"              "0"
         "pinCorner"               "0"
         "visible"                 "0"
         "enabled"                 "1"

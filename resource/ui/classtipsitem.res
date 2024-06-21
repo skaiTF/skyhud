@@ -8,7 +8,6 @@
         "ypos"                "0"
         "wide"                "160"
         "tall"                "30"
-        "autoResize"          "0"
         "pinCorner"           "1"
         "visible"             "1"
         "enabled"             "1"
@@ -38,7 +37,6 @@
             "enabled"          "1"
             "wrap"             "1"
             "font"             "ChalkboardText"
-            "autoResize"       "3"
             "pinCorner"        "1"
             "textAlignment"    "north-west"
         }

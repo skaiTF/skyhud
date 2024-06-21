@@ -16,7 +16,6 @@
         "collapsed_height"        "0"
         "expanded_height"         "60"
         "pinCorner"               "2"
-        "autoResize"              "1"
         "OuterShadow"
         {
             "ControlName"    "EditablePanel"
@@ -90,7 +89,6 @@
                 "zpos"                         "100"
                 "wide"                         "75"
                 "tall"                         "18"
-                "autoResize"                   "0"
                 "pinCorner"                    "3"
                 "visible"                      "1"
                 "if_queued"
@@ -133,7 +131,6 @@
                     "xpos"    "cs-0.5"
                     "wide"    "150"
                 }
-                "autoResize"                   "0"
                 "pinCorner"                    "3"
                 "visible"                      "1"
                 "enabled"                      "1"
@@ -167,7 +164,6 @@
                 "wide"                         "150"
                 "zpos"                         "100"
                 "tall"                         "18"
-                "autoResize"                   "0"
                 "pinCorner"                    "3"
                 "visible"                      "1"
                 "enabled"                      "1"
