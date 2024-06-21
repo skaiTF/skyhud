@@ -9,7 +9,6 @@
         "zpos"           "-1"
         "wide"           "320"
         "tall"           "150"
-        "pinCorner"      "0"
         "visible"        "1"
         "enabled"        "1"
         "image"          "../hud/death_panel_blue_bg"
@@ -28,7 +27,6 @@
         "wide"             "220" [$WIN32]
         "wide"             "180" [$X360]
         "tall"             "15"
-        "pinCorner"        "0"
         "visible"          "1"
         "enabled"          "1"
         "wrap"             "1"
@@ -48,7 +46,6 @@
         "wide_lodef"       "230"
         "tall"             "55"
         "tall_lodef"       "60"
-        "pinCorner"        "0"
         "visible"          "1"
         "enabled"          "1"
         "wrap"             "1"
@@ -64,7 +61,6 @@
         "zpos"           "1"
         "wide"           "45"
         "tall"           "45"
-        "pinCorner"      "0"
         "visible"        "1"
         "enabled"        "1"
         "image"          "../hud/hud_icon_attack"

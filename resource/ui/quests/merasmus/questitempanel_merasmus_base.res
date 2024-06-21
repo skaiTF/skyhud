@@ -113,7 +113,6 @@
                     "ypos"                       "10"
                     "wide"                       "p0.63"
                     "tall"                       "30"
-                    "pinCorner"                  "0"
                     "visible"                    "1"
                     "enabled"                    "1"
                     "tabPosition"                "0"
@@ -141,7 +140,6 @@
                     "xpos"          "25"
                     "ypos"          "52"
                     "wide"          "100"
-                    "pinCorner"     "0"
                     "SubButton"
                     {
                         "wide"                       "110"
@@ -355,7 +353,6 @@
                 "zpos"                    "100"
                 "wide"                    "f0"
                 "tall"                    "f0"
-                "pinCorner"               "0"
                 "visible"                 "1"
                 "enabled"                 "1"
                 "tabPosition"             "0"

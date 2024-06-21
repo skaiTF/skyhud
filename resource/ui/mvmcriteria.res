@@ -484,7 +484,6 @@
             "zpos"               "2"
             "wide"               "120"
             "tall"               "20"
-            "pinCorner"          "3"
             "visible"            "1"
             "enabled"            "1"
             "tabPosition"        "0"

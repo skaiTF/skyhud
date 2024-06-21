@@ -22,7 +22,6 @@
         "zpos"           "20"
         "wide"           "530"
         "tall"           "135"
-        "pinCorner"      "0"
         "visible"        "1"
         "enabled"        "1"
         "tabPosition"    "0"

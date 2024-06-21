@@ -9,7 +9,6 @@
         "zpos"           "-1"
         "wide"           "320"
         "tall"           "150"
-        "pinCorner"      "0"
         "visible"        "1"
         "enabled"        "1"
         "image"          "../hud/death_panel_blue_bg"
@@ -28,7 +27,6 @@
         "wide"             "230" [$WIN32]
         "wide"             "180" [$X360]
         "tall"             "55"
-        "pinCorner"        "0"
         "visible"          "1"
         "enabled"          "1"
         "wrap"             "1"
@@ -44,7 +42,6 @@
         "zpos"           "1"
         "wide"           "50"
         "tall"           "50"
-        "pinCorner"      "0"
         "visible"        "1"
         "enabled"        "1"
         "image"          "../hud/ico_teambalance"

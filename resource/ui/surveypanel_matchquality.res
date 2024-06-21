@@ -17,7 +17,6 @@
                 "zpos"                    "1000"
                 "wide"                    "p0.85"
                 "tall"                    "30"
-                "pinCorner"               "0"
                 "visible"                 "1"
                 "enabled"                 "1"
                 "wrap"                    "0"

@@ -8,7 +8,6 @@
         "zpos"                    "0"
         "wide"                    "o1"
         "tall"                    "f0"
-        "pinCorner"               "0"
         "visible"                 "1"
         "enabled"                 "1"
         "fov"                     "70"

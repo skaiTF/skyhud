@@ -41,7 +41,6 @@
         "RoundedCorners"          "0"
         "font"                    "sh_22"
         "paintbackground"         "0"
-        "pinCorner"               "2"
         "ScrollBar"
         {
             "FieldName"               "ScrollBar"
@@ -86,7 +85,6 @@
         "font"                     "sh_12"
         "alpha"                    "0"
         "mouseinputenabled"        "0"
-        "pinCorner"                "2"
         "pin_to_sibling"           "chatlog"
         "pin_corner_to_sibling"    "PIN_TOPLEFT"
         "pin_to_sibling_corner"    "PIN_BOTTOMLEFT"
@@ -107,6 +105,5 @@
         "border"                  "NoBorder"
         "keyboardinputenabled"    "0"
         "mouseinputenabled"       "0"
-        "pinCorner"               "2"
     }
 }

@@ -20,7 +20,6 @@
         {
             "wide"                         "20"
             "tall"                         "40"
-            "pinCorner"                    "2"
             "visible"                      "1"
             "enabled"                      "1"
             "tabPosition"                  "0"

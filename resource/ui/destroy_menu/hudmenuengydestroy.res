@@ -11,7 +11,6 @@
         "zpos"             "1"
         "wide"             "200"
         "tall"             "13"
-        "pinCorner"        "0"
         "visible"          "0"
         "enabled"          "1"
         "labelText"        "#Hud_Menu_Build_Cancel"

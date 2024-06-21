@@ -139,7 +139,6 @@
         "wide_minmode"        "83"
         "tall"               "45"
         "paintbackground"    "0"
-        "pinCorner"          "0"
         "visible"            "1"
         "enabled"            "1"
         "alpha"              "0"

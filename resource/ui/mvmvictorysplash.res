@@ -17,7 +17,6 @@
             "ypos"           "0"
             "wide"           "250"
             "tall"           "70"
-            "pinCorner"      "0"
             "visible"        "1"
             "enabled"        "1"
             "image"          "../hud/ammo_red_bg"

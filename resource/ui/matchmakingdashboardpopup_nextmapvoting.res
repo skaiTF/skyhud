@@ -15,7 +15,6 @@
         "mouseinputenabled"       "1"
         "collapsed_height"        "0"
         "expanded_height"         "80"
-        "pinCorner"               "2"
         "OuterShadow"
         {
             "ControlName"             "EditablePanel"
@@ -29,7 +28,6 @@
             "PaintBackgroundType"     "0"
             "border"                  "OuterShadowBorder"
             "proportionaltoparent"    "1"
-            "pinCorner"               "0"
         }
         "BGPanel"
         {
@@ -45,7 +43,6 @@
             "border"                  "sh_basic_panel_border"
             "bgcolor_override"        "sh_black"
             "proportionaltoparent"    "1"
-            "pinCorner"               "2"
             "HideButton"
             {
                 "ControlName"             "CExImageButton"
@@ -55,7 +52,6 @@
                 "zpos"                    "1000"
                 "wide"                    "o1"
                 "tall"                    "20"
-                "pinCorner"               "0"
                 "visible"                 "1"
                 "enabled"                 "1"
                 "tabPosition"             "0"
@@ -99,7 +95,6 @@
                 "zpos"                    "1000"
                 "wide"                    "o1"
                 "tall"                    "20"
-                "pinCorner"               "0"
                 "visible"                 "1"
                 "enabled"                 "1"
                 "tabPosition"             "0"

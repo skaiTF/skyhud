@@ -54,7 +54,6 @@
 			"zpos"									"0"		
 			"wide"									"o1"
 			"tall"									"p0.12"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fov"									"70"

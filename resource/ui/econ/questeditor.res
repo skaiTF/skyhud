@@ -31,7 +31,6 @@
             "zpos"                       "10"
             "wide"                       "30"
             "tall"                       "30"
-            "pinCorner"                  "1"
             "visible"                    "1"
             "enabled"                    "1"
             "tabPosition"                "0"
@@ -73,7 +72,6 @@
             "proportionaltoparent"    "1"
             "command"                 "newquest"
             "labeltext"               "New Quest"
-            "PinCorner"               "2"
         }
         "QuestsFilter"
         {
@@ -110,7 +108,6 @@
                 "zpos"                    "1000"
                 "nobuttons"               "1"
                 "proportionaltoparent"    "1"
-                "pincorner"               "3"
                 "Slider"
                 {
                     "PaintBackgroundType"    "0"
@@ -139,7 +136,6 @@
             "proportionaltoparent"    "1"
             "command"                 "newobjcond"
             "labeltext"               "New Objective Condition"
-            "PinCorner"               "2"
         }
         "ConditionsFilter"
         {
@@ -176,7 +172,6 @@
                 "zpos"                    "1000"
                 "nobuttons"               "1"
                 "proportionaltoparent"    "1"
-                "pincorner"               "3"
                 "Slider"
                 {
                     "PaintBackgroundType"    "0"
@@ -221,7 +216,6 @@
                 "nobuttons"               "1"
                 "nobuttons"               "1"
                 "proportionaltoparent"    "1"
-                "pincorner"               "3"
                 "Slider"
                 {
                     "PaintBackgroundType"    "0"

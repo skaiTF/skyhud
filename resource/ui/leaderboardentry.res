@@ -50,7 +50,6 @@
             "zpos"             "2"
             "wide"             "250"
             "tall"             "16"
-            "pinCorner"        "0"
             "visible"          "1"
             "enabled"          "1"
             "wrap"             "0"

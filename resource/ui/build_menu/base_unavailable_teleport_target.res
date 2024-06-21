@@ -43,7 +43,6 @@
         "zpos"               "0"
         "wide"               "28"
         "tall"               "28"
-        "pinCorner"          "0"
         "enabled"            "1"
         "paintbackground"    "1"
         "border"             "MaterialTransparent50"

@@ -8,7 +8,6 @@
         "ypos"           "0"
         "wide"           "f0"
         "tall"           "480"
-        "pinCorner"      "0"
         "visible"        "1"
         "enabled"        "1"
         "tabPosition"    "0"

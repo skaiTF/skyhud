@@ -66,7 +66,6 @@
         "zpos"                         "300"
         "wide"                         "255"
         "tall"                         "24"
-        "pinCorner"                    "3"
         "visible"                      "1"
         "enabled"                      "1"
         "tabPosition"                  "0"

@@ -131,7 +131,6 @@
         "tall"                    "0"
         "proportionaltoparent"    "1"
         "bgcolor_override"        "0 0 0 190"
-        "pincorner"               "3"
         "InnerShadow"
         {
             "ControlName"             "EditablePanel"
@@ -142,7 +141,6 @@
             "tall"                    "f0"
             "zpos"                    "1"
             "proportionaltoparent"    "1"
-            "pincorner"               "3"
             "border"                  "InnerShadowBorder"
         }
         "SlidingStatsContainer"
@@ -154,7 +152,6 @@
             "wide"                    "f0"
             "tall"                    "50"
             "proportionaltoparent"    "1"
-            "pincorner"               "3"
             "BGImage"
             {
                 "ControlName"             "ScalableImagePanel"
@@ -330,7 +327,6 @@
                 "proportionaltoparent"    "1"
                 "visible"                 "1"
                 "mouseinputenabled"       "0"
-                "pincorner"               "3"
                 "labeltext"               "%stat_score%"
                 "font"                    "MMenuPlayListDesc"
                 "fgcolor_override"        "TanLight"

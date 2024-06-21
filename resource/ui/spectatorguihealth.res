@@ -48,7 +48,6 @@
         "wide_minmode"       "32"
         "tall"               "22"
         "tall_minmode"       "19"
-        "pinCorner"          "0"
         "visible"            "1"
         "enabled"            "1"
         "paintbackground"    "0"

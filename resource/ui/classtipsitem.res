@@ -8,7 +8,6 @@
         "ypos"                "0"
         "wide"                "160"
         "tall"                "30"
-        "pinCorner"           "1"
         "visible"             "1"
         "enabled"             "1"
         "bgcolor_override"    "0 0 0 0"
@@ -37,7 +36,6 @@
             "enabled"          "1"
             "wrap"             "1"
             "font"             "ChalkboardText"
-            "pinCorner"        "1"
             "textAlignment"    "north-west"
         }
     }

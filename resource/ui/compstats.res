@@ -111,7 +111,6 @@
             "PaintBackgroundType"     "2"
             "border"                  "NoBorder"
             "proportionaltoparent"    "1"
-            "pinCorner"               "2"
             "PlayListDropShadow"
             {
                 "ControlName"    "EditablePanel"

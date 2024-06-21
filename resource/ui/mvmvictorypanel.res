@@ -17,7 +17,6 @@
             "ypos"                  "0"
             "wide"                  "530"
             "tall"                  "230"
-            "pinCorner"             "0"
             "visible"               "1"
             "enabled"               "1"
             "image"                 "../HUD/tournament_panel_black"

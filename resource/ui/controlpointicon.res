@@ -48,7 +48,6 @@
         "zpos"             "4"
         "wide"             "12"
         "tall"             "24"
-        "pinCorner"        "0"
         "visible"          "1"
         "enabled"          "1"
         "labelText"        "#ControlPointIconCappers"

@@ -85,7 +85,6 @@
         "zpos"                    "20"
         "wide"                    "f28"
         "tall"                    "f0"
-        "pinCorner"               "0"
         "visible"                 "1"
         "enabled"                 "1"
         "tabPosition"             "0"

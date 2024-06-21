@@ -15,7 +15,6 @@
         "mouseinputenabled"       "1"
         "collapsed_height"        "0"
         "expanded_height"         "60"
-        "pinCorner"               "2"
         "OuterShadow"
         {
             "ControlName"    "EditablePanel"
@@ -35,7 +34,6 @@
             "PaintBackgroundType"     "2"
             "border"                  "MaterialTransparent70"
             "proportionaltoparent"    "1"
-            "pinCorner"               "3"
             "DescLabel"
             {
                 "ControlName"             "CAutoFittingLabel"
@@ -52,7 +50,6 @@
                 "textAlignment"           "center"
                 "labelText"               "%match_type%"
                 "proportionaltoparent"    "1"
-                "pinCorner"               "3"
                 "AllCaps"                 "1"
                 "fonts"
                 {
@@ -77,7 +74,6 @@
                 "textAlignment"           "center"
                 "labelText"               "%auto_join%"
                 "proportionaltoparent"    "1"
-                "pinCorner"               "3"
                 "AllCaps"                 "1"
             }
             "AbandonButton"
@@ -89,7 +85,6 @@
                 "zpos"                         "100"
                 "wide"                         "75"
                 "tall"                         "18"
-                "pinCorner"                    "3"
                 "visible"                      "1"
                 "if_queued"
                 {
@@ -131,7 +126,6 @@
                     "xpos"    "cs-0.5"
                     "wide"    "150"
                 }
-                "pinCorner"                    "3"
                 "visible"                      "1"
                 "enabled"                      "1"
                 "tabPosition"                  "0"
@@ -164,7 +158,6 @@
                 "wide"                         "150"
                 "zpos"                         "100"
                 "tall"                         "18"
-                "pinCorner"                    "3"
                 "visible"                      "1"
                 "enabled"                      "1"
                 "tabPosition"                  "0"
@@ -204,7 +197,6 @@
                 "textAlignment"           "east"
                 "labelText"               "#TF_Matchmaking_RollingQueue_MatchReadyJoining"
                 "proportionaltoparent"    "1"
-                "pinCorner"               "3"
                 "AllCaps"                 "1"
             }
             "Spinner"

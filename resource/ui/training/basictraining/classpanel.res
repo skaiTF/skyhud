@@ -14,7 +14,6 @@
     {
         "ControlName"                  "CExButton"
         "fieldName"                    "SelectButton"
-        "pinCorner"                    "0"
         "visible"                      "1"
         "enabled"                      "1"
         "tabPosition"                  "0"
@@ -46,7 +45,6 @@
         "ypos"                "241"
         "wide"                "30"
         "tall"                "15"
-        "pinCorner"           "0"
         "visible"             "0"
         "enabled"             "1"
         "AllCaps"             "1"
