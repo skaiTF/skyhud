@@ -407,12 +407,12 @@ event HudReplayTipOut
 
 event HudTournamentSetupPanelOpen
 {
-	Animate HudTournamentSetup					wide	"91"									Linear 	0.0 	0.12
+	Animate HudTournamentSetup	Position	"c-44 41"	Spline 0.0 0.2
 }
 
 event HudTournamentSetupPanelClose
 {
-	Animate HudTournamentSetup					wide	"0"										Linear 	0.12 	0.0
+	Animate HudTournamentSetup	Position	"c-44 -70"	Spline 0.0 0.2
 }
 
 //====================================
@@ -2291,5 +2291,9 @@ event DelayQuestMapClose
 	// For real close
 	FireCommand	1.0 "close"
 }
+
+event CompetitiveGame_LowerChatWindow{}
+event CompetitiveGame_RestoreChatWindow{}
+event HudTournament_MoveChatWindow{}
 
 //
