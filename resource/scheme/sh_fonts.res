@@ -2380,7 +2380,8 @@
 			"1"
 			{
 				"name"		"Nunito SemiBold"
-				"tall"		"6"
+				"tall"		"6"	[$WINDOWS]
+				"tall"		"4" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -2390,7 +2391,8 @@
 			"1"
 			{
 				"name"		"Nunito SemiBold"
-				"tall"		"7"
+				"tall"		"7" [$WINDOWS]
+				"tall"		"5" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -2400,7 +2402,8 @@
 			"1"
 			{
 				"name"		"Nunito SemiBold"
-				"tall"		"8"
+				"tall"		"8"	[$WINDOWS]
+				"tall"		"6" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -2410,7 +2413,8 @@
 			"1"
 			{
 				"name"		"Nunito Bold"
-				"tall"		"9"
+				"tall"		"9" [$WINDOWS]
+				"tall"		"7" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -2420,7 +2424,8 @@
 			"1"
 			{
 				"name"		"Nunito Bold"
-				"tall"		"10"
+				"tall"		"10" [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -2430,7 +2435,8 @@
 			"1"
 			{
 				"name"		"Nunito Bold"
-				"tall"		"11"
+				"tall"		"11" [$WINDOWS]
+				"tall"		"9" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -2440,7 +2446,8 @@
 			"1"
 			{
 				"name"		"Nunito Bold"
-				"tall"		"12"
+				"tall"		"12" [$WINDOWS]
+				"tall"		"10" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -2450,7 +2457,8 @@
 			"1"
 			{
 				"name"		"Nunito Bold"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -2460,7 +2468,8 @@
 			"1"
 			{
 				"name"		"Nunito Bold"
-				"tall"		"16"
+				"tall"		"16" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -2470,7 +2479,8 @@
 			"1"
 			{
 				"name"		"Nunito Bold"
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"16" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -2480,7 +2490,8 @@
 			"1"
 			{
 				"name"		"Nunito Bold"
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"16" [$LINUX]
 				"antialias" "1"
 				"dropshadow" "1"
 			}
@@ -2491,7 +2502,8 @@
 			"1"
 			{
 				"name"		"Nunito SemiBold"
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"16" [$LINUX]
 				"antialias" "1"
 				"outline" "1"
 			}
@@ -2502,7 +2514,8 @@
 			"1"
 			{
 				"name"		"Nunito Bold"
-				"tall"		"20"
+				"tall"		"20" [$WINDOWS]
+				"tall"		"18" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -2512,7 +2525,8 @@
 			"1"
 			{
 				"name"		"Nunito SemiBold"
-				"tall"		"22"
+				"tall"		"22" [$WINDOWS]
+				"tall"		"20" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -2522,7 +2536,8 @@
 			"1"
 			{
 				"name"		"Nunito SemiBold"
-				"tall"		"22"
+				"tall"		"22" [$WINDOWS]
+				"tall"		"20" [$LINUX]
 				"antialias" "1"
 				"dropshadow" "1"
 			}
@@ -2533,7 +2548,8 @@
 			"1"
 			{
 				"name"		"Nunito SemiBold"
-				"tall"		"22"
+				"tall"		"22" [$WINDOWS]
+				"tall"		"20" [$LINUX]
 				"antialias" "1"
 				"outline" "1"
 			}
@@ -2544,7 +2560,8 @@
 			"1"
 			{
 				"name"		"Nunito Bold"
-				"tall"		"24"
+				"tall"		"24" [$WINDOWS]
+				"tall"		"22" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -2554,7 +2571,8 @@
 			"1"
 			{
 				"name"		"Nunito SemiBold"
-				"tall"		"26"
+				"tall"		"26" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -2564,7 +2582,8 @@
 			"1"
 			{
 				"name"		"Nunito SemiBold"
-				"tall"		"26"
+				"tall"		"26" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"antialias" "1"
 				"dropshadow" "1"
 			}
@@ -2575,7 +2594,8 @@
 			"1"
 			{
 				"name"		"Nunito SemiBold"
-				"tall"		"26"
+				"tall"		"26" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"antialias" "1"
 				"outline" "1"
 			}
@@ -2586,7 +2606,8 @@
 			"1"
 			{
 				"name"		"Nunito SemiBold"
-				"tall"		"28"
+				"tall"		"28" [$WINDOWS]
+				"tall"		"26" [$LINUX]
 				"antialias" "1"
 			}
 		}

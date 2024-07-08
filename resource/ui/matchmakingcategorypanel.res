@@ -67,7 +67,7 @@
             "command"                     "toggle_collapse"
             "labeltext"                   "#TF_Casual_ViewMaps"
             "textAlignment"               "center"
-            "font"                        "sh_8"
+            "font"                        "sh_10"
             "textinsetx"                  "0"
             "AllCaps"                     "1"
             "stay_armed_on_click"         "1"

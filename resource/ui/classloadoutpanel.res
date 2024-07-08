@@ -48,7 +48,7 @@
             "name_only"              "1"
             "attriblabel"
             {
-                "font"       "ItemFontAttribLarge"
+                "font"       "sh_11"
                 "visible"    "0"
             }
             "itemmodelpanel"
