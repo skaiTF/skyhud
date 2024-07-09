@@ -3119,7 +3119,8 @@
 		}
 		"8"
 		{
-		    "font" "resource/scheme/fonts/Nunito-SemiBold.ttf"   
+		    "font" "resource/scheme/fonts/Nunito-SemiBold.ttf" [$WINDOWS]
+			"font" "resource/scheme/fonts/Nunito-SemiBold-linux.ttf" [$LINUX]
 			"name" "Nunito SemiBold"
 		}
 		"9"
