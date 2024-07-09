@@ -7,7 +7,8 @@ Scheme
 			"1"
 			{
 				"name"			"Hypnotize Icons V3"
-				"tall"			"10"
+				"tall"			"10" [$WINDOWS]
+				"tall"			"8" [$LINUX]
 				"additive"  	"0"
 				"antialias"		"1"
 			}
@@ -17,7 +18,8 @@ Scheme
 			"1"
 			{
 				"name"			"Hypnotize Icons V3"
-				"tall"			"12"
+				"tall"			"12" [$WINDOWS]
+				"tall"			"10" [$LINUX]
 				"additive"  	"0"
 				"antialias"		"1"
 			}
@@ -27,7 +29,8 @@ Scheme
 			"1"
 			{
 				"name"			"Hypnotize Icons V3"
-				"tall"			"14"
+				"tall"			"14" [$WINDOWS]
+				"tall"			"12" [$LINUX]
 				"additive"  	"0"
 				"antialias"		"1"
 			}
@@ -37,7 +40,8 @@ Scheme
 			"1"
 			{
 				"name"			"Hypnotize Icons V3"
-				"tall"			"16"
+				"tall"			"16" [$WINDOWS]
+				"tall"			"14" [$LINUX]
 				"additive"  	"0"
 				"antialias"		"1"
 			}
@@ -47,7 +51,8 @@ Scheme
 			"1"
 			{
 				"name"			"Hypnotize Icons V3"
-				"tall"			"16"
+				"tall"			"16" [$WINDOWS]
+				"tall"			"14" [$LINUX]
 				"additive"  	"0"
 				"antialias"		"1"
 				"blur"			"1"
@@ -58,7 +63,8 @@ Scheme
 			"1"
 			{
 				"name"			"Hypnotize Icons V3"
-				"tall"			"18"
+				"tall"			"18" [$WINDOWS]
+				"tall"			"16" [$LINUX]
 				"additive"  	"0"
 				"antialias"		"1"
 			}
@@ -68,7 +74,8 @@ Scheme
 			"1"
 			{
 				"name"			"Hypnotize Icons V3"
-				"tall"			"18"
+				"tall"			"18" [$WINDOWS]
+				"tall"			"16" [$LINUX]
 				"additive"  	"0"
 				"antialias"		"1"
 				"blur"			"1"
@@ -79,7 +86,8 @@ Scheme
 			"1"
 			{
 				"name"			"Hypnotize Icons V3"
-				"tall"			"20"
+				"tall"			"20" [$WINDOWS]
+				"tall"			"18" [$LINUX]
 				"additive"  	"0"
 				"antialias"		"1"
 			}
@@ -89,7 +97,8 @@ Scheme
 			"1"
 			{
 				"name"			"Hypnotize Icons V3"
-				"tall"			"20"
+				"tall"			"20" [$WINDOWS]
+				"tall"			"18" [$LINUX]
 				"additive"  	"0"
 				"antialias"		"1"
 				"blur"			"1"
@@ -100,7 +109,8 @@ Scheme
 			"1"
 			{
 				"name"			"Hypnotize Icons V3"
-				"tall"			"22"
+				"tall"			"22" [$WINDOWS]
+				"tall"			"20" [$LINUX]
 				"additive"  	"0"
 				"antialias"		"1"
 			}
@@ -110,7 +120,8 @@ Scheme
 			"1"
 			{
 				"name"			"Hypnotize Icons V3"
-				"tall"			"22"
+				"tall"			"22" [$WINDOWS]
+				"tall"			"20" [$LINUX]
 				"additive"  	"0"
 				"antialias"		"1"
 				"blur"			"1"
@@ -121,7 +132,8 @@ Scheme
 			"1"
 			{
 				"name"			"Hypnotize Icons V3"
-				"tall"			"24"
+				"tall"			"24" [$WINDOWS]
+				"tall"			"22" [$LINUX]
 				"additive"  	"0"
 				"antialias"		"1"
 			}
@@ -131,7 +143,8 @@ Scheme
 			"1"
 			{
 				"name"			"Hypnotize Icons V3"
-				"tall"			"24"
+				"tall"			"24" [$WINDOWS]
+				"tall"			"22" [$LINUX]
 				"additive"  	"0"
 				"antialias"		"1"
 				"blur"			"1"
@@ -142,7 +155,8 @@ Scheme
 			"1"
 			{
 				"name"			"Hypnotize Icons V3"
-				"tall"			"26"
+				"tall"			"26" [$WINDOWS]
+				"tall"			"24" [$LINUX]
 				"additive"  	"0"
 				"antialias"		"1"
 			}
@@ -153,7 +167,8 @@ Scheme
 			"1"
 			{
 				"name"			"Hypnotize Icons V3"
-				"tall"			"30"
+				"tall"			"30" [$WINDOWS]
+				"tall"			"28" [$LINUX]
 				"additive"  	"0"
 				"antialias"		"1"
 			}
@@ -164,7 +179,8 @@ Scheme
 			"1"
 			{
 				"name"			"Hypnotize Icons V3"
-				"tall"			"34"
+				"tall"			"34" [$WINDOWS]
+				"tall"			"32" [$LINUX]
 				"additive"  	"0"
 				"antialias"		"1"
 			}
