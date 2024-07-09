@@ -620,7 +620,7 @@
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -630,7 +630,7 @@
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
@@ -641,7 +641,7 @@
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -650,7 +650,7 @@
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -659,7 +659,7 @@
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -733,7 +733,7 @@
 			}
 			"2"
 			{
-				"name"  "Verdana"
+				"name"  "Nunito SemiBold"
 				"tall"  "28"
 				"weight" "0"
 				"additive" "1"
@@ -744,57 +744,56 @@
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Nunito SemiBold"
 				"tall"		"24"
-				"tall_hidef"	"32"
 				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"additive" 	"0"
+				"antialias"	"1"
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Nunito SemiBold"
 				"tall"		"24"
-				"tall_hidef"	"32"
 				"weight"	"500"
+				"additive" 	"0"
+				"antialias"	"1"
 				"italic"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Nunito SemiBold"
 				"tall"		"24"
-				"tall_hidef"	"32"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"weight"	"500"
+				"additive" 	"0"
+				"antialias"	"1"
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Nunito SemiBold"
 				"tall"		"24"
-				"tall_hidef"	"32"
-				"weight"	"900"
-				"italic"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"weight"	"500"
+				"additive" 	"0"
+				"antialias"	"1"
 			}
 		}
 		"CloseCaption_Small"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Nunito SemiBold"
 				"tall"		"16"
-				"tall_hidef"	"24"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"weight"	"500"
+				"additive" 	"0"
+				"antialias"	"1"
 			}
 		}
 
@@ -825,7 +824,7 @@
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -846,7 +845,7 @@
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -857,7 +856,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"13"
 				"tall_hidef"	"14"
 				"tall_lodef"	"17"
@@ -871,7 +870,7 @@
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"Nunito SemiBold"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -886,7 +885,7 @@
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"Nunito SemiBold"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -901,7 +900,7 @@
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"Nunito SemiBold"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
@@ -914,7 +913,7 @@
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"Nunito SemiBold"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"tall_lodef"	"32"
@@ -928,7 +927,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"6"
 				"weight"	"400"
 				"additive"	"0"
@@ -939,7 +938,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
@@ -965,7 +964,7 @@
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1042,7 +1041,7 @@
  		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -1054,7 +1053,7 @@
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -1064,7 +1063,7 @@
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -1074,7 +1073,7 @@
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1083,7 +1082,7 @@
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1092,7 +1091,7 @@
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1104,7 +1103,7 @@
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1186,7 +1185,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1194,7 +1193,7 @@
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1202,7 +1201,7 @@
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1210,7 +1209,7 @@
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1218,7 +1217,7 @@
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1229,7 +1228,7 @@
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1237,7 +1236,7 @@
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1245,7 +1244,7 @@
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1253,7 +1252,7 @@
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1261,7 +1260,7 @@
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1272,7 +1271,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1280,7 +1279,7 @@
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1288,7 +1287,7 @@
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1296,7 +1295,7 @@
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1304,7 +1303,7 @@
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"15"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1329,7 +1328,7 @@
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -1342,7 +1341,7 @@
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1354,7 +1353,7 @@
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1367,7 +1366,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"12"
@@ -1380,7 +1379,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"9"
 				"tall_hidef"	"10"
 				"tall_lodef"	"16"
@@ -1394,7 +1393,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"11"  [!$OSX]
 				"tall"		"9"  [$OSX]
 				"weight"	"800"
@@ -1473,7 +1472,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"22"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -1483,7 +1482,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"18"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -1493,7 +1492,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"15"
 				"weight"	"900"
 			}
@@ -1546,7 +1545,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"10"
 				"weight"	"600"
 				"additive"	"0"
@@ -1557,7 +1556,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1568,7 +1567,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1580,7 +1579,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1589,7 +1588,7 @@
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1598,7 +1597,7 @@
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1780,8 +1779,7 @@
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
+				"name"		"Nunito SemiBold"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -1790,8 +1788,7 @@
 			}
 			"2"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
+				"name"		"Nunito SemiBold"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1800,8 +1797,7 @@
 			}
 			"3"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"	
+				"name"		"Nunito SemiBold"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -1814,8 +1810,7 @@
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
+				"name"		"Nunito SemiBold"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -1824,8 +1819,7 @@
 			}
 			"2"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
+				"name"		"Nunito SemiBold"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -1834,8 +1828,7 @@
 			}
 			"3"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
+				"name"		"Nunito SemiBold"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -1848,8 +1841,7 @@
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
+				"name"		"Nunito SemiBold"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -1861,7 +1853,7 @@
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"Nunito SemiBold"
 				"tall"		"20"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
@@ -2005,7 +1997,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -2016,7 +2008,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2027,7 +2019,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"8"
 				"weight"	"400"
 				"antialias" "1"
@@ -2055,7 +2047,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2063,7 +2055,7 @@
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2071,7 +2063,7 @@
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2080,7 +2072,7 @@
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2089,7 +2081,7 @@
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2112,7 +2104,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2120,7 +2112,7 @@
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2128,7 +2120,7 @@
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2137,7 +2129,7 @@
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2146,7 +2138,7 @@
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Nunito SemiBold"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2187,7 +2179,7 @@
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Nunito SemiBold"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2311,8 +2303,7 @@
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
+				"name"		"Nunito SemiBold"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -2325,8 +2316,7 @@
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"		
+				"name"		"Nunito SemiBold"		
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -2338,8 +2328,7 @@
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
+				"name"		"Nunito SemiBold"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2351,8 +2340,7 @@
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
+				"name"		"Nunito SemiBold"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2364,8 +2352,7 @@
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
+				"name"		"Nunito SemiBold"
 				"tall"		"30"
 				"weight"	"400"
 				"additive"	"0"

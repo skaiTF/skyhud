@@ -216,7 +216,7 @@
 			"tall"									"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"sh_8"
+			"font"									"sh_10"
 			"fgcolor_override"						"sh_white"
 			"textAlignment"							"west"
 			"labelText"								"%name%"
@@ -234,7 +234,7 @@
 			"tall"									"10"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"sh_8"
+			"font"									"sh_10"
 			"fgcolor_override"						"sh_white"
 			"textAlignment"							"west"
 			"labelText"								"%desc1%"
@@ -247,9 +247,9 @@
 			
 			"fonts"
 			{
-				"0"									"sh_8"
-				"1"									"sh_8"
-				"2"									"sh_8"
+				"0"									"sh_10"
+				"1"									"sh_10"
+				"2"									"sh_10"
 			}
 		}
 
@@ -264,7 +264,7 @@
 			"tall"									"10"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"sh_8"
+			"font"									"sh_10"
 			"fgcolor_override"						"sh_white"
 			"textAlignment"							"west"
 			"labelText"								"%desc2%"
@@ -277,9 +277,9 @@
 			
 			"fonts"
 			{
-				"0"									"sh_8"
-				"1"									"sh_8"
-				"2"									"sh_8"
+				"0"									"sh_10"
+				"1"									"sh_10"
+				"2"									"sh_10"
 			}
 		}
 
