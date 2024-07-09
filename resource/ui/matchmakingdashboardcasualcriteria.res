@@ -24,7 +24,7 @@
         "proportionaltoparent"    "1"
         "labeltext"               "#TF_Matchmaking_HeaderCasual"
         "textAlignment"           "west"
-        "font"                    "sh_30"
+        "font"                    "sh_24"
         "fgcolor_override"        "sh_white"
         "AllCaps"                 "1"
         "mouseinputenabled"       "0"

@@ -157,7 +157,7 @@
             "proportionaltoparent"    "1"
             "labeltext"               "#TF_Casual_MapSelection"
             "textAlignment"           "north-west"
-            "font"                    "sh_14"
+            "font"                    "sh_18"
             "mouseinputenabled"       "0"
         }
         "SelectedCount"

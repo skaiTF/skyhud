@@ -65,7 +65,7 @@
         {
             "ControlName"      "CExLabel"
             "fieldName"        "namelabel"
-            "font"             "sh_12"
+            "font"             "ItemFontNameLarge"
             "xpos"             "0"
             "ypos"             "0"
             "zpos"             "2"
@@ -130,7 +130,7 @@
         {
             "ControlName"            "CExLabel"
             "fieldName"              "quantitylabel"
-            "font"                   "sh_10"
+            "font"                   "FontStorePrice"
             "xpos"                   "2"
             "ypos"                   "2"
             "zpos"                   "2"
@@ -149,7 +149,7 @@
         {
             "ControlName"            "CExLabel"
             "fieldName"              "serieslabel"
-            "font"                   "sh_10"
+            "font"                   "FontStorePrice"
             "xpos"                   "2"
             "ypos"                   "2"
             "zpos"                   "2"
@@ -170,7 +170,7 @@
         {
             "ControlName"            "CExLabel"
             "fieldName"              "matcheslabel"
-            "font"                   "sh_10"
+            "font"                   "ItemFontAttribSmall"
             "xpos"                   "4"
             "ypos"                   "4"
             "zpos"                   "2"
