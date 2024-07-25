@@ -408,11 +408,14 @@ event HudReplayTipOut
 event HudTournamentSetupPanelOpen
 {
 	Animate HudTournamentSetup	Position	"c-44 41"	Spline 0.0 0.2
+	Animate demo_record_reminder Position	"c-55 61"	Spline 0.001 0.2
+
 }
 
 event HudTournamentSetupPanelClose
 {
 	Animate HudTournamentSetup	Position	"c-44 -70"	Spline 0.0 0.2
+	Animate demo_record_reminder Position	"c-55 -90"	Spline 0.001 0.2
 }
 
 //====================================
