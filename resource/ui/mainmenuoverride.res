@@ -533,7 +533,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsety"	"-5"
+			"textinsety"	"0"
 			"use_proportional_insets" "1"
 			"font"			"Symbols 34"
 			"textAlignment"	"center"
