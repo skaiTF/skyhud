@@ -18,6 +18,7 @@
 				"tall"										"10"
 				"weight"									"0"
 				"antialias"									"1"
+				"yres"										"0 10000"
 			}
 		}
 
@@ -40,6 +41,7 @@
 				"tall"										"12"
 				"weight"									"0"
 				"antialias"									"1"
+				"yres"										"0 10000"
 			}
 		}
 
@@ -51,6 +53,7 @@
 				"tall"										"7"
 				"weight"									"0"
 				"antialias"									"1"
+				"yres"										"0 10000"
 			}
 		}
 
@@ -62,6 +65,7 @@
 				"tall"										"18"
 				"weight"									"0"
 				"antialias"									"1"
+				"yres"										"0 10000"
 			}
 		}
 		CenterPrintText
@@ -123,9 +127,9 @@
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"24"
+				"tall"		"12"
 				"weight"	"700"
-				"yres"	"1200 10000"
+				"antialias"	"1"
 			}
 		}
 		"HudFontGiant"
@@ -171,11 +175,10 @@
 			"5"
 			{
 				"name"		"TF2"
-				"tall"		"52"
+				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"yres"		"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
@@ -236,6 +239,15 @@
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+				"yres"		"1 1199"
+			}
+			"2"
+			{
+				"name"		"Nunito SemiBold"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}		
 		"HudFontMedium"
@@ -255,10 +267,11 @@
 			"1"
 			{
 				"name"		"Nunito SemiBold"
-				"tall"		"24"
+				"tall"		"28"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+				"yres"		"0 10000"
 			}
 		}
 		"HudFontMediumBold"
