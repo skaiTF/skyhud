@@ -26,8 +26,8 @@
     {
         "ControlName"                "CExLabel"
         "fieldName"                  "ItemName"
-        "xpos"                       "2"
-        "ypos"                       "0"
+        "xpos"                       "5"
+        "ypos"                       "5"
         "wide"                       "f0"
         "tall"                       "30"
         "zpos"                       "10"
@@ -38,7 +38,7 @@
         "fgcolor"                    "235 227 203 255"
         "use_proportional_insets"    "1"
         "textinsetx"                 "5"
-        "textinsety"                 "5"
+        "textinsety"                 "0"
         "textAlignment"              "north-west"
         "labelText"                  "%item_name%"
     }
