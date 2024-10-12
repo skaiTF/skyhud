@@ -289,11 +289,44 @@
         }
         "ChatFont"
         {
+            "isproportional" "only"
             "1"
             {
                 "name"          "Nunito Bold"
                 "tall"          "14"
                 "yres"          "480 599"
+                "dropshadow"    "0"
+                "antialias"     "1"
+            }
+                        "2"
+            {
+                "name"          "Nunito Bold"
+                "tall"          "16"
+                "yres"          "600 767"
+                "dropshadow"    "0"
+                "antialias"     "1"
+            }
+            "3"
+            {
+                "name"          "Nunito Bold"
+                "tall"          "18"
+                "yres"          "768 1023"
+                "dropshadow"    "0"
+                "antialias"     "1"
+            }
+            "4"
+            {
+                "name"          "Nunito Bold"
+                "tall"          "18"
+                "yres"          "1024 1199"
+                "dropshadow"    "0"
+                "antialias"     "1"
+            }
+            "5"
+            {
+                "name"          "Nunito Bold"
+                "tall"          "22"
+                "yres"          "1200 10000"
                 "dropshadow"    "0"
                 "antialias"     "1"
             }
@@ -313,12 +346,12 @@
         }
         "DepressedBorder"
         {
-            "inset"    "0 0 1 1"
+            "inset"    "0 0 0 0"
             "Left"
             {
                 "1"
                 {
-                    "color"     "Border.Dark"
+                    "color"     "Blank"
                     "offset"    "0 1"
                 }
             }
@@ -326,7 +359,7 @@
             {
                 "1"
                 {
-                    "color"     "Border.Bright"
+                    "color"     "Blank"
                     "offset"    "1 0"
                 }
             }
@@ -334,7 +367,7 @@
             {
                 "1"
                 {
-                    "color"     "Border.Dark"
+                    "color"     "Blank"
                     "offset"    "0 0"
                 }
             }
@@ -342,19 +375,19 @@
             {
                 "1"
                 {
-                    "color"     "Border.Bright"
+                    "color"     "Blank"
                     "offset"    "0 0"
                 }
             }
         }
         "RaisedBorder"
         {
-            "inset"    "0 0 1 1"
+            "inset"    "0 0 0 0"
             "Left"
             {
                 "1"
                 {
-                    "color"     "Border.Bright"
+                    "color"     "Blank"
                     "offset"    "0 1"
                 }
             }
@@ -362,7 +395,7 @@
             {
                 "1"
                 {
-                    "color"     "Border.Dark"
+                    "color"     "Blank"
                     "offset"    "0 0"
                 }
             }
@@ -370,7 +403,7 @@
             {
                 "1"
                 {
-                    "color"     "Border.Bright"
+                    "color"     "Blank"
                     "offset"    "0 1"
                 }
             }
@@ -378,7 +411,7 @@
             {
                 "1"
                 {
-                    "color"     "Border.Dark"
+                    "color"     "Blank"
                     "offset"    "0 0"
                 }
             }
@@ -397,28 +430,28 @@
         }
         "ScrollBarButtonBorder"
         {
-            "inset"    "2 2 0 0"
+            "inset"    "0 0 0 0"
             "Left"
             {
                 "1"
                 {
-                    "color"     "Border.Bright"
-                    "offset"    "0 1"
+                    "color"     "Blank"
+                    "offset"    "0 0"
                 }
             }
             "Right"
             {
                 "1"
                 {
-                    "color"     "Border.Dark"
-                    "offset"    "1 0"
+                    "color"     "Blank"
+                    "offset"    "0 0"
                 }
             }
             "Top"
             {
                 "1"
                 {
-                    "color"     "Border.Bright"
+                    "color"     "Blank"
                     "offset"    "0 0"
                 }
             }
@@ -426,35 +459,35 @@
             {
                 "1"
                 {
-                    "color"     "Border.Dark"
+                    "color"     "Blank"
                     "offset"    "0 0"
                 }
             }
         }
         "ScrollBarButtonDepressedBorder"
         {
-            "inset"    "2 2 0 0"
+            "inset"    "0 0 0 0"
             "Left"
             {
                 "1"
                 {
-                    "color"     "Border.Dark"
-                    "offset"    "0 1"
+                    "color"     "Blank"
+                    "offset"    "0 0"
                 }
             }
             "Right"
             {
                 "1"
                 {
-                    "color"     "Border.Bright"
-                    "offset"    "1 0"
+                    "color"     "Blank"
+                    "offset"    "0 0"
                 }
             }
             "Top"
             {
                 "1"
                 {
-                    "color"     "Border.Dark"
+                    "color"     "Blank"
                     "offset"    "0 0"
                 }
             }
@@ -462,47 +495,47 @@
             {
                 "1"
                 {
-                    "color"     "Border.Bright"
+                    "color"     "Blank"
                     "offset"    "0 0"
                 }
             }
         }
         "TabBorder"
         {
-            "inset"    "0 0 1 1"
+            "inset"    "0 0 0 0"
             "Left"
             {
                 "1"
                 {
-                    "color"     "Border.Bright"
-                    "offset"    "0 1"
+                    "color"     "Blank"
+                    "offset"    "0 0"
                 }
             }
             "Right"
             {
                 "1"
                 {
-                    "color"     "Border.Dark"
-                    "offset"    "1 0"
+                    "color"     "Blank"
+                    "offset"    "0 0"
                 }
             }
             "Top"
             {
                 "1"
                 {
-                    "color"     "Border.Bright"
+                    "color"     "Blank"
                     "offset"    "0 0"
                 }
             }
         }
         "TabActiveBorder"
         {
-            "inset"    "0 0 1 0"
+            "inset"    "0 0 0 0"
             "Left"
             {
                 "1"
                 {
-                    "color"     "Border.Bright"
+                    "color"     "Blank"
                     "offset"    "0 0"
                 }
             }
@@ -510,7 +543,7 @@
             {
                 "1"
                 {
-                    "color"     "Border.Dark"
+                    "color"     "Blank"
                     "offset"    "1 0"
                 }
             }
@@ -518,19 +551,19 @@
             {
                 "1"
                 {
-                    "color"     "Border.Bright"
+                    "color"     "Blank"
                     "offset"    "0 0"
                 }
             }
         }
         "ToolTipBorder"
         {
-            "inset"    "0 0 1 0"
+            "inset"    "0 0 0 0"
             "Left"
             {
                 "1"
                 {
-                    "color"     "Border.Dark"
+                    "color"     "Blank"
                     "offset"    "0 0"
                 }
             }
@@ -538,15 +571,15 @@
             {
                 "1"
                 {
-                    "color"     "Border.Dark"
-                    "offset"    "1 0"
+                    "color"     "Blank"
+                    "offset"    "0 0"
                 }
             }
             "Top"
             {
                 "1"
                 {
-                    "color"     "Border.Dark"
+                    "color"     "Blank"
                     "offset"    "0 0"
                 }
             }
@@ -554,7 +587,7 @@
             {
                 "1"
                 {
-                    "color"     "Border.Dark"
+                    "color"     "Blank"
                     "offset"    "0 0"
                 }
             }
