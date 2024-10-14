@@ -15,7 +15,7 @@
 			"1"
 			{
 				"name"										"Nunito SemiBold"
-				"tall"										"10"
+				"tall"										"20"
 				"weight"									"0"
 				"antialias"									"1"
 				"yres"										"0 10000"
