@@ -135,12 +135,42 @@
             "enabled"                 "1"
             "tabPosition"             "0"
             "labelText"               ""
-            "fillcolor"               "sh_team_blu"
+            "image"                     "../hud/cart_point_neutral"
             "scaleImage"              "1"
             "proportionaltoparent"    "1"
-            "if_multiple_trains_red"
+            "if_team_blue"
             {
-                "fillcolor"    "sh_team_red"
+                "image"                 "../hud/cart_point_blue"
+            }
+            "if_team_red"
+            {
+                "image"                 "../hud/cart_point_red"
+            }
+            
+        }
+        "EscortItemImageBottom"
+        {
+            "ControlName"    "ImagePanel"
+            "fieldName"      "EscortItemImageBottom"
+            "xpos"                    "0"
+            "ypos"                    "0"
+            "zpos"                    "23"
+            "wide"                    "140"
+            "tall"                    "8"
+            "visible"                 "1"
+            "enabled"                 "1"
+            "tabPosition"             "0"
+            "labelText"               ""
+            "image"                     "../hud/cart_point_neutral"
+            "scaleImage"              "1"
+            "proportionaltoparent"    "1"
+            "if_team_blue"
+            {
+                "image"                 "../hud/cart_point_blue"
+            }
+            "if_team_red"
+            {
+                "image"                 "../hud/cart_point_red"
             }
         }
         "CapNumPlayers"
@@ -218,12 +248,6 @@
             "labelText"      ""
             "image"          "../hud/cart_blocked"
             "scaleImage"     "1"
-        }
-        "EscortItemImageBottom"
-        {
-            "ControlName"    "ImagePanel"
-            "fieldName"      "EscortItemImageBottom"
-            "xpos"           "9999"
         }
         "EscortItemImageAlert"
         {
