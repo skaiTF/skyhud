@@ -29,7 +29,7 @@ If you happen to need extra help, you can contact me on discord @skaideer or you
 - **Closed Captions**: clovervidia
 - **Original Font**: Nunito by Vernon Adams (http://sansoxygen.com)
 
-- ## Credits
+## Credits
 - **Skyhud**: by skai
 - **Font**: Lexend by Bonnie Shaver-Troup, Thomas Jockin, Santiago Orozco, Héctor Gómez, Superunion  (https://www.lexend.com/)
 
