@@ -40,4 +40,4 @@ If you happen to need extra help, you can contact me on discord @skaideer or you
 
 
 ## Special Thanks
-- **Raysfire's Youtube Tutorial* 
+- **Raysfire's Youtube Tutorial**
