@@ -1,4 +1,4 @@
-# skyhud
+# skyhud lexend
 ![Logo](https://i.imgur.com/FEkpfLP.png)
 
 ## EDIT OF SKYHUD
