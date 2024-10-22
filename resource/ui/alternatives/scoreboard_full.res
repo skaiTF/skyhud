@@ -120,7 +120,7 @@
     {
         "ControlName"              "CExLabel"
         "fieldName"                "BlueTeamScore"
-        "font"                     "sh_24"
+        "font"                     "sh_28"
         "fgcolor"                  "sh_white"
         "labelText"                "%blueteamscore%"
         "textAlignment"            "east"
@@ -143,7 +143,7 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"         "BlueTeamScoreShadow"
-        "font"              "sh_24"
+        "font"              "sh_28"
         "fgcolor"           "sh_black"
         "labelText"         "%blueteamscore%"
         "textAlignment"     "east"
@@ -164,7 +164,7 @@
     {
         "ControlName"              "CExLabel"
         "fieldName"                "BlueTeamPlayerCount"
-        "font"                     "sh_11"
+        "font"                     "sh_14"
         "fgcolor"                  "sh_white"
         "labelText"                "%blueteamplayercount%"
         "textAlignment"            "west"
@@ -188,7 +188,7 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"         "BlueTeamPlayerCountShadow"
-        "font"              "sh_11"
+        "font"              "sh_14"
         "fgcolor"           "sh_black"
         "labelText"         "%blueteamplayercount%"
         "textAlignment"     "west"
@@ -210,7 +210,7 @@
     {
         "ControlName"              "CExLabel"
         "fieldName"                "RedTeamScore"
-        "font"                     "sh_24"
+        "font"                     "sh_28"
         "fgcolor"                  "sh_white"
         "labelText"                "%redteamscore%"
         "textAlignment"            "west"
@@ -233,7 +233,7 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"         "RedTeamScoreShadow"
-        "font"              "sh_24"
+        "font"              "sh_28"
         "fgcolor"           "sh_black"
         "labelText"         "%redteamscore%"
         "textAlignment"     "west"
@@ -254,7 +254,7 @@
     {
         "ControlName"              "CExLabel"
         "fieldName"                "RedTeamPlayerCount"
-        "font"                     "sh_11"
+        "font"                     "sh_14"
         "fgcolor"                  "sh_white"
         "labelText"                "%redteamplayercount%"
         "textAlignment"            "east"
@@ -278,7 +278,7 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"         "RedTeamPlayerCountShadow"
-        "font"              "sh_11"
+        "font"              "sh_14"
         "fgcolor"           "sh_black"
         "labelText"         "%redteamplayercount%"
         "textAlignment"     "east"

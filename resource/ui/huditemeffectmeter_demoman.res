@@ -66,7 +66,7 @@
         "dulltext"                 "0"
         "brighttext"               "0"
         "proportionaltoparent"     "1"
-        "font"                     "sh_16"
+        "font"                     "sh_24"
         "fgcolor_override"         "sh_white"
         "pin_to_sibling"           "HeadsIcon"
         "pin_corner_to_sibling"    "PIN_CENTER_LEFT"
@@ -89,7 +89,7 @@
         "dulltext"                "0"
         "brighttext"              "0"
         "proportionaltoparent"    "1"
-        "font"                    "sh_16"
+        "font"                    "sh_24"
         "fgcolor_override"        "sh_black"
         "pin_to_sibling"          "ItemEffectMeterCount"
     }

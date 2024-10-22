@@ -15,7 +15,7 @@
 			"1"
 			{
 				"name"										"Lexend SemiBold"
-				"tall"										"20"
+				"tall"										"24"
 				"weight"									"0"
 				"antialias"									"1"
 				"yres"										"0 10000"
@@ -50,7 +50,7 @@
 			"1"
 			{
 				"name"										"Lexend SemiBold"
-				"tall"										"7"
+				"tall"										"22"
 				"weight"									"0"
 				"antialias"									"1"
 				"yres"										"0 10000"
@@ -3066,6 +3066,11 @@
 		"11"
 		{
 			"font" "resource/scheme/fonts/Lexend-Black.ttf"
+		}
+		"12"
+		{
+			"font" "resource/scheme/fonts/Lexend-Regular.tff"
+			"name" "Lexend Regular
 		}
 	}
 }
