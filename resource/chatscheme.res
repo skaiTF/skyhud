@@ -325,7 +325,7 @@
             "5"
             {
                 "name"          "Lexend Regular"
-                "tall"          "22"
+                "tall"          "26"
                 "yres"          "1200 10000"
                 "dropshadow"    "0"
                 "antialias"     "1"
