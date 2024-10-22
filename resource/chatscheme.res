@@ -292,7 +292,7 @@
             "isproportional" "only"
             "1"
             {
-                "name"          "Nunito Bold"
+                "name"          "Lexend Regular"
                 "tall"          "14"
                 "yres"          "480 599"
                 "dropshadow"    "0"
@@ -300,7 +300,7 @@
             }
                         "2"
             {
-                "name"          "Nunito Bold"
+                "name"          "Lexend Regular"
                 "tall"          "16"
                 "yres"          "600 767"
                 "dropshadow"    "0"
@@ -308,7 +308,7 @@
             }
             "3"
             {
-                "name"          "Nunito Bold"
+                "name"          "Lexend Regular"
                 "tall"          "18"
                 "yres"          "768 1023"
                 "dropshadow"    "0"
@@ -316,7 +316,7 @@
             }
             "4"
             {
-                "name"          "Nunito Bold"
+                "name"          "Lexend Regular"
                 "tall"          "18"
                 "yres"          "1024 1199"
                 "dropshadow"    "0"
@@ -324,7 +324,7 @@
             }
             "5"
             {
-                "name"          "Nunito Bold"
+                "name"          "Lexend Regular"
                 "tall"          "22"
                 "yres"          "1200 10000"
                 "dropshadow"    "0"
@@ -691,8 +691,8 @@
         "2"    "resource/HL2EP2.ttf"
         "3"
 		{
-		    "font" "resource/scheme/fonts/Nunito-Bold.ttf"   
-			"name" "Nunito Bold"
+		    "font" "resource/scheme/fonts/Lexend-Regular.ttf"   
+			"name" "Lexend Regular"
 		}
     }
 }

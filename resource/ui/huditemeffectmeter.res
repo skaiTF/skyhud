@@ -33,7 +33,7 @@
         "brighttext"              "0"
         "AllCaps"                 "1"
         "proportionaltoparent"    "1"
-        "font"                    "sh_9"
+        "font"                    "sh_10"
         "fgcolor_override"        "sh_white"
     }
     "ItemEffectMeter"

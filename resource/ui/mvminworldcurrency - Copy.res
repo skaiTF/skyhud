@@ -18,7 +18,7 @@
     {
         "ControlName"      "CExLabel"
         "fieldName"        "CurrencyGood"
-        "font"             "sh_14"
+        "font"             "sh_12"
         "fgcolor"          "sh_light_green"
         "xpos"             "0"
         "ypos"             "0"
@@ -34,7 +34,7 @@
     {
         "ControlName"      "CExLabel"
         "fieldName"        "CurrencyBad"
-        "font"             "sh_14"
+        "font"             "sh_12"
         "fgcolor"          "LowHealth"
         "xpos"             "0"
         "ypos"             "0"
@@ -50,7 +50,7 @@
     {
         "ControlName"      "CExLabel"
         "fieldName"        "CurrencyShadow"
-        "font"             "sh_14"
+        "font"             "sh_12"
         "fgcolor"          "sh_black"
         "xpos"             "1"
         "ypos"             "1"

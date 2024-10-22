@@ -14,7 +14,7 @@
 		{
 			"1"
 			{
-				"name"										"Nunito SemiBold"
+				"name"										"Lexend SemiBold"
 				"tall"										"20"
 				"weight"									"0"
 				"antialias"									"1"
@@ -26,7 +26,7 @@
 		{
 			"1"
 			{
-				"name"										"Nunito SemiBold"
+				"name"										"Lexend SemiBold"
 				"tall"										"12"
 				"underline" 								"1"
 				"antialias"									"1"
@@ -37,7 +37,7 @@
 		{
 			"1"
 			{
-				"name"										"Nunito SemiBold"
+				"name"										"Lexend SemiBold"
 				"tall"										"12"
 				"weight"									"0"
 				"antialias"									"1"
@@ -49,7 +49,7 @@
 		{
 			"1"
 			{
-				"name"										"Nunito SemiBold"
+				"name"										"Lexend SemiBold"
 				"tall"										"7"
 				"weight"									"0"
 				"antialias"									"1"
@@ -61,7 +61,7 @@
 		{
 			"1"
 			{
-				"name"										"Nunito SemiBold"
+				"name"										"Lexend SemiBold"
 				"tall"										"18"
 				"weight"									"0"
 				"antialias"									"1"
@@ -185,7 +185,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -198,7 +198,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -211,7 +211,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -223,7 +223,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -234,7 +234,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -243,7 +243,7 @@
 			}
 			"2"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -254,7 +254,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -266,7 +266,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"28"
 				"weight"	"500"
 				"additive"	"0"
@@ -278,7 +278,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -289,7 +289,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -300,7 +300,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -313,7 +313,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -326,7 +326,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -338,7 +338,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -349,7 +349,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -360,7 +360,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -372,7 +372,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -383,7 +383,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -395,7 +395,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -406,7 +406,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -417,7 +417,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -428,7 +428,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -439,7 +439,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -450,7 +450,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -461,7 +461,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -472,7 +472,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -485,7 +485,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -560,7 +560,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -633,7 +633,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -643,7 +643,7 @@
 			}
 			"2"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
@@ -654,7 +654,7 @@
 			}
 			"3"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -663,7 +663,7 @@
 			}
 			"4"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -672,7 +672,7 @@
 			}
 			"5"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -746,7 +746,7 @@
 			}
 			"2"
 			{
-				"name"  "Nunito SemiBold"
+				"name"  "Lexend SemiBold"
 				"tall"  "28"
 				"weight" "0"
 				"additive" "1"
@@ -757,7 +757,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive" 	"0"
@@ -768,7 +768,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive" 	"0"
@@ -780,7 +780,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive" 	"0"
@@ -791,7 +791,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive" 	"0"
@@ -802,7 +802,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive" 	"0"
@@ -837,7 +837,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -847,7 +847,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -858,7 +858,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -869,7 +869,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"13"
 				"tall_hidef"	"14"
 				"tall_lodef"	"17"
@@ -883,7 +883,7 @@
 		{
 			"1"
 			{
-				"name"			"Nunito SemiBold"
+				"name"			"Lexend SemiBold"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -898,7 +898,7 @@
 		{
 			"1"
 			{
-				"name"			"Nunito SemiBold"
+				"name"			"Lexend SemiBold"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -913,7 +913,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
@@ -926,7 +926,7 @@
 		{
 			"1"
 			{
-				"name"			"Nunito SemiBold"
+				"name"			"Lexend SemiBold"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"tall_lodef"	"32"
@@ -940,7 +940,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"6"
 				"weight"	"400"
 				"additive"	"0"
@@ -951,7 +951,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
@@ -964,7 +964,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -977,7 +977,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -989,7 +989,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1001,7 +1001,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -1015,7 +1015,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1027,7 +1027,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1039,7 +1039,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1054,7 +1054,7 @@
  		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -1066,7 +1066,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -1076,7 +1076,7 @@
 			}
 			"2"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -1086,7 +1086,7 @@
 			}
 			"3"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1095,7 +1095,7 @@
 			}
 			"4"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1104,7 +1104,7 @@
 			}
 			"5"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1116,7 +1116,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1128,7 +1128,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1139,7 +1139,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"20"
 				"weight"	"400"
 				"additive"	"0"
@@ -1150,7 +1150,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1161,7 +1161,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1172,7 +1172,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1184,7 +1184,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1198,7 +1198,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1206,7 +1206,7 @@
 			}
 			"2"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1214,7 +1214,7 @@
 			}
 			"3"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1222,7 +1222,7 @@
 			}
 			"4"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1230,7 +1230,7 @@
 			}
 			"5"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1241,7 +1241,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1252,7 +1252,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1260,7 +1260,7 @@
 			}
 			"2"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1268,7 +1268,7 @@
 			}
 			"3"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1276,7 +1276,7 @@
 			}
 			"4"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1284,7 +1284,7 @@
 			}
 			"5"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"15"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1309,7 +1309,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -1322,7 +1322,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1334,7 +1334,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1347,7 +1347,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"12"
@@ -1360,7 +1360,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"9"
 				"tall_hidef"	"10"
 				"tall_lodef"	"16"
@@ -1374,7 +1374,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"11"  [!$OSX]
 				"tall"		"9"  [$OSX]
 				"weight"	"800"
@@ -1387,7 +1387,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -1397,7 +1397,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -1407,7 +1407,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -1435,7 +1435,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -1444,7 +1444,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -1453,7 +1453,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"22"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -1463,7 +1463,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"18"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -1473,7 +1473,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"15"
 				"weight"	"900"
 			}
@@ -1483,7 +1483,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -1494,7 +1494,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -1505,7 +1505,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -1526,7 +1526,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"10"
 				"weight"	"600"
 				"additive"	"0"
@@ -1537,7 +1537,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1548,7 +1548,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1560,7 +1560,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1569,7 +1569,7 @@
 			}
 			"2"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1578,7 +1578,7 @@
 			}
 			"3"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1591,7 +1591,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -1602,7 +1602,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -1613,7 +1613,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -1624,7 +1624,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -1635,7 +1635,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -1646,7 +1646,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -1656,7 +1656,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -1667,7 +1667,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1678,7 +1678,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1690,7 +1690,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -1701,7 +1701,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -1713,7 +1713,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -1724,7 +1724,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -1735,7 +1735,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -1745,7 +1745,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -1757,7 +1757,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -1768,7 +1768,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -1777,7 +1777,7 @@
 			}
 			"2"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1786,7 +1786,7 @@
 			}
 			"3"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -1799,7 +1799,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -1808,7 +1808,7 @@
 			}
 			"2"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -1817,7 +1817,7 @@
 			}
 			"3"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -1830,7 +1830,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -1842,7 +1842,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"20"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
@@ -1854,7 +1854,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -1863,7 +1863,7 @@
 			}
 			"2"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1872,7 +1872,7 @@
 			}
 			"3"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -1885,7 +1885,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -1895,7 +1895,7 @@
 			}
 			"2"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1905,7 +1905,7 @@
 			}
 			"3"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -1919,7 +1919,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -1928,7 +1928,7 @@
 			}
 			"2"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -1937,7 +1937,7 @@
 			}
 			"3"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -1950,7 +1950,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -1962,7 +1962,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -1974,7 +1974,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1986,7 +1986,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -1997,7 +1997,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2008,7 +2008,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"8"
 				"weight"	"400"
 				"antialias" "1"
@@ -2036,7 +2036,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2044,7 +2044,7 @@
 			}
 			"2"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2052,7 +2052,7 @@
 			}
 			"3"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2061,7 +2061,7 @@
 			}
 			"4"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2070,7 +2070,7 @@
 			}
 			"5"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2082,7 +2082,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2093,7 +2093,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2101,7 +2101,7 @@
 			}
 			"2"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2109,7 +2109,7 @@
 			}
 			"3"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2118,7 +2118,7 @@
 			}
 			"4"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2127,7 +2127,7 @@
 			}
 			"5"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2146,7 +2146,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2157,7 +2157,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2168,7 +2168,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2181,7 +2181,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2192,7 +2192,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -2209,7 +2209,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"weight"	"500"
 				"antialias" "1"
@@ -2219,7 +2219,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"24"
 				"weight"	"500"
 				"antialias" "1"
@@ -2230,7 +2230,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2243,7 +2243,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -2255,7 +2255,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" 	"1"
@@ -2266,7 +2266,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"11"
 				"weight"	"500"
 				"blur"		"3"
@@ -2279,7 +2279,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2292,7 +2292,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -2305,7 +2305,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"		
+				"name"		"Lexend SemiBold"		
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -2317,7 +2317,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2329,7 +2329,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2341,7 +2341,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"30"
 				"weight"	"400"
 				"additive"	"0"
@@ -2349,13 +2349,13 @@
 			}
 		}
 		
-		//Nunito-SemiBold 
+		//Lexend-SemiBold 
 		
 		h_6
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"6"
 				"antialias" "1"
 			}
@@ -2365,7 +2365,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"7"
 				"antialias" "1"
 			}
@@ -2375,7 +2375,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"8"
 				"antialias" "1"
 			}
@@ -2385,7 +2385,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"9"
 				"antialias" "1"
 			}
@@ -2395,7 +2395,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"10"
 				"antialias" "1"
 			}
@@ -2405,7 +2405,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"11"
 				"antialias" "1"
 			}
@@ -2415,7 +2415,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"12"
 				"antialias" "1"
 			}
@@ -2425,7 +2425,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"14"
 				"antialias" "1"
 			}
@@ -2435,7 +2435,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"16"
 				"antialias" "1"
 			}
@@ -2445,7 +2445,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -2455,7 +2455,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"18"
 				"antialias" "1"
 				"dropshadow" "1"
@@ -2466,7 +2466,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"18"
 				"antialias" "1"
 				"outline" "1"
@@ -2477,7 +2477,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -2487,7 +2487,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"22"
 				"antialias" "1"
 			}
@@ -2497,7 +2497,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"22"
 				"antialias" "1"
 				"dropshadow" "1"
@@ -2508,7 +2508,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"22"
 				"antialias" "1"
 				"outline" "1"
@@ -2519,7 +2519,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"24"
 				"antialias" "1"
 			}
@@ -2529,7 +2529,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"26"
 				"antialias" "1"
 			}
@@ -2539,7 +2539,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"26"
 				"antialias" "1"
 				"dropshadow" "1"
@@ -2550,7 +2550,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"26"
 				"antialias" "1"
 				"outline" "1"
@@ -2561,7 +2561,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"28"
 				"antialias" "1"
 			}
@@ -2571,7 +2571,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"30"
 				"antialias" "1"
 			}
@@ -2581,7 +2581,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"32"
 				"antialias" "1"
 			}
@@ -2591,7 +2591,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"34"
 				"antialias" "1"
 			}
@@ -2601,7 +2601,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"36"
 				"antialias" "1"
 			}
@@ -2611,7 +2611,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"38"
 				"antialias" "1"
 			}
@@ -2621,7 +2621,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"40"
 				"antialias" "1"
 			}
@@ -2631,7 +2631,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"42"
 				"antialias" "1"
 			}
@@ -2641,7 +2641,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"44"
 				"antialias" "1"
 			}
@@ -2651,7 +2651,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"46"
 				"antialias" "1"
 			}
@@ -2661,19 +2661,19 @@
 		{
 			"1"
 			{
-				"name"		"Nunito SemiBold"
+				"name"		"Lexend SemiBold"
 				"tall"		"48"
 				"antialias" "1"
 			}
 		}
 
-		//Nunito Bold
+		//Lexend Bold
 
 		sh_bold_34
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"34"
 				"antialias" "1"
 			}
@@ -2683,7 +2683,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"36"
 				"antialias" "1"
 			}
@@ -2693,7 +2693,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"38"
 				"antialias" "1"
 			}
@@ -2703,7 +2703,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"40"
 				"antialias" "1"
 			}
@@ -2713,7 +2713,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"42"
 				"antialias" "1"
 			}
@@ -2723,7 +2723,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"44"
 				"antialias" "1"
 			}
@@ -2733,7 +2733,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"46"
 				"antialias" "1"
 			}
@@ -2743,7 +2743,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"48"
 				"antialias" "1"
 			}
@@ -2753,7 +2753,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"50"
 				"antialias" "1"
 			}
@@ -2763,7 +2763,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"52"
 				"antialias" "1"
 			}
@@ -2773,7 +2773,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"54"
 				"antialias" "1"
 			}
@@ -2783,7 +2783,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"56"
 				"antialias" "1"
 			}
@@ -2793,7 +2793,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"58"
 				"antialias" "1"
 			}
@@ -2803,18 +2803,18 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Bold"
+				"name"		"Lexend Bold"
 				"tall"		"60"
 				"antialias" "1"
 			}
 		}
 
-		//Nunito ExtraBold
+		//Lexend ExtraBold
 		sh_extra_bold_18
 		{
 			"1"
 			{
-				"name"		"Nunito ExtraBold"
+				"name"		"Lexend ExtraBold"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -2824,7 +2824,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito ExtraBold"
+				"name"		"Lexend ExtraBold"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -2834,7 +2834,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito ExtraBold"
+				"name"		"Lexend ExtraBold"
 				"tall"		"22"
 				"antialias" "1"
 			}
@@ -2844,18 +2844,18 @@
 		{
 			"1"
 			{
-				"name"		"Nunito ExtraBold"
+				"name"		"Lexend ExtraBold"
 				"tall"		"24"
 				"antialias" "1"
 			}
 		}
 
-		//Nunito Black
+		//Lexend Black
 		sh_black_16
 		{
 			"1"
 			{
-				"name"		"Nunito Black"
+				"name"		"Lexend Black"
 				"tall"		"16"
 				"antialias" "1"
 			}
@@ -2865,7 +2865,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Black"
+				"name"		"Lexend Black"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -2875,7 +2875,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Black"
+				"name"		"Lexend Black"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -2885,7 +2885,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Black"
+				"name"		"Lexend Black"
 				"tall"		"22"
 				"antialias" "1"
 			}
@@ -2895,7 +2895,7 @@
 		{
 			"1"
 			{
-				"name"		"Nunito Black"
+				"name"		"Lexend Black"
 				"tall"		"24" [$WINDOWS]
 				"tall"		"23" [$LINUX]
 				"antialias" "1"
@@ -2906,7 +2906,7 @@
 		{
 			"1"
 			{
-				"name" "Nunito SemiBold"
+				"name" "Lexend SemiBold"
 				"tall" "22"
 				"additive" "0"
 				"antialias" "1"
@@ -2917,7 +2917,7 @@
 		{
 			"1"
 			{
-				"name" "Nunito SemiBold"
+				"name" "Lexend SemiBold"
 				"tall" "22"
 				"additive" "0"
 				"antialias" "1"
@@ -2947,7 +2947,7 @@
 		"4" 
 		{
 			"font" "resource/TF2Secondary.ttf"
-			"name" "Nunito SemiBold"
+			"name" "Lexend SemiBold"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -2973,7 +2973,7 @@
 		"6" 
 		{
 			"font" "resource/TF2Build.ttf"
-			"name" "Nunito SemiBold"
+			"name" "Lexend SemiBold"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -3050,22 +3050,22 @@
 		}
 		"8"
 		{
-		    "font" "resource/scheme/fonts/Nunito-SemiBold.ttf" [$WINDOWS]
-			"font" "resource/scheme/fonts/Nunito-SemiBold-linux.ttf" [$POSIX]
-			"name" "Nunito SemiBold"
+		    "font" "resource/scheme/fonts/Lexend-SemiBold.ttf" [$WINDOWS]
+			"font" "resource/scheme/fonts/Lexend-SemiBold.ttf" [$POSIX]
+			"name" "Lexend SemiBold"
 		}
 		"9"
 		{
-		    "font" "resource/scheme/fonts/Nunito-Bold.ttf"   
-			"name" "Nunito Bold"
+		    "font" "resource/scheme/fonts/Lexend-Bold.ttf"   
+			"name" "Lexend Bold"
 		}
 		"10"
 		{
-			"font" "resource/scheme/fonts/Nunito-ExtraBold.ttf"
+			"font" "resource/scheme/fonts/Lexend-ExtraBold.ttf"
 		}
 		"11"
 		{
-			"font" "resource/scheme/fonts/Nunito-Black.ttf"
+			"font" "resource/scheme/fonts/Lexend-Black.ttf"
 		}
 	}
 }
