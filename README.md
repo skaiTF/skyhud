@@ -1,6 +1,8 @@
 # skyhud
 ![Logo](https://i.imgur.com/FEkpfLP.png)
-EDIT OF SKYHUD
+
+## EDIT OF SKYHUD
+
 A TF2 Head's Up Display, inspired by many other existing huds, and focused on simplicity.
 
 ## Installation
