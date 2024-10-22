@@ -10,7 +10,7 @@ Download the HUD .zip file and extract the main file (named "skyhud-master") int
 Also make sure that skyhud is the only hud present in the custom folder, otherwise you might experience issues and even game crashes.
 
 ## Screenshots
-Screenshots album: to be added
+Screenshots album: (https://imgur.com/a/sV9Hv1I)
 
 ## Customization
 All customizations are in the "customization" folder and are fully documented. If you intend to use any customizations, please read **ALL** "README.txt" files
