@@ -971,7 +971,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"sh_dark_transparent"
 			
-			"image"					"replay/thumbnails/panels/sh_generic_material_backpack"
+			"image"					"replay/thumbnails/panels/sh_generic_material"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
@@ -993,7 +993,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color"					"Normal_Hover"
-			"image"					"replay/thumbnails/panels/sh_generic_material_backpack"
+			"image"					"replay/thumbnails/panels/sh_generic_material"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"8"
@@ -1006,7 +1006,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"sh_dark_transparent"
 			
-			"image"					"replay/thumbnails/panels/sh_generic_material_backpack"
+			"image"					"replay/thumbnails/panels/sh_generic_material"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"8"
@@ -1019,7 +1019,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Normal_Hover"
 			
-			"image"					"replay/thumbnails/panels/sh_generic_material_backpack"
+			"image"					"replay/thumbnails/panels/sh_generic_material"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"8"
@@ -1032,7 +1032,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Normal_Hover"
 			
-			"image"					"replay/thumbnails/panels/sh_generic_material_backpack"
+			"image"					"replay/thumbnails/panels/sh_generic_material"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"8"
