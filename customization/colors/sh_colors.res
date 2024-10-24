@@ -80,7 +80,7 @@ Scheme
 	//Colors of the diferent item qualities such as strange or unusual
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-		"Normal"								"235 235 235 255"
+		"Normal"								"005 005 005 255"
 		"Genuine"								"115 215 140 255"
 		"Unusual"								"195 125 245 255"
 		"Vintage"								"110 165 255 255"
