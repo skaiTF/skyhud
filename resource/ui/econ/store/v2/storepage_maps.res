@@ -18,30 +18,44 @@
     "ClassFilterLabel"
     {
         "visible"    "0"
+        "tall"       "0"
     }
     "ClassFilterLabel"
     {
         "visible"    "0"
+        "tall"       "0"
     }
     "ClassFilterNavPanel"
     {
         "visible"    "0"
-    }
-    "NameFilterLabel"
-    {
-        "visible"    "0"
-    }
-    "NameFilterTextEntry"
-    {
-        "visible"    "0"
+        "tall"       "0"
     }
     "SortFilterLabel"
     {
         "visible"    "0"
+        "tall"       "0"
     }
     "SortFilterComboBox"
     {
         "visible"    "0"
+        "tall"       "0"
+    }
+    "SubcategoryBG"
+    {
+        "tall"              "0"
+        "visible"           "0"
+        "enabled"           "0"
+    }
+    "SortFilterBG"
+    {
+        "tall"              "0"
+        "visible"           "0"
+        "enabled"           "0"
+    }
+    "NameFilterTextEntry"
+    {
+        "xpos"                     "235"
+        "ypos"                     "-8"
     }
     "TitleLabel"
     {
@@ -51,9 +65,9 @@
         "labelText"        "#Store_Maps_Title"
         "textAlignment"    "north-west"
         "xpos"             "c-292"
-        "ypos"             "20"
+        "ypos"             "15"
         "zpos"             "5"
-        "wide"             "500"
+        "wide"             "350"
         "tall"             "25"
         "visible"          "1"
         "enabled"          "1"
@@ -69,7 +83,7 @@
         "xpos"             "c-292"
         "ypos"             "30"
         "zpos"             "5"
-        "wide"             "500"
+        "wide"             "350"
         "tall"             "25"
         "visible"          "1"
         "enabled"          "1"
@@ -79,10 +93,10 @@
     {
         "ControlName"                  "CExButton"
         "fieldName"                    "LearnMoreButton"
-        "xpos"                         "c175"
+        "xpos"                         "c50"
         "ypos"                         "20"
         "zpos"                         "5"
-        "wide"                         "120"
+        "wide"                         "100"
         "tall"                         "25"
         "visible"                      "1"
         "enabled"                      "1"

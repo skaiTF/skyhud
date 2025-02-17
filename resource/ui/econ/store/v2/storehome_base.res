@@ -119,7 +119,7 @@
         }
         "cart_labels_kv"
         {
-            "font"               "Size 11"
+            "font"               "sh_11"
             "textAlignment"      "north-east"
             "xpos"               "9999"
             "ypos"               "9999"
@@ -208,7 +208,7 @@
             "textAlignment"               "center"
             "scaleImage"                  "1"
             "AllCaps"                     "1"
-            "font"                        "Size 13"
+            "font"                        "sh_12"
             "fgcolor"                     "sh_white"
             "defaultBgColor_override"     "0 0 0 125"
             "defaultFgColor_override"     "sh_white"
@@ -270,7 +270,7 @@
     {
         "ControlName"              "CExLabel"
         "fieldName"                "CurPageLabel"
-        "font"                     "Size 24"
+        "font"                     "sh_24"
         "labelText"                "%backpackpage%"
         "textAlignment"            "east"
         "xpos"                     "-4"
