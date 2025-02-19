@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "vgui/replay/thumbnails/Panels/sh_red_team"
-	"$nolod" 1
-	"$translucent" 1
-}
