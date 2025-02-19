@@ -13,5 +13,5 @@
 //WARNING: ONLY UNCOMMENT ONE LINE AT A TIME
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//#base "../resource/ui/hudammoweapons_normal.res"			// DEFAULT STYLE
-#base "../resource/ui/hudammoweapons_box.res"			// BOX STYLE
+#base "../resource/ui/hudammoweapons_normal.res"			// DEFAULT STYLE
+//#base "../resource/ui/hudammoweapons_box.res"			// BOX STYLE
