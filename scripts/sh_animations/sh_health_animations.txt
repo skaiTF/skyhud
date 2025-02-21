@@ -4,6 +4,7 @@ event HudHealthBonusPulse
 {
 	Animate HealthBuffBox							Alpha 		"255"								Accel 	0.0 	0.0
 	Animate Health_Spectator_BG						BgColor 	"HealthBuff" 						Linear 	0.0		0.0
+	Animate HealthBuff								Alpha		"255"								Accel 	0.0		0.0
 	
 	Animate PlayerStatusHealthValue					FgColor 	"HealthBuff" 						Linear 	0.0		0.075
 	
@@ -21,6 +22,7 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop				0.0
 	
 	Animate HealthBuffBox							Alpha 		"0"									Accel 	0.0 	0.0
+	Animate HealthBuff								Alpha 		"0"									Accel 	0.0 	0.0
 	Animate Health_Spectator_BG						BgColor 	"sh_black_transparent" 			 	Linear 	0.0		0.0
 	Animate PlayerStatusHealthValue       			fgcolor     "Health_Numbers"  Linear 0.0 0.0
 }
@@ -32,6 +34,7 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 {
 	Animate HealthDyingBox							Alpha 		"255"								Accel 	0.0 	0.0
+	Animate HealthHurt								Alpha 		"255"								Accel 	0.0 	0.0
 	Animate Health_Spectator_BG						BgColor 	"LowHealth" 						Linear 	0.0		0.0
 	
 	Animate PlayerStatusHealthValue					FgColor 	"LowHealth" 						Linear 	0.0		0.075
@@ -51,6 +54,7 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulseLoop 				0.0
 
 	Animate HealthDyingBox							Alpha 		"0"									Accel 	0.0 	0.0
+	Animate HealthHurt								Alpha 		"0"									Accel 	0.0 	0.0
 	Animate Health_Spectator_BG						BgColor 	"sh_black_transparent" 				Linear 	0.0		0.0
 	Animate PlayerStatusHealthValue     		 	fgcolor     "Health_Numbers"  					Linear  0.0 	0.0
 }
