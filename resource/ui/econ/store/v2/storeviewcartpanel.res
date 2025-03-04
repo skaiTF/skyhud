@@ -401,7 +401,7 @@
                     {
                         "ControlName"         "Label"
                         "fieldname"           "TotalPriceLabel"
-                        "font"                "Size 24"
+                        "font"                "sh_24"
                         "textAlignment"       "east"
                         "xpos"                "475"
                         "ypos"                "0"

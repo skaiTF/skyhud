@@ -138,7 +138,7 @@
         "wide"                     "30"
         "tall"                     "10"
         "AllCaps"                  "1"
-        "fgcolor"                  "Green"
+        "fgcolor"                  "sh_light_green"
         "pin_to_sibling"           "CreditBonusTextLabel"
         "pin_corner_to_sibling"    "PIN_TOPLEFT"
         "pin_to_sibling_corner"    "PIN_TOPRIGHT"
@@ -147,7 +147,7 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"         "CreditRatingLabel"
-        "font"              "Size 24"
+        "font"              "sh_24"
         "labelText"         "%rating%"
         "textAlignment"     "center"
         "xpos"              "0"

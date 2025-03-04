@@ -107,7 +107,7 @@
         "enabled"                      "1"
         "tabPosition"                  "0"
         "labelText"                    "#ConfirmButtonText"
-        "font"                         "Size 14"
+        "font"                         "sh_14"
         "textAlignment"                "center"
         "textinsetx"                   "50"
         "dulltext"                     "0"

@@ -112,7 +112,7 @@
         {
             "ControlName"        "CExLabel"
             "fieldName"          "ItemNameLabel"
-            "font"               "Size 11"
+            "font"               "sh_11"
             "labelText"          "%itemname%"
             "textAlignment"      "west"
             "xpos"               "240"

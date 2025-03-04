@@ -289,7 +289,7 @@
         {
             "ControlName"      "CExLabel"
             "fieldName"        "TipLabel"
-            "font"             "Size 12"
+            "font"             "sh_12"
             "labelText"        "#DiscardItem"
             "textAlignment"    "center"
             "xpos"             "12"

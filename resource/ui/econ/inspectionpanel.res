@@ -319,7 +319,7 @@
         {
             "ControlName"                          "ComboBox"
             "fieldName"                            "ComboBoxValidPaintkits"
-            "Font"                                 "Size 12"
+            "Font"                                 "sh_12"
             "wrap"                                 "0"
             "xpos"                                 "3"
             "ypos"                                 "0"

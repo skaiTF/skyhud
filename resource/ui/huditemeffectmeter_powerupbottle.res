@@ -56,8 +56,8 @@
         "textAlignment"       "center"
         "dulltext"            "0"
         "brighttext"          "0"
-        "font"                "Size 12"
-        "fgcolor_override"    "White"
+        "font"                "sh_12"
+        "fgcolor_override"    "sh_white"
     }
     "ItemEffectMeterCountShadow"
     {
@@ -75,8 +75,8 @@
         "textAlignment"       "center"
         "dulltext"            "0"
         "brighttext"          "0"
-        "font"                "Size 12 Blur"
-        "fgcolor_override"    "Shadow"
+        "font"                "sh_12"
+        "fgcolor_override"    "sh_black"
     }
     "ItemEffectMeterLabel"
     {
