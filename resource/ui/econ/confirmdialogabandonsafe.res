@@ -64,7 +64,7 @@
         "enabled"                      "1"
         "tabPosition"                  "0"
         "labelText"                    "#GameUI_CancelBold"
-        "font"                         "sh_white"
+        "font"                         "sh_14"
         "textAlignment"                "center"
         "textinsetx"                   "50"
         "dulltext"                     "0"
