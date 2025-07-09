@@ -71,7 +71,7 @@
             "tall_hidef"       "24"
             "visible"          "1"
             "enabled"          "1"
-            "fgcolor"          "TanLight"
+            "fgcolor"          "sh_white"
         }
         "BlueTeamScore"
         {
@@ -95,7 +95,7 @@
             "ControlName"      "CExLabel"
             "fieldName"        "BlueTeamScoreDropshadow"
             "font"             "sh_36"
-            "fgcolor"          "Black"
+            "fgcolor"          "sh_black"
             "labelText"        "%blueteamscore%"
             "textAlignment"    "east"
             "xpos"             "81"
@@ -152,7 +152,7 @@
             "tall_hidef"       "24"
             "visible"          "1"
             "enabled"          "1"
-            "fgcolor"          "TanLight"
+            "fgcolor"          "sh_white"
         }
         "RedTeamScore"
         {
@@ -176,7 +176,7 @@
             "ControlName"      "CExLabel"
             "fieldName"        "RedTeamScoreDropshadow"
             "font"             "sh_36"
-            "fgcolor"          "Black"
+            "fgcolor"          "sh_black"
             "labelText"        "%redteamscore%"
             "textAlignment"    "west"
             "xpos"             "203"
@@ -334,7 +334,7 @@
     "TopPlayersLabel"
     {
         "ControlName"      "CExLabel"
-        "fieldName"        "TopPlayerLabel"
+        "fieldName"        "TopPlayersLabel"
         "font"             "ScoreboardVerySmall"
         "xpos"             "18"
         "ypos"             "114"
@@ -377,7 +377,7 @@
         "visible"                "1"
         "enabled"                "1"
         "tabPosition"            "0"
-        "fillcolor"              "250 234 201 255"
+        "fillcolor"              "sh_white"
         "PaintBackgroundType"    "0"
     }
     "Player1Badge"
@@ -651,7 +651,7 @@
         "visible"                "1"
         "enabled"                "1"
         "tabPosition"            "0"
-        "fillcolor"              "250 234 201 255"
+        "fillcolor"              "sh_white"
         "PaintBackgroundType"    "0"
     }
     "KillStreakPlayer1Badge"
