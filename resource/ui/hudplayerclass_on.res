@@ -191,7 +191,7 @@
 				"angles_z"		"0"
 				"origin_x"		"150"
 				"origin_y"		"-5"
-				"origin_z"		"-94"
+				"origin_z"		"-85"
 			}
 			"Heavy"
 			{
@@ -217,11 +217,11 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-1"
-				"angles_y"		"203"
+				"angles_y"		"220"
 				"angles_z"		"0"
 				"origin_x"		"160"
 				"origin_y"		"0"
-				"origin_z"		"-95"
+				"origin_z"		"-80"
 			}
 			"Engineer"
 			{
