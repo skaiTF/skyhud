@@ -95,6 +95,26 @@
             "visible"    "0"
         }
     }
+    "BlueTeamName"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"BlueTeamName"
+		"font"				"sh_18_dropshadow"
+		"labelText"			"%blueteamname%"
+		"textAlignment"		"center"
+		"xpos"				"0"
+		"ypos"				"0"
+        "zpos"              "23"
+		"wide"				"258"
+		"tall"				"26"
+		"fgcolor"			"sh_white"
+		"pin_to_sibling"		"BlueScoreBG"
+
+		if_mvm
+		{
+			"visible"			"0"
+		}
+	}
     "RedScoreBG"
     {
         "ControlName"              "EditablePanel"
@@ -116,6 +136,29 @@
             "visible"    "0"
         }
     }
+    "RedTeamName"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"RedTeamName"
+		"font"				"sh_18_dropshadow"
+		"labelText"			"%redteamname%"
+		"textAlignment"		"center"
+		"xpos"				"0"
+		"ypos"				"0"
+        "zpos"              "23"
+		"wide"				"258"
+		"tall"				"26"
+		"fgcolor"			"sh_white"
+
+		"pin_to_sibling"		"RedScoreBG"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+
+		if_mvm
+		{
+			"visible"			"0"
+		}
+	}
     "BlueTeamScore"
     {
         "ControlName"              "CExLabel"
