@@ -290,7 +290,7 @@
 		"ypos"										"0"
 		"zpos"										"5"
 		"wide"										"108"
-		"tall"										"27"
+		"tall"										"49"
 		"visible"									"1"
 		"paintbackground"							"0"
 		"border"									"MaterialTransparent70"
@@ -307,7 +307,7 @@
 			"ypos"									"4"
 			"zpos"									"500"
 			"wide"									"108"
-			"tall"									"20"
+			"tall"									"40"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
 
