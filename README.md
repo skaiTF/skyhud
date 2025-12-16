@@ -2,6 +2,12 @@
 ![Logo](https://i.imgur.com/NtvSG1A.png)
 A TF2 Head's Up Display, inspired by many other existing huds, and focused on simplicity.
 
+<p align="center">
+  <a href="https://comfig.app/huds/page/skyhud/"><img src="https://i.imgur.com/Ir2A7K7.png"></a>
+  <a href="https://tf2huds.dev/hud/skyhud"><img src="https://i.imgur.com/QHM3RNe.png"></a>
+  <a href="https://gamebanana.com/mods/333929"><img src="https://i.imgur.com/WpzU8Ak.png"></a>
+</p>
+
 ## Installation
 Download the HUD .zip file and extract the main file (named "skyhud-master") into your TF2 custom folder in the following file path: steam/steamapps/common/teamfortress2/tf/custom
 Also make sure that skyhud is the only hud present in the custom folder, otherwise you might experience issues and even game crashes.
