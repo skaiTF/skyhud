@@ -1869,4 +1869,3 @@
         "fieldName"      "CloseButton"
         "xpos"           "9999"
     }
-}
