@@ -3050,22 +3050,21 @@
 		}
 		"8"
 		{
-		    "font" "resource/scheme/fonts/Nunito-SemiBold.ttf" [$WINDOWS]
-			"font" "resource/scheme/fonts/Nunito-SemiBold-linux.ttf" [$POSIX]
+		    "font" "resource/scheme/fonts/nunito-semibold.ttf"
 			"name" "Nunito SemiBold"
 		}
 		"9"
 		{
-		    "font" "resource/scheme/fonts/Nunito-Bold.ttf"   
+		    "font" "resource/scheme/fonts/nunito-bold.ttf"   
 			"name" "Nunito Bold"
 		}
 		"10"
 		{
-			"font" "resource/scheme/fonts/Nunito-ExtraBold.ttf"
+			"font" "resource/scheme/fonts/nunito-extrabold.ttf"
 		}
 		"11"
 		{
-			"font" "resource/scheme/fonts/Nunito-Black.ttf"
+			"font" "resource/scheme/fonts/nunito-black.ttf"
 		}
 	}
 }
