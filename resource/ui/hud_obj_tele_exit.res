@@ -160,11 +160,23 @@
             "xpos"           "9999"
         }
         "WrenchIcon"
-        {
-            "ControlName"    "CIconPanel"
-            "fieldName"      "WrenchIcon"
-            "xpos"           "9999"
-        }
+		{
+			"ControlName"	"CIconPanel"
+			"fieldName"		"WrenchIcon"
+			"xpos"			"3"
+			"ypos"			"3"
+			"zpos"			"10"
+			"wide"			"25"
+			"tall"			"25"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"icon"			"obj_status_icon_wrench"
+			"iconColor"               "sh_black"
+            "paintbackground"         "1"
+            "bgcolor_override"        "LowHealth"
+            "proportionaltoparent"    "1"
+		}
         "SapperIcon"
         {
             "ControlName"             "CIconPanel"
