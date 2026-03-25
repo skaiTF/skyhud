@@ -10,3 +10,4 @@
 
 #base "../resource/ui/hudplayerhealth_normal.res"			// DEFAULT STYLE
 //#base "../resource/ui/hudplayerhealth_box.res"			// BOX STYLE
+//#base "../resource/ui/hudplayerhealth_hpbar.res"            // HP BAR STYLE
