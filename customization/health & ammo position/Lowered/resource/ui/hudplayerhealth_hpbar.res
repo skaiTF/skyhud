@@ -19,7 +19,7 @@
     {
         "ControlName"    "EditablePanel"
         "fieldName"      "HEALTHAnchor"
-        "xpos"           "c-165"
+        "xpos"           "c-140"
         "ypos"           "r55"
         "ypos_minmode"    "c50"
         "xpos_minmode"    "c-85"
