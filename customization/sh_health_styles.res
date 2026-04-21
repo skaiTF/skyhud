@@ -8,6 +8,7 @@
 //WARNING: ONLY UNCOMMENT ONE LINE AT A TIME
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
-#base "../resource/ui/hudplayerhealth_normal.res"			// DEFAULT STYLE
+//#base "../resource/ui/hudplayerhealth_normal.res"			// DEFAULT STYLE
 //#base "../resource/ui/hudplayerhealth_box.res"			// BOX STYLE
-//#base "../resource/ui/hudplayerhealth_hpbar.res"            // HP BAR STYLE
+//#base "../resource/ui/hudplayerhealth_hpbar.res"            // HP BAR STYLE - Numbers next to bar
+#base "../resource/ui/hudplayerhealth_hpbarnumbers.res"            // HP BAR STYLE - Numbers in bar
