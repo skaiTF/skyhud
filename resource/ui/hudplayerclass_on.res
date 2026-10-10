@@ -12,6 +12,20 @@
         "visible"        "1"
         "enabled"        "1"
     }
+
+    "ModelAnchorPersist"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"ModelAnchorPersist"
+		"xpos"					"0"
+		"ypos"					"280"
+		"zpos"					"2"
+		"wide"					"1"
+		"tall"					"1"
+		"visible"				"1"
+		"enabled"				"1"
+	}
+
     "PlayerStatusClassImage"
     {
         "ControlName"    "CTFClassImage"
@@ -112,13 +126,14 @@
     {
         "ControlName"            "CTFPlayerModelPanel"
         "fieldName"              "classmodelpanel"
-        "xpos"                   "15" [$WIN32]
-        "ypos"                   "r200" [$WIN32]
+        "xpos"                   "0"
+        "ypos"                   "0"
         "zpos"                   "2"
         "wide"                   "100"
         "tall"                   "200"
         "visible"                "1"
         "enabled"                "1"
+        "pin_to_sibling"         "ModelAnchorPersist"
         "render_texture"         "0"
         "fov"                    "12"
         "allow_rot"              "1"

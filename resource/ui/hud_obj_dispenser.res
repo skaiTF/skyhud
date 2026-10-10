@@ -154,11 +154,17 @@
             "proportionaltoparent"    "1"
         }
         "AlertTray"
-        {
-            "ControlName"    "CBuildingStatusAlertTray"
-            "fieldName"      "AlertTray"
-            "xpos"           "9999"
-        }
+		{
+			"ControlName"	"CBuildingStatusAlertTray"
+			"fieldName"		"AlertTray"
+			"xpos"			"113"
+			"ypos"			"0"
+			"wide"			"34"
+			"tall"			"31"
+			"visible"		"1"
+			"enabled"		"1"	
+			"icon"			"obj_status_alert_background"
+		}
         "WrenchIcon"
 		{
 			"ControlName"	"CIconPanel"

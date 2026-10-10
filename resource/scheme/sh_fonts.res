@@ -2891,6 +2891,17 @@
 			}
 		}
 
+		sh_black_22_outline
+		{
+			"1"
+			{
+				"name"		"Nunito Black"
+				"tall"		"22"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+
 		sh_black_24
 		{
 			"1"
