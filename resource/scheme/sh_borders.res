@@ -180,6 +180,30 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
+		sh_buff_cross
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"HealthBuff"
+			
+			"image"					"replay/thumbnails/panels/sh_cross"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
+		sh_hurt_cross
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"LowHealthPulse"
+			
+			"image"					"replay/thumbnails/panels/sh_cross"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
 		
 		
 		////////////////////////////////////////////////////////////////////////////////////////////////
