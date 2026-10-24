@@ -3,6 +3,8 @@ import sys
 from pathlib import Path
 import re
 
+TARGET_TXT_FILENAME = "hudanimations_manifest.txt"
+
 KEYVAL_RE = re.compile(
     r'^\s*'
     r'(?P<key>"[^"]*"|[^{}\s"]+)'
@@ -33,14 +35,39 @@ BASE_RE = re.compile(r'^\s*#base\s+"[^"]+"\s*(?://.*)?$')
 INCLUDE_RE = re.compile(r'^\s*#include\s+"[^"]+"\s*(?://.*)?$') 
 MULTILINE_START_RE = re.compile(r'^\s*"([^"]+)"\s*"[^"]*$')
 
+def split_inline_comment(line: str) -> tuple[str, str]:
+    in_quote = False
+    for i, ch in enumerate(line):
+        if ch == '"':
+            in_quote = not in_quote
+        elif not in_quote and line[i:i+2] == '//':
+            return line[:i], line[i:]
+    return line, ""
+
+def strip_unquoted_tildes(code_segment: str) -> tuple[str, bool]:
+    found_tilde = False
+
+    def repl(m):
+        nonlocal found_tilde
+        if m.group(1) is not None:
+            return m.group(1)
+        found_tilde = True
+        return ""
+
+    cleaned = re.sub(r'("[^"]*")|~+', repl, code_segment)
+    return cleaned, found_tilde
+
+def is_target_file(p: Path) -> bool:
+    return p.suffix.lower() == ".res" or p.name.lower() == TARGET_TXT_FILENAME
+
 def iter_res_files(paths):
     for p in paths:
         p = Path(p)
-        if p.is_file() and p.suffix.lower() == ".res":
+        if p.is_file() and is_target_file(p):
             yield p
         elif p.is_dir():
-            for f in p.rglob("*.res"):
-                if f.is_file():
+            for f in p.rglob("*"):
+                if f.is_file() and is_target_file(f):
                     yield f
 
 def normalize_token(tok: str, qual: str | None) -> str:
@@ -81,11 +108,9 @@ def validate_file(path: Path):
                 continue
             if "/*" in raw:
                 if "*/" in raw:
-                    # inline block comment; strip it
                     before = raw.split("/*", 1)[0]
                     raw = before
                 else:
-                    # Treat lines that start with /* as single-line comments; otherwise start a block.
                     if raw.strip().startswith("/*"):
                         continue
                     in_block_comment = True
@@ -93,6 +118,14 @@ def validate_file(path: Path):
             stripped = raw.strip()
             if not stripped:
                 continue
+
+            # Check for trailing '~' outside quotes
+            code_part, comment_part = split_inline_comment(raw)
+            code_cleaned, has_stray_tilde = strip_unquoted_tildes(code_part)
+            if has_stray_tilde:
+                issues.append((lineno, "trailing '~' after quote"))
+                raw = code_cleaned + comment_part
+
             if BASE_RE.match(raw) or INCLUDE_RE.match(raw):
                 continue
 
@@ -107,7 +140,6 @@ def validate_file(path: Path):
             m = KEY_ONLY_RE.match(raw)
             if m:
                 candidate = normalize_token(m.group("key"), m.group("qual"))
-                # Avoid treating separator lines as block starters.
                 if any(ch.isalnum() for ch in candidate):
                     pending_key = candidate
                     pending_qual = ""
@@ -131,7 +163,6 @@ def validate_file(path: Path):
 
             m = KEYVAL_RE.match(raw)
             if m:
-                # key/value line; 
                 continue
 
             if MULTILINE_START_RE.match(raw):
@@ -156,7 +187,7 @@ def main():
     targets = sys.argv[1:] or [base]
     files = list(iter_res_files(targets))
     if not files:
-        print("No .res files found in", targets, file=sys.stderr)
+        print("No matching .res or hudanimations_manifest.txt files found in", targets, file=sys.stderr)
         return 1
 
     total_issues = 0
@@ -172,7 +203,7 @@ def main():
         print(f"Failed: {total_issues} issue(s) found in {len(files)} file(s)", file=sys.stderr)
         return 1
 
-    print(f"OK: {len(files)} .res file(s) validated")
+    print(f"OK: {len(files)} file(s) validated")
     return 0
 
 if __name__ == "__main__":
